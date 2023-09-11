@@ -1,0 +1,569 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/obj/Debug/net7.0/scopedcss/projectbundle/lmgtfy-server.bundle.scp.css",
+      "PackagePath": "staticwebassets/lmgtfy-server.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/about/.DS_Store",
+      "PackagePath": "staticwebassets/about/.DS_Store"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/about/index.html",
+      "PackagePath": "staticwebassets/about/index.html"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/css/.DS_Store",
+      "PackagePath": "staticwebassets/css/.DS_Store"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/css/assets-application.css",
+      "PackagePath": "staticwebassets/css/assets-application.css"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/css/css-banner-styles.css",
+      "PackagePath": "staticwebassets/css/css-banner-styles.css"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/css/css-iconochive.css",
+      "PackagePath": "staticwebassets/css/css-iconochive.css"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/css/minimal-colorbox-0b10b15dbc8a5946b375abb306e39ca1cc8d9cbbaaf7ff40226dc58a1e4035e8.css",
+      "PackagePath": "staticwebassets/css/minimal-colorbox-0b10b15dbc8a5946b375abb306e39ca1cc8d9cbbaaf7ff40226dc58a1e4035e8.css"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/css/static-pages-dfdce08742bd203f9f4c12af1a9bc9f605424ca9e254e80cd051523b44825288.css",
+      "PackagePath": "staticwebassets/css/static-pages-dfdce08742bd203f9f4c12af1a9bc9f605424ca9e254e80cd051523b44825288.css"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/android-icon-192x192.png",
+      "PackagePath": "staticwebassets/favicons/android-icon-192x192.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/apple-icon-114x114.png",
+      "PackagePath": "staticwebassets/favicons/apple-icon-114x114.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/apple-icon-120x120.png",
+      "PackagePath": "staticwebassets/favicons/apple-icon-120x120.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/apple-icon-144x144.png",
+      "PackagePath": "staticwebassets/favicons/apple-icon-144x144.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/apple-icon-152x152.png",
+      "PackagePath": "staticwebassets/favicons/apple-icon-152x152.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/apple-icon-180x180.png",
+      "PackagePath": "staticwebassets/favicons/apple-icon-180x180.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/apple-icon-57x57.png",
+      "PackagePath": "staticwebassets/favicons/apple-icon-57x57.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/apple-icon-60x60.png",
+      "PackagePath": "staticwebassets/favicons/apple-icon-60x60.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/apple-icon-72x72.png",
+      "PackagePath": "staticwebassets/favicons/apple-icon-72x72.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/apple-icon-76x76.png",
+      "PackagePath": "staticwebassets/favicons/apple-icon-76x76.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/favicon-16x16.png",
+      "PackagePath": "staticwebassets/favicons/favicon-16x16.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/favicon-32x32.png",
+      "PackagePath": "staticwebassets/favicons/favicon-32x32.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/favicon-96x96.png",
+      "PackagePath": "staticwebassets/favicons/favicon-96x96.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/favicon.ico",
+      "PackagePath": "staticwebassets/favicons/favicon.ico"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/fonts/fonts-Iconochive-Regular.eot",
+      "PackagePath": "staticwebassets/fonts/fonts-Iconochive-Regular.eot"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/fonts/fonts-Iconochive-Regular.svg",
+      "PackagePath": "staticwebassets/fonts/fonts-Iconochive-Regular.svg"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/fonts/fonts-Iconochive-Regular.ttf",
+      "PackagePath": "staticwebassets/fonts/fonts-Iconochive-Regular.ttf"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/fonts/fonts-Iconochive-Regular.woff",
+      "PackagePath": "staticwebassets/fonts/fonts-Iconochive-Regular.woff"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/fonts/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot",
+      "PackagePath": "staticwebassets/fonts/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/fonts/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff",
+      "PackagePath": "staticwebassets/fonts/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/fonts/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf",
+      "PackagePath": "staticwebassets/fonts/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/fonts/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2",
+      "PackagePath": "staticwebassets/fonts/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/fonts/glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets/fonts/glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/.DS_Store",
+      "PackagePath": "staticwebassets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/aol.png",
+      "PackagePath": "staticwebassets/images/aol.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/ask.png",
+      "PackagePath": "staticwebassets/images/ask.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/assets-logo-color-small-70dbef413f591a3fdfcfac7b273791039c8fd2a5329e97c4bfd8188f69f0da34.png",
+      "PackagePath": "staticwebassets/images/assets-logo-color-small-70dbef413f591a3fdfcfac7b273791039c8fd2a5329e97c4bfd8188f69f0da34.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/assets-sticker-b222a421fb6cf257985abfab188be7d6746866850efe2a800a3e57052e1a2411.png",
+      "PackagePath": "staticwebassets/images/assets-sticker-b222a421fb6cf257985abfab188be7d6746866850efe2a800a3e57052e1a2411.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/bing.png",
+      "PackagePath": "staticwebassets/images/bing.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/chatgpt.png",
+      "PackagePath": "staticwebassets/images/chatgpt.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/duckduckgo.png",
+      "PackagePath": "staticwebassets/images/duckduckgo.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/google.png",
+      "PackagePath": "staticwebassets/images/google.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/snopes.png",
+      "PackagePath": "staticwebassets/images/snopes.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/wikipedia.png",
+      "PackagePath": "staticwebassets/images/wikipedia.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/yahoo.png",
+      "PackagePath": "staticwebassets/images/yahoo.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/js/.DS_Store",
+      "PackagePath": "staticwebassets/js/.DS_Store"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/js/1.6.6-angular.min.js",
+      "PackagePath": "staticwebassets/js/1.6.6-angular.min.js"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/js/assets-application-24990c55cfcfa04e14232eb749e266b7405e27f475be0b7bbe1cca56806702f1.js",
+      "PackagePath": "staticwebassets/js/assets-application-24990c55cfcfa04e14232eb749e266b7405e27f475be0b7bbe1cca56806702f1.js"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/js/js-bundle-playback.js",
+      "PackagePath": "staticwebassets/js/js-bundle-playback.js"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/js/js-wombat.js",
+      "PackagePath": "staticwebassets/js/js-wombat.js"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/languages/.DS_Store",
+      "PackagePath": "staticwebassets/languages/.DS_Store"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/.DS_Store",
+      "PackagePath": "staticwebassets/live/.DS_Store"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/css/banner-styles.css",
+      "PackagePath": "staticwebassets/live/css/banner-styles.css"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/css/iconochive.css",
+      "PackagePath": "staticwebassets/live/css/iconochive.css"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/css/live-5b7f8aa42c39aa0e5bb5fc483d4dc8ee006b8d17cf1f0da2abc669ba787f9159.css",
+      "PackagePath": "staticwebassets/live/css/live-5b7f8aa42c39aa0e5bb5fc483d4dc8ee006b8d17cf1f0da2abc669ba787f9159.css"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/images/live-logo.png",
+      "PackagePath": "staticwebassets/live/images/live-logo.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/index.html",
+      "PackagePath": "staticwebassets/live/index.html"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/js/.DS_Store",
+      "PackagePath": "staticwebassets/live/js/.DS_Store"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/js/analytics.js",
+      "PackagePath": "staticwebassets/live/js/analytics.js"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/js/application-f1a1584980dfe303cec29e98610e8aed93b46195e70595f6808cd9c2ab549096.js",
+      "PackagePath": "staticwebassets/live/js/application-f1a1584980dfe303cec29e98610e8aed93b46195e70595f6808cd9c2ab549096.js"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/js/bsa.js",
+      "PackagePath": "staticwebassets/live/js/bsa.js"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/js/bundle-playback.js",
+      "PackagePath": "staticwebassets/live/js/bundle-playback.js"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/js/ga.js",
+      "PackagePath": "staticwebassets/live/js/ga.js"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/js/jquery.min.js",
+      "PackagePath": "staticwebassets/live/js/jquery.min.js"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/js/ruffle.js",
+      "PackagePath": "staticwebassets/live/js/ruffle.js"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/js/wombat.js",
+      "PackagePath": "staticwebassets/live/js/wombat.js"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/manifest.json",
+      "PackagePath": "staticwebassets/manifest.json"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/.DS_Store",
+      "PackagePath": "staticwebassets/query/.DS_Store"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/android-icon-192x192.png",
+      "PackagePath": "staticwebassets/query/favicons/android-icon-192x192.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/apple-icon-114x114.png",
+      "PackagePath": "staticwebassets/query/favicons/apple-icon-114x114.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/apple-icon-120x120.png",
+      "PackagePath": "staticwebassets/query/favicons/apple-icon-120x120.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/apple-icon-144x144.png",
+      "PackagePath": "staticwebassets/query/favicons/apple-icon-144x144.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/apple-icon-152x152.png",
+      "PackagePath": "staticwebassets/query/favicons/apple-icon-152x152.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/apple-icon-180x180.png",
+      "PackagePath": "staticwebassets/query/favicons/apple-icon-180x180.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/apple-icon-57x57.png",
+      "PackagePath": "staticwebassets/query/favicons/apple-icon-57x57.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/apple-icon-60x60.png",
+      "PackagePath": "staticwebassets/query/favicons/apple-icon-60x60.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/apple-icon-72x72.png",
+      "PackagePath": "staticwebassets/query/favicons/apple-icon-72x72.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/apple-icon-76x76.png",
+      "PackagePath": "staticwebassets/query/favicons/apple-icon-76x76.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/favicon-16x16.png",
+      "PackagePath": "staticwebassets/query/favicons/favicon-16x16.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/favicon-32x32.png",
+      "PackagePath": "staticwebassets/query/favicons/favicon-32x32.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/favicon-96x96.png",
+      "PackagePath": "staticwebassets/query/favicons/favicon-96x96.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/favicon.ico",
+      "PackagePath": "staticwebassets/query/favicons/favicon.ico"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/.DS_Store",
+      "PackagePath": "staticwebassets/query/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Aol/android-search-button.png",
+      "PackagePath": "staticwebassets/query/images/Aol/android-search-button.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Aol/aol.png",
+      "PackagePath": "staticwebassets/query/images/Aol/aol.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Aol/logo.png",
+      "PackagePath": "staticwebassets/query/images/Aol/logo.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Ask/ask.png",
+      "PackagePath": "staticwebassets/query/images/Ask/ask.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Ask/logo.png",
+      "PackagePath": "staticwebassets/query/images/Ask/logo.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Ask/search.png",
+      "PackagePath": "staticwebassets/query/images/Ask/search.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Bing/background.jpg",
+      "PackagePath": "staticwebassets/query/images/Bing/background.jpg"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Bing/bing.png",
+      "PackagePath": "staticwebassets/query/images/Bing/bing.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Bing/logo.png",
+      "PackagePath": "staticwebassets/query/images/Bing/logo.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Bing/search.png",
+      "PackagePath": "staticwebassets/query/images/Bing/search.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/ChatGPT/chatgpt.png",
+      "PackagePath": "staticwebassets/query/images/ChatGPT/chatgpt.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/DuckDuckGo/duckduckgo.png",
+      "PackagePath": "staticwebassets/query/images/DuckDuckGo/duckduckgo.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/DuckDuckGo/logo.png",
+      "PackagePath": "staticwebassets/query/images/DuckDuckGo/logo.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/DuckDuckGo/logo_mobile.svg",
+      "PackagePath": "staticwebassets/query/images/DuckDuckGo/logo_mobile.svg"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/DuckDuckGo/search_gray.png",
+      "PackagePath": "staticwebassets/query/images/DuckDuckGo/search_gray.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/DuckDuckGo/search_white.png",
+      "PackagePath": "staticwebassets/query/images/DuckDuckGo/search_white.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Google/books.png",
+      "PackagePath": "staticwebassets/query/images/Google/books.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Google/finance.png",
+      "PackagePath": "staticwebassets/query/images/Google/finance.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Google/google.png",
+      "PackagePath": "staticwebassets/query/images/Google/google.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Google/images.png",
+      "PackagePath": "staticwebassets/query/images/Google/images.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Google/logo.png",
+      "PackagePath": "staticwebassets/query/images/Google/logo.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Google/maps.png",
+      "PackagePath": "staticwebassets/query/images/Google/maps.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Google/news.png",
+      "PackagePath": "staticwebassets/query/images/Google/news.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Google/scholar.png",
+      "PackagePath": "staticwebassets/query/images/Google/scholar.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Google/shopping.png",
+      "PackagePath": "staticwebassets/query/images/Google/shopping.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Google/videos.png",
+      "PackagePath": "staticwebassets/query/images/Google/videos.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Snopes/snopes.png",
+      "PackagePath": "staticwebassets/query/images/Snopes/snopes.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Wikipedia/wikipedia.png",
+      "PackagePath": "staticwebassets/query/images/Wikipedia/wikipedia.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Yahoo/logo.png",
+      "PackagePath": "staticwebassets/query/images/Yahoo/logo.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Yahoo/search.png",
+      "PackagePath": "staticwebassets/query/images/Yahoo/search.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Yahoo/yahoo.png",
+      "PackagePath": "staticwebassets/query/images/Yahoo/yahoo.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/logo-color-small.png",
+      "PackagePath": "staticwebassets/query/images/logo-color-small.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/index.html",
+      "PackagePath": "staticwebassets/query/index.html"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/lmgtfy.xml",
+      "PackagePath": "staticwebassets/query/lmgtfy.xml"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/manifest.json",
+      "PackagePath": "staticwebassets/query/manifest.json"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/.DS_Store",
+      "PackagePath": "staticwebassets/query/src/.DS_Store"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/css/iconochive.css",
+      "PackagePath": "staticwebassets/query/src/css/iconochive.css"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/css/normalize.css",
+      "PackagePath": "staticwebassets/query/src/css/normalize.css"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/fonts/Iconochive/Iconochive-Regular-iefix.eot",
+      "PackagePath": "staticwebassets/query/src/fonts/Iconochive/Iconochive-Regular-iefix.eot"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/fonts/Iconochive/Iconochive-Regular.eot",
+      "PackagePath": "staticwebassets/query/src/fonts/Iconochive/Iconochive-Regular.eot"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/fonts/Iconochive/Iconochive-Regular.svg",
+      "PackagePath": "staticwebassets/query/src/fonts/Iconochive/Iconochive-Regular.svg"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/fonts/Iconochive/Iconochive-Regular.ttf",
+      "PackagePath": "staticwebassets/query/src/fonts/Iconochive/Iconochive-Regular.ttf"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/fonts/Iconochive/Iconochive-Regular.woff",
+      "PackagePath": "staticwebassets/query/src/fonts/Iconochive/Iconochive-Regular.woff"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/images/bg-input.png",
+      "PackagePath": "staticwebassets/query/src/images/bg-input.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/images/bg-main.png",
+      "PackagePath": "staticwebassets/query/src/images/bg-main.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/images/input-left.png",
+      "PackagePath": "staticwebassets/query/src/images/input-left.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/images/input-right.png",
+      "PackagePath": "staticwebassets/query/src/images/input-right.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/images/left.png",
+      "PackagePath": "staticwebassets/query/src/images/left.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/images/mouse-arrow-mac.png",
+      "PackagePath": "staticwebassets/query/src/images/mouse-arrow-mac.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/images/right.png",
+      "PackagePath": "staticwebassets/query/src/images/right.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/scripts/angular.js",
+      "PackagePath": "staticwebassets/query/src/scripts/angular.js"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/scripts/angular.min.js",
+      "PackagePath": "staticwebassets/query/src/scripts/angular.min.js"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/scripts/application.js",
+      "PackagePath": "staticwebassets/query/src/scripts/application.js"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/recent.json",
+      "PackagePath": "staticwebassets/recent.json"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.lmgtfy-server.props",
+      "PackagePath": "build\\lmgtfy-server.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.lmgtfy-server.props",
+      "PackagePath": "buildMultiTargeting\\lmgtfy-server.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.lmgtfy-server.props",
+      "PackagePath": "buildTransitive\\lmgtfy-server.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.lmgtfy-server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

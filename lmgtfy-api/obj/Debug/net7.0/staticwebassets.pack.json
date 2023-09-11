@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-api/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-api/wwwroot/recentte.json",
+      "PackagePath": "staticwebassets/recentte.json"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.lmgtfy-api.props",
+      "PackagePath": "build\\lmgtfy-api.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.lmgtfy-api.props",
+      "PackagePath": "buildMultiTargeting\\lmgtfy-api.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.lmgtfy-api.props",
+      "PackagePath": "buildTransitive\\lmgtfy-api.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.lmgtfy-api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

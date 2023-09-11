@@ -1,0 +1,285 @@
+#colorbox,
+#cboxOverlay,
+#cboxWrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	overflow: hidden
+}
+
+#cboxOverlay {
+	position: fixed;
+	width: 100%;
+	height: 100%
+}
+
+#cboxMiddleLeft,
+#cboxBottomLeft {
+	clear: left
+}
+
+#cboxContent {
+	position: relative
+}
+
+#cboxLoadedContent {
+	overflow: auto;
+	-webkit-overflow-scrolling: touch
+}
+
+#cboxTitle {
+	margin: 0
+}
+
+#cboxLoadingOverlay,
+#cboxLoadingGraphic {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%
+}
+
+#cboxPrevious,
+#cboxNext,
+#cboxClose,
+#cboxSlideshow {
+	cursor: pointer
+}
+
+.cboxPhoto {
+	float: left;
+	margin: auto;
+	border: 0;
+	display: block;
+	max-width: none;
+	-ms-interpolation-mode: bicubic
+}
+
+.cboxIframe {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border: 0
+}
+
+#colorbox,
+#cboxContent,
+#cboxLoadedContent {
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box
+}
+
+#cboxOverlay {
+	background: #fdfdfd
+}
+
+#cboxWrapper {
+	overflow: visible
+}
+
+#cboxTopLeft,
+#cboxTopCenter,
+#cboxTopRight,
+#cboxBottomLeft,
+#cboxBottomCenter,
+#cboxBottomRight,
+#cboxMiddleLeft,
+#cboxMiddleRight {
+	background: #ffffff
+}
+
+#colorbox {
+	outline: 0;
+	background: #ffffff;
+	overflow: visible;
+	-webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15)
+}
+
+#cboxTopLeft {
+	width: 8px;
+	height: 8px
+}
+
+#cboxTopCenter {
+	height: 8px
+}
+
+#cboxTopRight {
+	width: 8px;
+	height: 8px
+}
+
+#cboxBottomLeft {
+	width: 8px;
+	height: 8px
+}
+
+#cboxBottomCenter {
+	height: 8px
+}
+
+#cboxBottomRight {
+	width: 8px;
+	height: 8px
+}
+
+#cboxMiddleLeft {
+	width: 8px
+}
+
+#cboxMiddleRight {
+	width: 8px
+}
+
+#cboxContent {
+	background: #ffffff;
+	overflow: visible
+}
+
+.cboxIframe {
+	background: #fff
+}
+
+.cboxPhoto {
+	margin-bottom: 0px
+}
+
+.cboxPhoto.withLongCaption {
+	margin-bottom: 0px
+}
+
+#cboxError {
+	padding: 50px;
+	border: 1px solid #ccc
+}
+
+#cboxLoadedContent {
+	margin-bottom: 0px;
+	font-style: italic;
+	background: #ffffff
+}
+
+#cboxTitle {
+	display: none !important
+}
+
+#cboxCurrent {
+	display: none !important
+}
+
+#cboxLoadingOverlay {
+	background: #fff url(../images/images-loading-a6eae7615a906bfbd607679e0abd0586da2c63bcddfef979ad68afe250e428b6.gif) no-repeat 50% 50%
+}
+
+#cboxPrevious,
+#cboxNext,
+#cboxSlideshow,
+#cboxClose {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	overflow: visible;
+	width: auto;
+	background: none;
+	text-transform: capitalize
+}
+
+#cboxPrevious:active,
+#cboxNext:active,
+#cboxSlideshow:active,
+#cboxClose:active {
+	outline: 0
+}
+
+button:focus {
+	outline: 1px dotted #ffffff
+}
+
+#cboxPrevious,
+#cboxNext,
+#cboxClose {
+	display: block;
+	background: url(../images/images-colorbox_minimal-9167c493cd4f24ff4ddd7bb843d7d51aed8038b338c412fa0167a9ef94cb6aee.png) 0 0 no-repeat;
+	transition: opacity 0.35s ease;
+	color: #e5e5e5
+}
+
+#cboxPrevious,
+#cboxNext {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden
+}
+
+#cboxPrevious,
+#cboxNext {
+	width: 64px;
+	height: 64px;
+	opacity: 0.6
+}
+
+#cboxPrevious:hover,
+#cboxNext:hover {
+	opacity: 1.0
+}
+
+#cboxPrevious {
+	position: absolute;
+	bottom: 46%;
+	left: -68px;
+	color: #444;
+	background-position: 0 -64px
+}
+
+#cboxNext {
+	position: absolute;
+	bottom: 46%;
+	right: -68px;
+	color: #444;
+	background-position: 0 0
+}
+
+#cboxClose {
+	position: absolute;
+	top: -6px;
+	right: -6px;
+	display: block;
+	color: #444;
+	background-image: none;
+	color: #888888;
+	background-position: right -1px;
+	font-size: 11px;
+	background-color: #ffffff;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-transform: lowercase;
+	text-align: left;
+	width: auto;
+	height: 23px;
+	padding: 0 8px;
+	line-height: 23px;
+	transition: color 0.35s ease
+}
+
+#cboxClose:hover {
+	color: #000000
+}
+
+#cboxSlideshow {
+	position: absolute;
+	bottom: -32px;
+	left: 48%;
+	color: #888888;
+	font-size: 10px;
+	line-height: 12px;
+	background-color: #ffffff;
+	padding: 6px 10px;
+	transition: color 0.35s ease
+}
+
+#cboxSlideshow:hover {
+	color: #000000
+}

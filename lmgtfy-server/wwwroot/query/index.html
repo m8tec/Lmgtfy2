@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta content="text/html;charset=UTF-8" http-equiv="content-type"/>
+      <meta content="For all those people who find it more convenient to bother you with their question rather than search it for themselves." name="description"/>
+      <meta content="search, funny" name="keywords"/>
+      <meta content="mailto:http:sha1:d679fc042f465643527ab168409bb20920d67836" name="microid"/>
+      <meta content="LMGTFY" property="og:description"/>
+      <meta content="user-scalable=0, initial-scale=1.0" name="viewport"/>
+      <link href="lmgtfy.xml" rel="search" title="LMGTFY" type="application/opensearchdescription+xml"/>
+      <link href="favicons/favicon.ico" rel="icon" type="image/x-icon">
+      <link href="favicons/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
+      <link href="favicons/apple-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
+      <link href="favicons/apple-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+      <link href="favicons/apple-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+      <link href="favicons/apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+      <link href="favicons/apple-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+      <link href="favicons/apple-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+      <link href="favicons/apple-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+      <link href="favicons/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+      <link href="favicons/android-icon-192x192.png" rel="icon" sizes="192x192" type="image/png">
+      <link href="favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+      <link href="favicons/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+      <link href="favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+      <link href="manifest.json" rel="manifest">
+      <meta content="#ffffff" name="msapplication-TileColor"/>
+      <meta content="/ms-icon-144x144.png" name="msapplication-TileImage"/>
+      <meta content="#ffffff" name="theme-color"/>
+      <title>LMGTFY</title>
+      <link rel="stylesheet" media="all" href="src/css/normalize.css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+      <script src="src/scripts/application.js"></script>
+      <style type="text/css">.search-illustrator-scene-service-g>.search-illustrator-scene-header{height:50px}.search-illustrator-scene-service-g>.search-illustrator-scene-footer{height:35px}.search-illustrator-scene-service-g .search-illustrator-scene-logo{width:400px;height:90px;background-repeat:no-repeat;background-size:contain;background-position:50% 50%;margin:auto;margin-bottom:1.5em}@media only screen and (max-width: 435px){.search-illustrator-scene-service-g .search-illustrator-scene-logo{width:80%}}.search-illustrator-scene-service-g.search-illustrator-scene-search-type-w .search-illustrator-scene-logo{background-image:url(./images/Google/logo.png)}.search-illustrator-scene-service-g.search-illustrator-scene-search-type-i .search-illustrator-scene-logo{background-image:url(./images/Google/images.png)}.search-illustrator-scene-service-g.search-illustrator-scene-search-type-v .search-illustrator-scene-logo{background-image:url(./images/Google/videos.png)}.search-illustrator-scene-service-g.search-illustrator-scene-search-type-m .search-illustrator-scene-logo{background-image:url(./images/Google/maps.png)}.search-illustrator-scene-service-g.search-illustrator-scene-search-type-n .search-illustrator-scene-logo{background-image:url(./images/Google/news.png)}.search-illustrator-scene-service-g.search-illustrator-scene-search-type-s .search-illustrator-scene-logo{background-image:url(./images/Google/shopping.png)}.search-illustrator-scene-service-g.search-illustrator-scene-search-type-b .search-illustrator-scene-logo{background-image:url(./images/Google/books.png)}.search-illustrator-scene-service-g.search-illustrator-scene-search-type-f .search-illustrator-scene-logo{background-image:url(./images/Google/finance.png)}.search-illustrator-scene-service-g.search-illustrator-scene-search-type-sc .search-illustrator-scene-logo{background-image:url(./images/Google/scholar.png)}.search-illustrator-scene-service-g .search-illustrator-scene-input{width:50%;height:2.6em;line-height:1.6em;font-size:1.2em;margin:auto;margin-top:1.5em;margin-bottom:1.5em;padding:0.5em;border:solid 1px #eeeeee;white-space:nowrap;overflow:hidden}.search-illustrator-scene-service-g .search-illustrator-scene-input.focused{border-color:#4d90fe}.search-illustrator-scene-service-g .search-illustrator-scene-input.focused>.search-illustrator-scene-input-cursor{margin-left:2px;border-left:solid 1px #555555}@media only screen and (max-width: 1024px){.search-illustrator-scene-service-g .search-illustrator-scene-input{width:60%}}@media only screen and (min-width: 436px) and (max-width: 767px){.search-illustrator-scene-service-g .search-illustrator-scene-input{width:80%}}@media only screen and (max-width: 435px){.search-illustrator-scene-service-g .search-illustrator-scene-input{width:95%}}.search-illustrator-scene-service-g .search-illustrator-scene-button-wrapper{margin:auto;text-align:center}.search-illustrator-scene-service-g .search-illustrator-scene-button-wrapper>.search-illustrator-scene-primary-button,.search-illustrator-scene-service-g .search-illustrator-scene-button-wrapper>.search-illustrator-scene-secondary-button{display:inline-block;height:36px;line-height:36px;-webkit-user-select:none;background-color:#f2f2f2;border:1px solid #f2f2f2;border-radius:2px;color:#757575;cursor:default;font-family:arial, sans-serif;font-size:13px;font-weight:bold;margin:11px 4px;min-width:54px;padding:0 16px;text-align:center}.search-illustrator-scene-service-g .search-illustrator-scene-button-wrapper>.search-illustrator-scene-primary-button.focused,.search-illustrator-scene-service-g .search-illustrator-scene-button-wrapper>.search-illustrator-scene-secondary-button.focused{border-color:#4d90fe}</style>
+      <style type="text/css">.search-illustrator-scene-service-k>.search-illustrator-scene-header{height:3em;background-color:#fff}@media only screen and (max-width: 768px){.search-illustrator-scene-service-k>.search-illustrator-scene-header{height:0}}.search-illustrator-scene-service-k>.search-illustrator-scene-footer{height:3em;background-color:#f0f2f5}@media only screen and (max-width: 768px){.search-illustrator-scene-service-k>.search-illustrator-scene-footer{height:0}}.search-illustrator-scene-service-k>.search-illustrator-scene-content{padding:5em 5% 8em 5%;display:table;width:100%}@media only screen and (max-width: 768px){.search-illustrator-scene-service-k>.search-illustrator-scene-content{padding:5px;padding-bottom:300px}}.search-illustrator-scene-service-k .search-illustrator-scene-logo{width:133px;height:98px;background-repeat:no-repeat;background-size:contain;background-position:left 50%;padding-right:1.5em;display:table-cell}@media only screen and (max-width: 768px){.search-illustrator-scene-service-k .search-illustrator-scene-logo{width:63px;height:35px;padding-right:5px}}.search-illustrator-scene-service-k.search-illustrator-scene-search-type-w .search-illustrator-scene-logo{background-image:url(./images/Ask/logo.png)}.search-illustrator-scene-service-k .search-illustrator-scene-input-and-button-wrapper{display:table-cell;vertical-align:middle;padding-left:1.5em}@media only screen and (max-width: 768px){.search-illustrator-scene-service-k .search-illustrator-scene-input-and-button-wrapper{padding-left:0;border:solid 2px #999999}}.search-illustrator-scene-service-k .search-illustrator-scene-input{background-color:#fff;white-space:nowrap;overflow:hidden;display:table-cell;padding:16px;height:50px;width:75%;border:solid 1px #999999}@media only screen and (max-width: 768px){.search-illustrator-scene-service-k .search-illustrator-scene-input{height:38px;padding:8px;font-size:16px;width:100%;border:none}}.search-illustrator-scene-service-k .search-illustrator-scene-input.focused>.search-illustrator-scene-input-cursor{margin-left:2px;border-left:solid 1px #555555}.search-illustrator-scene-service-k .search-illustrator-scene-button-wrapper{text-align:center;display:table-cell;vertical-align:middle}@media only screen and (max-width: 768px){.search-illustrator-scene-service-k .search-illustrator-scene-button-wrapper{background:white}}@media only screen and (max-width: 768px){.search-illustrator-scene-service-k .search-illustrator-scene-button-wrapper>.search-illustrator-scene-primary-button{font-size:0;height:18px;background-image:url(./images/Ask/search.png);background-position:50% 50%;background-repeat:no-repeat;background-size:contain}}@media only screen and (min-width: 769px){.search-illustrator-scene-service-k .search-illustrator-scene-button-wrapper>.search-illustrator-scene-primary-button{background-color:#0062b2;background:-moz-linear-gradient(top, #0062b2, #0062b2);background:-webkit-linear-gradient(top, #0062b2, #0062b2);background:-o-linear-gradient(top, #0062b2, #0062b2);background:-ms-linear-gradient(top, #0062b2, #0062b2);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0062b2', endColorstr='#0062b2', GradientType=0);background:linear-gradient(top, #0062b2, #0062b2);border:medium none;color:#fff;cursor:pointer;font-size:18px;font-weight:700;height:50px;right:-134px;top:-1px;width:173px;z-index:300;-webkit-border-radius:0;-moz-border-radius:0;-o-border-radius:0;-ms-border-radius:0;border-radius:0;line-height:40px}}</style>
+      <style type="text/css">.search-illustrator-scene-service-b>.search-illustrator-scene-header{height:3em;background-color:#333333}@media only screen and (max-width: 435px){.search-illustrator-scene-service-b>.search-illustrator-scene-header{height:0}}.search-illustrator-scene-service-b>.search-illustrator-scene-footer{height:3em;background-color:#333333}@media only screen and (max-width: 435px){.search-illustrator-scene-service-b>.search-illustrator-scene-footer{height:0}}.search-illustrator-scene-service-b>.search-illustrator-scene-content{background-image:url(./images/Bing/background.jpg);background-size:cover;padding:5em 10px 8em 10px}.search-illustrator-scene-service-b>.search-illustrator-scene-content::after{clear:both;content:"";display:table}@media only screen and (max-width: 435px){.search-illustrator-scene-service-b>.search-illustrator-scene-content{min-height:300px;padding:1em 10px 0 10px}}.search-illustrator-scene-service-b .search-illustrator-scene-logo{width:124px;height:50px;background-repeat:no-repeat;background-size:contain;background-position:50% 50%;margin-left:80px;margin-right:2em;float:left}@media only screen and (max-width: 435px){.search-illustrator-scene-service-b .search-illustrator-scene-logo{width:80px;height:40px;margin:0;float:none}}.search-illustrator-scene-service-b.search-illustrator-scene-search-type-w .search-illustrator-scene-logo{background-image:url(./images/Bing/logo.png)}.search-illustrator-scene-service-b .search-illustrator-scene-input-and-button-wrapper{float:left;padding-top:0.5em}@media only screen and (max-width: 435px){.search-illustrator-scene-service-b .search-illustrator-scene-input-and-button-wrapper{float:none;display:table;width:100%}.search-illustrator-scene-service-b .search-illustrator-scene-input-and-button-wrapper .search-illustrator-scene-input{display:table-cell;width:100%}.search-illustrator-scene-service-b .search-illustrator-scene-input-and-button-wrapper .search-illustrator-scene-button-wrapper{display:table-cell;top:auto;left:auto}}.search-illustrator-scene-service-b .search-illustrator-scene-input{background-color:#fff;width:400px;height:2.6em;line-height:1.6em;font-size:1.2em;padding:0.5em;border:solid 1px #fff;white-space:nowrap;overflow:hidden;display:inline-block}.search-illustrator-scene-service-b .search-illustrator-scene-input.focused>.search-illustrator-scene-input-cursor{margin-left:2px;border-left:solid 1px #555555}@media only screen and (max-width: 435px){.search-illustrator-scene-service-b .search-illustrator-scene-input{display:block;width:auto}}.search-illustrator-scene-service-b .search-illustrator-scene-button-wrapper{text-align:center;display:inline-block;margin:0;text-align:center;position:relative;top:-16px;left:-4px}.search-illustrator-scene-service-b .search-illustrator-scene-button-wrapper>.search-illustrator-scene-primary-button{display:inline-block;height:3.2em;line-height:3.2em;width:3.2em;-webkit-user-select:none;background-color:#0c8484;background-image:url(./images/Bing/search.png);background-repeat:no-repeat;background-position:center center;border:1px solid #0c8484;border-radius:0;color:#fff;font-family:arial, sans-serif;font-size:13px;font-weight:bold;margin:0;text-align:center}</style>
+      <style type="text/css">.search-illustrator-scene-service-d{background-color:#f7f7f7}.search-illustrator-scene-service-d>.search-illustrator-scene-header{border-top:2px solid #de5833;padding-top:4em}.search-illustrator-scene-service-d>.search-illustrator-scene-footer{height:4em}.search-illustrator-scene-service-d>.search-illustrator-scene-content{padding:0 10px 0 10px}.search-illustrator-scene-service-d .search-illustrator-scene-logo{width:200px;height:160px;background-repeat:no-repeat;background-size:contain;background-position:50% 50%;margin:auto;margin-bottom:1.5em}@media only screen and (max-width: 435px){.search-illustrator-scene-service-d .search-illustrator-scene-logo{width:275px;height:62px}}.search-illustrator-scene-service-d.search-illustrator-scene-search-type-w .search-illustrator-scene-logo{background-image:url(./images/DuckDuckGo/logo.png)}@media only screen and (max-width: 435px){.search-illustrator-scene-service-d.search-illustrator-scene-search-type-w .search-illustrator-scene-logo{background-image:url(./images/DuckDuckGo/logo_mobile.png)}}.search-illustrator-scene-service-d .search-illustrator-scene-input-and-button-wrapper{display:table;margin:auto;width:100%;max-width:634px;border:1px solid #d0d0d0;border-radius:2px}.search-illustrator-scene-service-d .search-illustrator-scene-input{display:table-cell;width:100%;vertical-align:middle;white-space:nowrap;overflow:hidden;padding-left:0.75em}.search-illustrator-scene-service-d .search-illustrator-scene-input.focused{border-color:#4d90fe}.search-illustrator-scene-service-d .search-illustrator-scene-input.focused>.search-illustrator-scene-input-cursor{margin-left:2px;border-left:solid 1px #555555}.search-illustrator-scene-service-d .search-illustrator-scene-button-wrapper{display:table-cell;vertical-align:middle;padding:2px}.search-illustrator-scene-service-d .search-illustrator-scene-button-wrapper>.search-illustrator-scene-primary-button{display:inline-block;border-radius:2px;width:52px;height:40px;background-repeat:no-repeat;background-size:40%;background-position:50% 50%;background-image:url(./images/DuckDuckGo/search_gray.png)}.search-illustrator-scene-service-d .search-illustrator-scene-button-wrapper>.search-illustrator-scene-primary-button.focused{background-color:#5b9e4d;background-image:url(./images/DuckDuckGo/search_white.png)}</style>
+      <style type="text/css">.search-illustrator-scene-service-a>.search-illustrator-scene-header{height:0}.search-illustrator-scene-service-a>.search-illustrator-scene-content{padding:1em 1em 22em 1em}@media only screen and (max-width: 768px){.search-illustrator-scene-service-a>.search-illustrator-scene-content{padding:3em;width:auto;min-height:300px}}.search-illustrator-scene-service-a .search-illustrator-scene-logo{width:88px;height:35px;background-repeat:no-repeat;background-size:contain;background-position:50% 50%;margin-right:2em;float:left}@media only screen and (max-width: 768px){.search-illustrator-scene-service-a .search-illustrator-scene-logo{float:none;margin:auto;margin-bottom:2em}}.search-illustrator-scene-service-a.search-illustrator-scene-search-type-w .search-illustrator-scene-logo{background-image:url(./images/Aol/logo.png)}.search-illustrator-scene-service-a .search-illustrator-scene-input-and-button-wrapper{float:left}@media only screen and (max-width: 768px){.search-illustrator-scene-service-a .search-illustrator-scene-input-and-button-wrapper{float:none;display:table;width:100%}.search-illustrator-scene-service-a .search-illustrator-scene-input-and-button-wrapper .search-illustrator-scene-input{display:table-cell;width:100%;vertical-align:middle}.search-illustrator-scene-service-a .search-illustrator-scene-input-and-button-wrapper .search-illustrator-scene-button-wrapper{display:table-cell;left:auto}}.search-illustrator-scene-service-a .search-illustrator-scene-input{background-color:#fff;width:400px;height:36px;line-height:1.2em;font-size:1.2em;padding:0.5em;border:solid 1px #999999;border-right:0;white-space:nowrap;overflow:hidden;display:inline-block}.search-illustrator-scene-service-a .search-illustrator-scene-input.focused{-webkit-box-shadow:0 0 3px #a5b2f4;box-shadow:0 0 3px #a5b2f4}.search-illustrator-scene-service-a .search-illustrator-scene-input.focused>.search-illustrator-scene-input-cursor{margin-left:2px;border-left:solid 1px #555555}@media only screen and (max-width: 768px){.search-illustrator-scene-service-a .search-illustrator-scene-input{display:block;width:auto;border-right:solid 1px #999999;padding:0 0 0 7px;height:14px;line-height:14px;font-size:14px}}.search-illustrator-scene-service-a .search-illustrator-scene-button-wrapper{display:inline-block;position:relative;left:-4px}@media only screen and (min-width: 769px){.search-illustrator-scene-service-a .search-illustrator-scene-button-wrapper>.search-illustrator-scene-primary-button{border-radius:0;background-color:#f80e7e;background-image:-moz-linear-gradient(center bottom, #cc0c67, #f80e7e);background-image:-webkit-gradient(linear, left top, left bottom, from(#cc0c67), to(#f80e7e));background-image:-webkit-linear-gradient(bottom, #cc0c67, #f80e7e);background-image:-ms-linear-gradient(bottom, #cc0c67, #f80e7e);background-image:-o-linear-gradient(bottom, #cc0c67, #f80e7e);filter:progid:DXImageTransform.Microsoft.Gradient(endColorStr="#cc0c67",startColorStr="#f80e7e");cursor:pointer;display:block;min-width:82px;height:36px;line-height:27px;text-align:center;font-size:14px;font-weight:normal;text-transform:uppercase;text-shadow:1px 1px 1px rgba(0,0,0,0.5);text-decoration:none;color:#fff;overflow:hidden;white-space:nowrap}.search-illustrator-scene-service-a .search-illustrator-scene-button-wrapper>.search-illustrator-scene-primary-button.focused{background-color:#cc0c67;background-image:-moz-linear-gradient(center bottom, #f80e7e, #cc0c67);background-image:-webkit-gradient(linear, left top, left bottom, from(#f80e7e), to(#cc0c67));background-image:-webkit-linear-gradient(bottom, #f80e7e, #cc0c67);background-image:-ms-linear-gradient(bottom, #f80e7e, #cc0c67);background-image:-o-linear-gradient(bottom, #f80e7e, #cc0c67);filter:progid:DXImageTransform.Microsoft.Gradient(endColorStr="#f80e7e",startColorStr="#cc0c67")}}@media only screen and (max-width: 768px){.search-illustrator-scene-service-a .search-illustrator-scene-button-wrapper>.search-illustrator-scene-primary-button{background:url("./images/Aol/android-search-button.png") no-repeat scroll 0 0 transparent;border:none;cursor:pointer;display:block;font-weight:normal;font-size:1.462em;height:31px;line-height:31px;margin:0 0 0 10px;padding:0;position:relative;text-shadow:0 1px 1px rgba(0,0,0,0.7);white-space:nowrap;width:37px;font-size:0}}</style>
+      <style type="text/css">.search-illustrator-scene-service-y>.search-illustrator-scene-header{height:1.5em;background-color:#2d1152}@media only screen and (max-width: 768px){.search-illustrator-scene-service-y>.search-illustrator-scene-header{height:0}}.search-illustrator-scene-service-y>.search-illustrator-scene-content{padding:5em 10px 8em 10px;margin:auto;width:675px}.search-illustrator-scene-service-y>.search-illustrator-scene-content::after{clear:both;content:"";display:table}@media only screen and (max-width: 768px){.search-illustrator-scene-service-y>.search-illustrator-scene-content{width:auto;min-height:300px;padding:3em 10px 0 10px}}.search-illustrator-scene-service-y .search-illustrator-scene-logo{width:143px;height:37px;background-repeat:no-repeat;background-size:contain;background-position:50% 50%;margin-right:0.5em;float:left}@media only screen and (max-width: 768px){.search-illustrator-scene-service-y .search-illustrator-scene-logo{float:none;margin:auto;margin-bottom:2em}}.search-illustrator-scene-service-y.search-illustrator-scene-search-type-w .search-illustrator-scene-logo{background-image:url(./images/Yahoo/logo.png)}.search-illustrator-scene-service-y .search-illustrator-scene-input-and-button-wrapper{float:left}@media only screen and (max-width: 768px){.search-illustrator-scene-service-y .search-illustrator-scene-input-and-button-wrapper{float:none;display:table;width:100%}.search-illustrator-scene-service-y .search-illustrator-scene-input-and-button-wrapper .search-illustrator-scene-input{display:table-cell;width:100%}.search-illustrator-scene-service-y .search-illustrator-scene-input-and-button-wrapper .search-illustrator-scene-button-wrapper{display:table-cell;top:auto;left:auto}}.search-illustrator-scene-service-y .search-illustrator-scene-input{background-color:#fff;width:400px;height:36px;line-height:1.2em;font-size:1.2em;padding:0.5em;border:solid 1px #7590f5;white-space:nowrap;overflow:hidden;display:inline-block;margin-right:4px}.search-illustrator-scene-service-y .search-illustrator-scene-input.focused{-webkit-box-shadow:0 0 3px #a5b2f4;box-shadow:0 0 3px #a5b2f4}.search-illustrator-scene-service-y .search-illustrator-scene-input.focused>.search-illustrator-scene-input-cursor{margin-left:2px;border-left:solid 1px #555555}@media only screen and (max-width: 768px){.search-illustrator-scene-service-y .search-illustrator-scene-input{display:block;width:auto}}.search-illustrator-scene-service-y .search-illustrator-scene-button-wrapper{text-align:center;display:inline-block;margin:0;text-align:center;position:relative;top:-16px;left:-4px}@media only screen and (min-width: 769px){.search-illustrator-scene-service-y .search-illustrator-scene-button-wrapper>.search-illustrator-scene-primary-button{width:87px;font-size:15px;color:#fff;cursor:pointer;height:38px;line-height:1.7em;border:1px solid #3261c3;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;background:-moz-linear-gradient(top, #3775DD 0, #3455c1 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #3775DD), color-stop(100%, #3455c1));background:-webkit-linear-gradient(top, #3775DD 0, #3455c1 100%);background:-o-linear-gradient(top, #3775DD 0, #3455c1 100%);background:-ms-linear-gradient(top, #3775DD 0, #3455c1 100%);background:linear-gradient(to bottom, #3775DD 0, #3455c1 100%);background-color:#3775DD;-webkit-box-shadow:0 2px 6px -2px rgba(0,0,0,0.7),inset 0 1px 2px 0 rgba(255,255,255,0.5);box-shadow:0 2px 6px -2px rgba(0,0,0,0.7),inset 0 1px 2px 0 rgba(255,255,255,0.5);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#3775dd,endColorstr=#3455c1),progid:DXImageTransform.Microsoft.Shadow(color=#b3b3b5,direction=180,strength=3),progid:DXImageTransform.Microsoft.Shadow(color=#d2d2d3,direction=90,strength=1),progid:DXImageTransform.Microsoft.Shadow(color=#d2d2d3,direction=270,strength=1),chroma(color=#000);font-weight:normal;position:relative;-webkit-appearance:none;outline:none;font:helvetica neue, helvetica, arial, sans-serif}}@media only screen and (max-width: 768px){.search-illustrator-scene-service-y .search-illustrator-scene-button-wrapper>.search-illustrator-scene-primary-button{border:0;background-color:#3775DD;background-image:url(./images/Yahoo/search.png);background-repeat:no-repeat;background-position:center center;background-size:50%;padding:0;margin:0;width:40px;position:absolute;top:0;bottom:0;right:0;font-size:0}}</style>
+   </head>
+   <body ng-app="lmgtfy.student">
+      <!-- BEGIN WAYBACK TOOLBAR INSERT -->
+      <style type="text/css">
+         body {
+         margin-top:0 !important;
+         padding-top:0 !important;
+         /*min-width:800px !important;*/
+         }
+      </style>
+      <nav class="navbar navbar-default navbar-masthead navbar-fixed-top">
+         <div append-nav-dropdown="" class="container-fluid">
+            <div class="navbar-header pull-left"><a class="navbar-brand" href="http://lmgtfy2.com/"><img height="22" class="navbar-logo" src="images/logo-color-small.png" alt="Logo color small"/></a></div>
+         </div>
+      </nav>
+      <script type="text/javascript">(function() {
+         angular.module("lmgtfy.services").run(function(services) {
+           return services.push({
+             identifier: "g",
+             presentation: "Google",
+             featured: true,
+             logoSrc: "images/Google/google.png",
+             searchTypes: [
+               {
+                 presentation: "Web",
+                 identifier: "w",
+                 urlBase: "https:\/\/www.google.com\/search?q="
+               }, {
+                 presentation: "Images",
+                 identifier: "i",
+                 urlBase: "https:\/\/www.google.com\/search?tbm=isch\u0026q="
+               }, {
+                 presentation: "Videos",
+                 identifier: "v",
+                 urlBase: "https:\/\/www.google.com\/search?tbm=vid\u0026q="
+               }, {
+                 presentation: "Maps",
+                 identifier: "m",
+                 urlBase: "https:\/\/www.google.com\/maps?q="
+               }, {
+                 presentation: "News",
+                 identifier: "n",
+                 urlBase: "https:\/\/www.google.com\/search?tbm=nws\u0026q="
+               }, {
+                 presentation: "Shopping",
+                 identifier: "s",
+                 urlBase: "https:\/\/www.google.com\/search?tbm=shop\u0026q="
+               }, {
+                 presentation: "Books",
+                 identifier: "b",
+                 urlBase: "https:\/\/www.google.com\/search?tbm=bks\u0026q="
+               }, {
+                 presentation: "Finance",
+                 identifier: "f",
+                 urlBase: "https:\/\/www.google.com\/finance?q="
+               }, {
+                 presentation: "Scholar",
+                 identifier: "sc",
+                 urlBase: "https:\/\/scholar.google.com\/scholar?q="
+               }
+             ]
+           });
+         });
+         
+         }).call(this);
+      </script>
+	  <script type="text/javascript">(function() {
+         angular.module("lmgtfy.services").run(function(services) {
+           return services.push({
+             identifier: "b",
+             presentation: "Bing",
+             featured: true,
+             logoSrc: "images/Bing/bing.png",
+             searchTypes: [
+               {
+                 presentation: "Web",
+                 identifier: "w",
+                 urlBase: "https://www.bing.com/search?q="
+               }
+             ]
+           });
+         });
+         
+         }).call(this);
+      </script>
+	  <script type="text/javascript">(function() {
+         angular.module("lmgtfy.services").run(function(services) {
+           return services.push({
+             identifier: "y",
+             presentation: "Yahoo!",
+             featured: true,
+             logoSrc: "./images/Yahoo/yahoo.png",
+             searchTypes: [
+               {
+                 presentation: "Web",
+                 identifier: "w",
+                 urlBase: "https://search.yahoo.com/search?q="
+               }
+             ]
+           });
+         });
+         
+         }).call(this);
+      </script>
+	  <script type="text/javascript">(function() {
+         angular.module("lmgtfy.services").run(function(services) {
+           return services.push({
+             identifier: "a",
+             presentation: "Aol.",
+             featured: true,
+             logoSrc: "./images/Aol/aol.png",
+             searchTypes: [
+               {
+                 presentation: "Web",
+                 identifier: "w",
+                 urlBase: "http:\/\/search.aol.com\/aol\/search?q="
+               }
+             ]
+           });
+         });
+         
+         }).call(this);
+      </script>
+	  <script type="text/javascript">(function() {
+         angular.module("lmgtfy.services").run(function(services) {
+           return services.push({
+             identifier: "k",
+             presentation: "Ask",
+             featured: true,
+             logoSrc: "./images/Ask/ask.png",
+             searchTypes: [
+               {
+                 presentation: "Web",
+                 identifier: "w",
+                 urlBase: "http://www.ask.com/web?q="
+               }
+             ]
+           });
+         });
+         
+         }).call(this);
+      </script>
+	  <script type="text/javascript">(function() {
+         angular.module("lmgtfy.services").run(function(services) {
+           return services.push({
+             identifier: "d",
+             presentation: "Duck Duck Go",
+             featured: true,
+             logoSrc: "./images/DuckDuckGo/duckduckgo.png",
+             searchTypes: [
+               {
+                 presentation: "Web",
+                 identifier: "w",
+                 urlBase: "https://duckduckgo.com/?q="
+               }
+             ]
+           });
+         });
+         
+         }).call(this);
+      </script>
+	  <script type="text/javascript">(function() {
+         angular.module("lmgtfy.services").run(function(services) {
+           return services.push({
+             identifier: "w",
+             presentation: "Wikipedia",
+             logoSrc: "./images/Wikipedia/wikipedia.png",
+             searchTypes: [
+               {
+                 presentation: "Encyclopedia",
+                 identifier: "w",
+                 urlBase: "https:\/\/wikipedia.org\/w\/index.php?search="
+               }
+             ]
+           });
+         });
+         
+         }).call(this);
+      </script>
+	  <script type="text/javascript">(function() {
+         angular.module("lmgtfy.services").run(function(services) {
+           return services.push({
+             identifier: "s",
+             presentation: "Snopes",
+             logoSrc: "./images/Snopes/snopes.png",
+             searchTypes: [
+               {
+                 presentation: "Rumors",
+                 identifier: "w",
+                 urlBase: "http://www.snopes.com/search/?q="
+               }
+             ]
+           });
+         });
+         
+         }).call(this);
+      </script>
+	  <script type="text/javascript">(function() {
+         angular.module("lmgtfy.student.searchIllustrations").value("g", {
+           base: {
+             disclaimer: "The above is an illustration for educational purposes.\u003cbr \/\u003eGoogle\u0026#8482; is a trademark of Google, Inc. LMGTFY is not associated with Google in any way.\n",
+             primaryActionText: "Google Search",
+             stepInstructions: function() {
+               return ["Visit" + (" " + this.startingUrl), "Type your question.", "Click the button.", "That's it!"];
+             }
+           },
+           w: {
+             startingUrl: "google.com",
+             secondaryActionText: "I'm Feeling Lucky"
+           },
+           i: {
+             startingUrl: "images.google.com"
+           },
+           v: {
+             startingUrl: "video.google.com"
+           },
+           m: {
+             startingUrl: "maps.google.com"
+           },
+           n: {
+             startingUrl: "news.google.com"
+           },
+           s: {
+             startingUrl: "google.com\/shopping"
+           },
+           b: {
+             startingUrl: "books.google.com"
+           },
+           f: {
+             startingUrl: "google.com\/finance"
+           },
+           sc: {
+             startingUrl: "scholar.google.com"
+           }
+         });
+         
+         }).call(this);
+      </script>
+	  <script type="text/javascript">(function() {
+      angular.module("lmgtfy.student.searchIllustrations").value("b", {
+        base: {
+          primaryActionText: " ",
+          stepInstructions: function() {
+            return ["Visit" + (" " + this.startingUrl), "Type your question.", "Click the button.", "That's it!"];
+          }
+        },
+        w: {
+          startingUrl: "bing.com"
+        }
+      });
+      
+      }).call(this);
+	  </script>
+	  <script type="text/javascript">(function() {
+      angular.module("lmgtfy.student.searchIllustrations").value("y", {
+        base: {
+          primaryActionText: "Search",
+          stepInstructions: function() {
+            return ["Visit" + (" " + this.startingUrl), "Type your question.", "Click the button.", "That's it!"];
+          }
+        },
+        w: {
+          startingUrl: "yahoo.com"
+        }
+      });
+   
+      }).call(this);
+      </script>
+	  <script type="text/javascript">(function() {
+      angular.module("lmgtfy.student.searchIllustrations").value("a", {
+        base: {
+          primaryActionText: "Search",
+          stepInstructions: function() {
+            return ["Visit" + (" " + this.startingUrl), "Type your question.", "Click the button.", "That's it!"];
+          }
+        },
+        w: {
+          startingUrl: "aol.com"
+        }
+      });
+   
+      }).call(this);
+      </script>
+	  <script type="text/javascript">(function() {
+      angular.module("lmgtfy.student.searchIllustrations").value("d", {
+        base: {
+          primaryActionText: "",
+          stepInstructions: function() {
+            return ["Visit" + (" " + this.startingUrl), "Type your question.", "Click the button.", "That's it!"];
+          }
+        },
+        w: {
+          startingUrl: "duckduckgo.com"
+        }
+      });
+   
+      }).call(this);
+      </script>
+	  <script type="text/javascript">(function() {
+      angular.module("lmgtfy.student.searchIllustrations").value("k", {
+        base: {
+          primaryActionText: "Find Answers",
+          stepInstructions: function() {
+            return ["Visit" + (" " + this.startingUrl), "Type your question.", "Click the button.", "That's it!"];
+          }
+        },
+        w: {
+          startingUrl: "ask.com"
+        }
+      });
+   
+      }).call(this);
+      </script>
+      <browser-frame style="position:fixed;top:-9999px;left:-9999px;width:100px"></browser-frame>
+      <div class="ng-cloak container-fluid" ng-controller="mainController">
+         <div class="student-slide fixed-center-block" id="slide-1" ng-if="currentSlide == 1"><span class="impact">THIS</span><br/><span>is the internet.</span></div>
+         <div class="student-slide fixed-center-block" id="slide-2" ng-if="currentSlide == 2">
+            <span class="impact">THESE</span><br/><span>let you search it.</span>
+            <div class="v-spacer-1"></div>
+            <div class="service-grid">
+               <div class="row">
+                  <div class="service-selector-item" ng-repeat="service in services | filter:{featured:true} | limitTo:3" service-identifier="{{ service.identifier }}"><img alt="service.presentation" ng-src="{{ service.logoSrc }}"/></div>
+               </div>
+               <div class="row">
+                  <div class="service-selector-item" ng-repeat="service in services | filter:{featured:true} | limitTo:3:3" service-identifier="{{ service.identifier }}"><img alt="service.presentation" ng-src="{{ service.logoSrc }}"/></div>
+               </div>
+            </div>
+            <div class="font-size-large subdued">(there&#39;s more, these are just the most popular)</div>
+         </div>
+         <div class="student-slide fixed-center-block" id="slide-3" ng-if="currentSlide == 3">
+            <div class="row"><span class="font-size-h3">Next time you have a question</span><br/><span class="impact2">I recommend</span><span class="impact2 hidden-xs">&nbsp;using:</span></div>
+            <div class="v-spacer-1"></div>
+            <div class="service-selector-item margin-0"><img alt="service.presentation" ng-src="{{ selectedService.logoSrc }}"/></div>
+         </div>
+         <div class="student-slide fixed-center-block" id="slide-4" ng-if="currentSlide == 4"><span>It works like</span><br/><span class="impact">THIS...</span></div>
+         <div id="slide-5" ng-if="currentSlide == 5">
+            <div class="search-instruction-and-illustration-wrapper">
+               <div class="search-instructions-wrapper">
+                  <div search-instructions="" step-translation="Step"></div>
+               </div>
+               <div class="search-illustrator-wrapper">
+                  <div final-timing-delay="delayBeforeDone" search-illustrator="" user-click-prompt="Click Here"></div>
+                  <div class="row text-center" ng-if="showAds" style="margin-top:1em">
+                     <div style="max-width:728px; margin:0 auto">
+                     </div>
+                  </div>
+                  <div class="row text-center" ng-if="sponsoredByLine">
+                     <div class="search-illustrator-disclaimer">{{ sponsoredByLine }}</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script>
+         angular.module("serverValue", []);
+      </script>
+      <script>
+         angular.module("serverValue").value("languages", null);
+      </script>
+      <script>
+         angular.module("serverValue").value("currentLocale", "en");
+      </script>
+      <footer class="container-fluid">
+         <div class="row">
+            <div class="col-xs-4 links"><a href="about">About</a><a href="https://linktr.ee/m8tec">Contact</a></div>
+            <div class="text-center col-xs-4 language">
+               <div class="language-selector" label="Language: "></div>
+            </div>
+            <div class="text-right col-xs-4 links"><a href="https://github.com/M8tec">M8tec</a></div>
+         </div>
+         <div class="row legalese text-center">
+            <div class="col-lg-12">LMGTFY2, 2022-2023 | <span rel="localize[disclaimer]">Google® is a registered trademark of Google Inc.  LMGTFY2 is not endorsed by, sponsored by, or affiliated with Google Inc.
+               </span>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>

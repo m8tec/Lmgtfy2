@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lmgtfy-api", "lmgtfy-api\lmgtfy-api.csproj", "{DEA52531-D780-4EB4-9B0A-0207461798A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lmgtfy-server", "lmgtfy-server\lmgtfy-server.csproj", "{0CAF415F-B61B-4004-95F6-D1E82AD0CA25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEA52531-D780-4EB4-9B0A-0207461798A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA52531-D780-4EB4-9B0A-0207461798A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA52531-D780-4EB4-9B0A-0207461798A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA52531-D780-4EB4-9B0A-0207461798A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CAF415F-B61B-4004-95F6-D1E82AD0CA25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CAF415F-B61B-4004-95F6-D1E82AD0CA25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CAF415F-B61B-4004-95F6-D1E82AD0CA25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CAF415F-B61B-4004-95F6-D1E82AD0CA25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81A98653-619B-4A27-B596-FF6C68A9985D}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.scope = text/x-csharp
+	EndGlobalSection
+EndGlobal

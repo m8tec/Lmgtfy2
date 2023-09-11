@@ -1,0 +1,308 @@
+* {
+	font-family: georgia, serif;
+	letter-spacing: 0.01em;
+	line-height: 1.3em
+}
+
+em {
+	background-color: #FFFB88;
+	font-style: normal;
+	padding: 0 0.25em
+}
+
+em a {
+	color: #333
+}
+
+strong {
+	font-weight: bold
+}
+
+strong a {
+	color: #333
+}
+
+body {
+	background-color: #fff;
+	color: #111
+}
+
+h1 {
+	color: #fff;
+	background-color: #237EC5;
+	margin: 0 0 0.5em 0;
+	padding: 0.5em;
+	text-align: center
+}
+
+h2 {
+	font-size: 2em;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 0.3em
+}
+
+#subtext {
+	color: #666;
+	text-align: center;
+	font-size: 1.3em;
+	margin-bottom: 2em
+}
+
+#pitches,
+#details,
+#bonus {
+	width: 780px;
+	margin: 0 auto;
+	text-align: center
+}
+
+#bonus {
+	width: 750px;
+	margin: 0 auto;
+	background-color: #e6efc2;
+	padding: 1px 0 1em;
+	border-radius: 10px;
+	box-shadow: #264409
+}
+
+#bonus p {
+	font-weight: bold;
+	color: #264409
+}
+
+#bonus table {
+	border-collapse: collapse;
+	width: 100%
+}
+
+#bonus tr.current {
+	background-color: #e6efc2;
+	color: #264409;
+	font-size: 1.2em
+}
+
+#bonus tr.current th {
+	font-weight: bold
+}
+
+#bonus tr.current strong {
+	font-weight: bold
+}
+
+#bonus tr.future {
+	color: #aba
+}
+
+#bonus tr.future th,
+#bonus tr.future td,
+#bonus tr.future strong {
+	font-weight: normal
+}
+
+#pitches::after {
+	clear: both;
+	content: "";
+	display: table
+}
+
+#pitches #sase,
+#pitches .or,
+#pitches #stripe {
+	float: left
+}
+
+#pitches #sase,
+#pitches #stripe {
+	padding: 0;
+	height: 350px
+}
+
+#pitches #sase {
+	margin: 10px;
+	width: 470px
+}
+
+#pitches .or {
+	font-family: "Permanent Marker", Arial, sans-serif;
+	font-size: 2em;
+	line-height: 350px;
+	width: 40px
+}
+
+.pitch {
+	line-height: 1.5;
+	color: #333;
+	background-color: #f6f6f6;
+	font-size: 1.5em;
+	margin-bottom: 1em;
+	padding: 1px;
+	border-radius: 10px
+}
+
+.pitch .price {
+	font-size: 1.5em
+}
+
+.pitch table {
+	margin: 0 auto
+}
+
+.pitch table th {
+	text-align: right
+}
+
+.pitch table td {
+	text-align: left
+}
+
+.pitch small {
+	font-size: 0.66em;
+	color: #666
+}
+
+.pitch small a {
+	color: #666
+}
+
+.pitch small strong {
+	color: #333
+}
+
+#sticker-mule {
+	text-align: center;
+	font-style: italic;
+	font-size: 18px;
+	color: #333;
+	position: relative
+}
+
+#sticker-mule img {
+	vertical-align: middle;
+	position: relative;
+	top: -4px
+}
+
+ul#gallery {
+	margin: 0 auto;
+	width: 500px;
+	list-style: none
+}
+
+ul#gallery::after {
+	clear: both;
+	content: "";
+	display: table
+}
+
+ul#gallery li {
+	float: left;
+	margin: 6px
+}
+
+ul#gallery li img {
+	display: block
+}
+
+#ad_location {
+	text-align: center;
+	font-size: 1.2em
+}
+
+#ad_location #locations {
+	margin: auto;
+	width: 530px
+}
+
+#ad_location #locations::after {
+	clear: both;
+	content: "";
+	display: table
+}
+
+#ad_location #locations * a {
+	color: #111;
+	text-decoration: none
+}
+
+#ad_location #locations * a:hover {
+	text-decoration: underline
+}
+
+#ad_location #locations #location_1 {
+	float: left;
+	width: 200px
+}
+
+#ad_location #locations #location_2 {
+	float: right;
+	width: 200px
+}
+
+#nuggets {
+	width: 700px;
+	height: 22em;
+	margin: auto;
+	margin-top: 3em
+}
+
+#nuggets::after {
+	clear: both;
+	content: "";
+	display: table
+}
+
+#nuggets .left_column {
+	float: left;
+	width: 335px
+}
+
+#nuggets .right_column {
+	float: right;
+	width: 335px
+}
+
+#nuggets .nugget {
+	width: 335px;
+	height: 9em;
+	margin-bottom: 2em
+}
+
+#nuggets .nugget h3 {
+	margin: 0em 0em 0.5em 0em
+}
+
+#nuggets .nugget p {
+	margin: 0em 0em 1.5em 0em
+}
+
+#nuggets .nugget.email_ad_button {
+	background-color: #333;
+	text-align: center
+}
+
+#nuggets .nugget.email_ad_button h3 {
+	color: #fff;
+	font-size: 1em;
+	line-height: 1.5;
+	font-weight: normal;
+	padding: 1em 3em
+}
+
+#program_details {
+	width: 700px;
+	margin: auto
+}
+
+#program_details h2 {
+	text-align: left
+}
+
+#copyright {
+	margin-top: 40px;
+	padding: 0.25em;
+	text-align: center;
+	font-size: 0.75em;
+	color: #999;
+	background-color: #fff
+}
