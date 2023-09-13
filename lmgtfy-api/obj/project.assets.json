@@ -1472,11 +1472,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-api/lmgtfy-api.csproj",
+      "projectUniqueName": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/lmgtfy-api.csproj",
       "projectName": "lmgtfy-api",
-      "projectPath": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-api/lmgtfy-api.csproj",
+      "projectPath": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/lmgtfy-api.csproj",
       "packagesPath": "/Users/m8/.nuget/packages/",
-      "outputPath": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-api/obj/",
+      "outputPath": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/m8/.nuget/NuGet/NuGet.Config"

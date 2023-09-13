@@ -53,35 +53,35 @@
                  identifier: "w",
                  urlBase: "https:\/\/www.google.com\/search?q="
                }, {
-                 presentation: "Images",
+                 presentation: "Ảnh",
                  identifier: "i",
                  urlBase: "https:\/\/www.google.com\/search?tbm=isch\u0026q="
                }, {
-                 presentation: "Videos",
+                 presentation: "Video",
                  identifier: "v",
                  urlBase: "https:\/\/www.google.com\/search?tbm=vid\u0026q="
                }, {
-                 presentation: "Maps",
+                 presentation: "Bản đồ",
                  identifier: "m",
                  urlBase: "https:\/\/www.google.com\/maps?q="
                }, {
-                 presentation: "News",
+                 presentation: "Tin tức",
                  identifier: "n",
                  urlBase: "https:\/\/www.google.com\/search?tbm=nws\u0026q="
                }, {
-                 presentation: "Shopping",
+                 presentation: "Mua sắm",
                  identifier: "s",
                  urlBase: "https:\/\/www.google.com\/search?tbm=shop\u0026q="
                }, {
-                 presentation: "Books",
+                 presentation: "Sách",
                  identifier: "b",
                  urlBase: "https:\/\/www.google.com\/search?tbm=bks\u0026q="
                }, {
-                 presentation: "Finance",
+                 presentation: "Tài chính",
                  identifier: "f",
                  urlBase: "https:\/\/www.google.com\/finance?q="
                }, {
-                 presentation: "Scholar",
+                 presentation: "Học giả",
                  identifier: "sc",
                  urlBase: "https:\/\/scholar.google.com\/scholar?q="
                }
@@ -129,15 +129,15 @@
       </script><script type="text/javascript">(function() {
          angular.module("lmgtfy.services").run(function(services) {
            return services.push({
-             identifier: "a",
-             presentation: "Aol.",
+             identifier: "d",
+             presentation: "Duck Duck Go",
              featured: true,
-             logoSrc: "images/aol.png",
+             logoSrc: "images/duckduckgo.png",
              searchTypes: [
                {
                  presentation: "Web",
                  identifier: "w",
-                 urlBase: "http:\/\/search.aol.com\/aol\/search?q="
+                 urlBase: "https://duckduckgo.com/?q="
                }
              ]
            });
@@ -165,15 +165,15 @@
       </script><script type="text/javascript">(function() {
          angular.module("lmgtfy.services").run(function(services) {
            return services.push({
-             identifier: "d",
-             presentation: "Duck Duck Go",
+             identifier: "a",
+             presentation: "Aol.",
              featured: true,
-             logoSrc: "images/duckduckgo.png",
+             logoSrc: "images/aol.png",
              searchTypes: [
                {
                  presentation: "Web",
                  identifier: "w",
-                 urlBase: "https://duckduckgo.com/?q="
+                 urlBase: "http:\/\/search.aol.com\/aol\/search?q="
                }
              ]
            });
@@ -214,6 +214,24 @@
          });
          
          }).call(this);
+      </script><script type="text/javascript">(function() {
+         angular.module("lmgtfy.services").run(function(services) {
+           return services.push({
+             identifier: "b",
+             presentation: "Startpage",
+             featured: true,
+             logoSrc: "images/startpage.png",
+             searchTypes: [
+               {
+                 presentation: "Web",
+                 identifier: "w",
+                 urlBase: "https://www.startpage.com/search?q="
+               }
+             ]
+           });
+         });
+         
+         }).call(this);
       </script>
       <div class="container-fluid ng-cloak" ng-controller="mainController">
          <div class="row">
@@ -231,36 +249,36 @@
             <form>
                <div class="row text-center">
                   <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
-                     <div class="search-type-selector" label="Search type:"></div>
+                     <div class="search-type-selector" label="Kiểu tìm kiếm:"></div>
                   </div>
                </div>
                <div class="v-spacer-3"></div>
                <div class="row text-center">
                   <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
-                     <div class="search-term-input"><input class="input-lg form-control" ng-disabled="!link.selectedSearchType" ng-model="link.searchTerms" placeholder="Search..." type="text"></div>
+                     <div class="search-term-input"><input class="input-lg form-control" ng-disabled="!link.selectedSearchType" ng-model="link.searchTerms" placeholder="Tìm kiếm..." type="text"></div>
                   </div>
                </div>
                <div class="v-spacer-1"></div>
                <div class="row text-center">
-                  <button class="btn btn-primary btn-lg" ng-click="getLink()" ng-disabled="!link.searchTerms" type="submit">Get Link</button>
+                  <button class="btn btn-primary btn-lg" ng-click="getLink()" ng-disabled="!link.searchTerms" type="submit">Lấy liên kết</button>
                   <div class="h-spacer-1"></div>
-                  <button class="btn btn-default btn-lg" ng-click="doPreview()" ng-disabled="!link.searchTerms" type="button">Preview</button>
+                  <button class="btn btn-default btn-lg" ng-click="doPreview()" ng-disabled="!link.searchTerms" type="button">Xem trước</button>
                   <div class="checkbox"><label><input ng-model="link.includeExplainer" style="top:2px" type="checkbox"> Include Internet Explainer</label></div>
-               </div>
+               </div>"
             </form>
          </div>
          <div class="row text-center" ng-show="link.url">
             <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
                <div class="panel panel-success">
-                  <div class="panel-heading panel-title">Share the link below.</div>
+                  <div class="panel-heading panel-title">Chia sẻ liên kết dưới đây.</div>
                </div>
                <input class="input-lg form-control select-on-click" ng-model="link.url" type="text">
                <div class="v-spacer-1"></div>
-               <button class="btn btn-default btn-lg" ng-click="shortenLink()" type="button">Shorten Link</button>
+               <button class="btn btn-default btn-lg" ng-click="shortenLink()" type="button">Liên kết rút gọn</button>
                <div class="h-spacer-1"></div>
-               <button class="btn btn-default btn-lg" ng-click="doPreview(link.url)" ng-disabled="!link.searchTerms" type="button">Preview</button>
+               <button class="btn btn-default btn-lg" ng-click="doPreview(link.url)" ng-disabled="!link.searchTerms" type="button">Xem trước</button>
                <div class="h-spacer-1"></div>
-               <button class="btn btn-default btn-lg" ng-click="clearLink()" type="button">Change Search</button>
+               <button class="btn btn-default btn-lg" ng-click="clearLink()" type="button">Đổi tìm kiếm</button>
             </div>
          </div>
       </div>
@@ -268,21 +286,21 @@
          angular.module("serverValue", []);
       </script>
       <script>
-         angular.module("serverValue").value("languages", [{"code":"en","presentation":"English"}]);
+         angular.module("serverValue").value("languages", [{"code":"ar","presentation":"العربية (Arabic)"},{"code":"bg","presentation":"български език (Bulgarian)"},{"code":"cs","presentation":"čeština (Czech)"},{"code":"da","presentation":"Dansk"},{"code":"de","presentation":"Deutsch"},{"code":"el","presentation":"ελληνικά (Greek)"},{"code":"en","presentation":"English"},{"code":"es","presentation":"Español"},{"code":"fi","presentation":"Suomi (Finnish)"},{"code":"fr","presentation":"Français"},{"code":"he","presentation":"עברית (Hebrew)"},{"code":"hu","presentation":"Magyar (Hungarian)"},{"code":"id","presentation":"Indonesian"},{"code":"it","presentation":"Italiano"},{"code":"ja","presentation":"日本語 (Japanese)"},{"code":"ko","presentation":"한국어 (Korean)"},{"code":"nl","presentation":"Nederlands"},{"code":"pl","presentation":"Język Polski"},{"code":"pt","presentation":"Português"},{"code":"pt-br","presentation":"Português (Brazil)"},{"code":"ro","presentation":"Limba Română"},{"code":"ru","presentation":"Русский (Russian)"},{"code":"sk","presentation":"Slovenčina (Slovak)"},{"code":"sr","presentation":"Cрпски Jезик (Serbian)"},{"code":"sv","presentation":"Svenska"},{"code":"th","presentation":"ไทย (Thai)"},{"code":"tr","presentation":"Türkçe"},{"code":"uk","presentation":"Українська (Ukrainian)"},{"code":"vi","presentation":"Tiếng Việt (Vietnamese)"},{"code":"zh","presentation":"中文 (Chinese)"}]);
       </script>
       <script>
-         angular.module("serverValue").value("currentLocale", "en");
+         angular.module("serverValue").value("currentLocale", "vi");
       </script>
       <footer class="container-fluid">
          <div class="row">
-            <div class="col-xs-4 links"><a href="about">About</a><a href="https://www.instagram.com/m8_tec/">Contact</a></div>
+            <div class="col-xs-4 links"><a href="about">Giới thiệu</a><a href="https://www.instagram.com/m8_tec/">Liên hệ</a></div>
             <div class="text-center col-xs-4 language">
                <div class="language-selector" label="Language: "></div>
             </div>
             <div class="text-right col-xs-4 links"><a href="./live">Live Stream</a></div>
          </div>
          <div class="row legalese text-center">
-            <div class="col-lg-12">LMGTFY2, 2022-2023 | <span rel="localize[disclaimer]">Google® is a registered trademark of Google Inc.  LMGTFY2 is not endorsed by, sponsored by, or affiliated with Google Inc. LMGTFY2 is an archived version of LMGTFY<br>
+            <div class="col-lg-12">LMGTFY2, 2022-2023 | <span rel="localize[disclaimer]">Google® là thương hiệu đã đăng ký của Google Inc. LMGTFY không được Google Inc. xác nhận, tài trợ, hoặc liên kết.<br>
                </span>
             </div>
          </div>

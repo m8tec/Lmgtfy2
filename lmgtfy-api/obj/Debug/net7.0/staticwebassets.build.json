@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oxg7289QjZIiML08O042lC/0/KQiglBQC38D0nZAiJ8=",
+  "Hash": "5k8MRibV2Ut7OGLidP1S1OrLDa4IMxpPIRGX0hQTzj8=",
   "Source": "lmgtfy-api",
   "BasePath": "_content/lmgtfy-api",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "lmgtfy-api/wwwroot",
       "Source": "lmgtfy-api",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-api/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/wwwroot/",
       "BasePath": "_content/lmgtfy-api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-api/wwwroot/.DS_Store",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/wwwroot/.DS_Store",
       "SourceId": "lmgtfy-api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-api/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/wwwroot/",
       "BasePath": "_content/lmgtfy-api",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-api/wwwroot/recentte.json",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/wwwroot/recentte.json",
       "SourceId": "lmgtfy-api",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-api/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/wwwroot/",
       "BasePath": "_content/lmgtfy-api",
       "RelativePath": "recentte.json",
       "AssetKind": "All",

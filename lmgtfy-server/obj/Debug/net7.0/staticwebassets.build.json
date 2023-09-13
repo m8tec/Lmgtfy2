@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "QtgHnyfr3uayc+1A3GTQM5rmk/323S4nFCqPNw+JYoU=",
+  "Hash": "zxCKHLUcs+KvKtpLH0L68Wiifr0zbal8V6McvbbqqcU=",
   "Source": "lmgtfy-server",
   "BasePath": "_content/lmgtfy-server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-api/lmgtfy-api.csproj",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/lmgtfy-api.csproj",
       "Version": 2,
       "Source": "lmgtfy-api",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,24 +22,24 @@
     {
       "Name": "lmgtfy-api/wwwroot",
       "Source": "lmgtfy-api",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-api/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/wwwroot/",
       "BasePath": "_content/lmgtfy-api",
       "Pattern": "**"
     },
     {
       "Name": "lmgtfy-server/wwwroot",
       "Source": "lmgtfy-server",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-api/wwwroot/.DS_Store",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/wwwroot/.DS_Store",
       "SourceId": "lmgtfy-api",
       "SourceType": "Project",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-api/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/wwwroot/",
       "BasePath": "_content/lmgtfy-api",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
@@ -53,10 +53,10 @@
       "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-api/wwwroot/recentte.json",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/wwwroot/recentte.json",
       "SourceId": "lmgtfy-api",
       "SourceType": "Project",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-api/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/wwwroot/",
       "BasePath": "_content/lmgtfy-api",
       "RelativePath": "recentte.json",
       "AssetKind": "All",
@@ -70,10 +70,10 @@
       "OriginalItemSpec": "wwwroot/recentte.json"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/obj/Debug/net7.0/scopedcss/bundle/lmgtfy-server.styles.css",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/obj/Debug/net7.0/scopedcss/bundle/lmgtfy-server.styles.css",
       "SourceId": "lmgtfy-server",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/obj/Debug/net7.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/obj/Debug/net7.0/scopedcss/bundle/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "lmgtfy-server.styles.css",
       "AssetKind": "All",
@@ -84,13 +84,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/obj/Debug/net7.0/scopedcss/bundle/lmgtfy-server.styles.css"
+      "OriginalItemSpec": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/obj/Debug/net7.0/scopedcss/bundle/lmgtfy-server.styles.css"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/obj/Debug/net7.0/scopedcss/projectbundle/lmgtfy-server.bundle.scp.css",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/obj/Debug/net7.0/scopedcss/projectbundle/lmgtfy-server.bundle.scp.css",
       "SourceId": "lmgtfy-server",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/obj/Debug/net7.0/scopedcss/projectbundle/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "lmgtfy-server.bundle.scp.css",
       "AssetKind": "All",
@@ -101,13 +101,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/obj/Debug/net7.0/scopedcss/projectbundle/lmgtfy-server.bundle.scp.css"
+      "OriginalItemSpec": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/obj/Debug/net7.0/scopedcss/projectbundle/lmgtfy-server.bundle.scp.css"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/.DS_Store",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/.DS_Store",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
@@ -121,10 +121,10 @@
       "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/about/.DS_Store",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/about/.DS_Store",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "about/.DS_Store",
       "AssetKind": "All",
@@ -138,10 +138,10 @@
       "OriginalItemSpec": "wwwroot/about/.DS_Store"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/about/index.html",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/about/index.html",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "about/index.html",
       "AssetKind": "All",
@@ -155,10 +155,61 @@
       "OriginalItemSpec": "wwwroot/about/index.html"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/css/.DS_Store",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/ar.index.html",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "ar.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/ar.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/bg.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "bg.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/bg.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/cs.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "cs.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/cs.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/css/.DS_Store",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "css/.DS_Store",
       "AssetKind": "All",
@@ -172,10 +223,10 @@
       "OriginalItemSpec": "wwwroot/css/.DS_Store"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/css/assets-application.css",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/css/assets-application.css",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "css/assets-application.css",
       "AssetKind": "All",
@@ -189,10 +240,10 @@
       "OriginalItemSpec": "wwwroot/css/assets-application.css"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/css/css-banner-styles.css",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/css/css-banner-styles.css",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "css/css-banner-styles.css",
       "AssetKind": "All",
@@ -206,10 +257,10 @@
       "OriginalItemSpec": "wwwroot/css/css-banner-styles.css"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/css/css-iconochive.css",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/css/css-iconochive.css",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "css/css-iconochive.css",
       "AssetKind": "All",
@@ -223,10 +274,10 @@
       "OriginalItemSpec": "wwwroot/css/css-iconochive.css"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/css/minimal-colorbox-0b10b15dbc8a5946b375abb306e39ca1cc8d9cbbaaf7ff40226dc58a1e4035e8.css",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/css/minimal-colorbox-0b10b15dbc8a5946b375abb306e39ca1cc8d9cbbaaf7ff40226dc58a1e4035e8.css",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "css/minimal-colorbox-0b10b15dbc8a5946b375abb306e39ca1cc8d9cbbaaf7ff40226dc58a1e4035e8.css",
       "AssetKind": "All",
@@ -240,10 +291,10 @@
       "OriginalItemSpec": "wwwroot/css/minimal-colorbox-0b10b15dbc8a5946b375abb306e39ca1cc8d9cbbaaf7ff40226dc58a1e4035e8.css"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/css/static-pages-dfdce08742bd203f9f4c12af1a9bc9f605424ca9e254e80cd051523b44825288.css",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/css/static-pages-dfdce08742bd203f9f4c12af1a9bc9f605424ca9e254e80cd051523b44825288.css",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "css/static-pages-dfdce08742bd203f9f4c12af1a9bc9f605424ca9e254e80cd051523b44825288.css",
       "AssetKind": "All",
@@ -257,10 +308,95 @@
       "OriginalItemSpec": "wwwroot/css/static-pages-dfdce08742bd203f9f4c12af1a9bc9f605424ca9e254e80cd051523b44825288.css"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/android-icon-192x192.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/da.index.html",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "da.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/da.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/de.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "de.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/de.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/el.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "el.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/el.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/en.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "en.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/en.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/es.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "es.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/es.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/favicons/android-icon-192x192.png",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "favicons/android-icon-192x192.png",
       "AssetKind": "All",
@@ -274,10 +410,10 @@
       "OriginalItemSpec": "wwwroot/favicons/android-icon-192x192.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/apple-icon-114x114.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/favicons/apple-icon-114x114.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "favicons/apple-icon-114x114.png",
       "AssetKind": "All",
@@ -291,10 +427,10 @@
       "OriginalItemSpec": "wwwroot/favicons/apple-icon-114x114.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/apple-icon-120x120.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/favicons/apple-icon-120x120.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "favicons/apple-icon-120x120.png",
       "AssetKind": "All",
@@ -308,10 +444,10 @@
       "OriginalItemSpec": "wwwroot/favicons/apple-icon-120x120.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/apple-icon-144x144.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/favicons/apple-icon-144x144.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "favicons/apple-icon-144x144.png",
       "AssetKind": "All",
@@ -325,10 +461,10 @@
       "OriginalItemSpec": "wwwroot/favicons/apple-icon-144x144.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/apple-icon-152x152.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/favicons/apple-icon-152x152.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "favicons/apple-icon-152x152.png",
       "AssetKind": "All",
@@ -342,10 +478,10 @@
       "OriginalItemSpec": "wwwroot/favicons/apple-icon-152x152.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/apple-icon-180x180.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/favicons/apple-icon-180x180.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "favicons/apple-icon-180x180.png",
       "AssetKind": "All",
@@ -359,10 +495,10 @@
       "OriginalItemSpec": "wwwroot/favicons/apple-icon-180x180.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/apple-icon-57x57.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/favicons/apple-icon-57x57.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "favicons/apple-icon-57x57.png",
       "AssetKind": "All",
@@ -376,10 +512,10 @@
       "OriginalItemSpec": "wwwroot/favicons/apple-icon-57x57.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/apple-icon-60x60.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/favicons/apple-icon-60x60.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "favicons/apple-icon-60x60.png",
       "AssetKind": "All",
@@ -393,10 +529,10 @@
       "OriginalItemSpec": "wwwroot/favicons/apple-icon-60x60.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/apple-icon-72x72.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/favicons/apple-icon-72x72.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "favicons/apple-icon-72x72.png",
       "AssetKind": "All",
@@ -410,10 +546,10 @@
       "OriginalItemSpec": "wwwroot/favicons/apple-icon-72x72.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/apple-icon-76x76.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/favicons/apple-icon-76x76.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "favicons/apple-icon-76x76.png",
       "AssetKind": "All",
@@ -427,10 +563,10 @@
       "OriginalItemSpec": "wwwroot/favicons/apple-icon-76x76.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/favicon-16x16.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/favicons/favicon-16x16.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "favicons/favicon-16x16.png",
       "AssetKind": "All",
@@ -444,10 +580,10 @@
       "OriginalItemSpec": "wwwroot/favicons/favicon-16x16.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/favicon-32x32.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/favicons/favicon-32x32.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "favicons/favicon-32x32.png",
       "AssetKind": "All",
@@ -461,10 +597,10 @@
       "OriginalItemSpec": "wwwroot/favicons/favicon-32x32.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/favicon-96x96.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/favicons/favicon-96x96.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "favicons/favicon-96x96.png",
       "AssetKind": "All",
@@ -478,10 +614,10 @@
       "OriginalItemSpec": "wwwroot/favicons/favicon-96x96.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/favicons/favicon.ico",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/favicons/favicon.ico",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "favicons/favicon.ico",
       "AssetKind": "All",
@@ -495,10 +631,27 @@
       "OriginalItemSpec": "wwwroot/favicons/favicon.ico"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/fonts/fonts-Iconochive-Regular.eot",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/fi.index.html",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "fi.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/fi.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/fonts/fonts-Iconochive-Regular.eot",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "fonts/fonts-Iconochive-Regular.eot",
       "AssetKind": "All",
@@ -512,10 +665,10 @@
       "OriginalItemSpec": "wwwroot/fonts/fonts-Iconochive-Regular.eot"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/fonts/fonts-Iconochive-Regular.svg",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/fonts/fonts-Iconochive-Regular.svg",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "fonts/fonts-Iconochive-Regular.svg",
       "AssetKind": "All",
@@ -529,10 +682,10 @@
       "OriginalItemSpec": "wwwroot/fonts/fonts-Iconochive-Regular.svg"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/fonts/fonts-Iconochive-Regular.ttf",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/fonts/fonts-Iconochive-Regular.ttf",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "fonts/fonts-Iconochive-Regular.ttf",
       "AssetKind": "All",
@@ -546,10 +699,10 @@
       "OriginalItemSpec": "wwwroot/fonts/fonts-Iconochive-Regular.ttf"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/fonts/fonts-Iconochive-Regular.woff",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/fonts/fonts-Iconochive-Regular.woff",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "fonts/fonts-Iconochive-Regular.woff",
       "AssetKind": "All",
@@ -563,10 +716,10 @@
       "OriginalItemSpec": "wwwroot/fonts/fonts-Iconochive-Regular.woff"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/fonts/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/fonts/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "fonts/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot",
       "AssetKind": "All",
@@ -580,10 +733,10 @@
       "OriginalItemSpec": "wwwroot/fonts/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/fonts/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/fonts/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "fonts/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff",
       "AssetKind": "All",
@@ -597,10 +750,10 @@
       "OriginalItemSpec": "wwwroot/fonts/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/fonts/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/fonts/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "fonts/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf",
       "AssetKind": "All",
@@ -614,10 +767,10 @@
       "OriginalItemSpec": "wwwroot/fonts/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/fonts/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/fonts/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "fonts/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2",
       "AssetKind": "All",
@@ -631,10 +784,10 @@
       "OriginalItemSpec": "wwwroot/fonts/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/fonts/glyphicons-halflings-regular.eot",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/fonts/glyphicons-halflings-regular.eot",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "fonts/glyphicons-halflings-regular.eot",
       "AssetKind": "All",
@@ -648,10 +801,78 @@
       "OriginalItemSpec": "wwwroot/fonts/glyphicons-halflings-regular.eot"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/.DS_Store",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/fr.index.html",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "fr.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/fr.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/he.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "he.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/he.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/hu.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "hu.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/hu.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/id.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "id.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/id.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/.DS_Store",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "images/.DS_Store",
       "AssetKind": "All",
@@ -665,10 +886,10 @@
       "OriginalItemSpec": "wwwroot/images/.DS_Store"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/aol.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/aol.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "images/aol.png",
       "AssetKind": "All",
@@ -682,10 +903,10 @@
       "OriginalItemSpec": "wwwroot/images/aol.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/ask.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/ask.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "images/ask.png",
       "AssetKind": "All",
@@ -699,27 +920,10 @@
       "OriginalItemSpec": "wwwroot/images/ask.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/assets-logo-color-small-70dbef413f591a3fdfcfac7b273791039c8fd2a5329e97c4bfd8188f69f0da34.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/assets-sticker-b222a421fb6cf257985abfab188be7d6746866850efe2a800a3e57052e1a2411.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
-      "BasePath": "_content/lmgtfy-server",
-      "RelativePath": "images/assets-logo-color-small-70dbef413f591a3fdfcfac7b273791039c8fd2a5329e97c4bfd8188f69f0da34.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/assets-logo-color-small-70dbef413f591a3fdfcfac7b273791039c8fd2a5329e97c4bfd8188f69f0da34.png"
-    },
-    {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/assets-sticker-b222a421fb6cf257985abfab188be7d6746866850efe2a800a3e57052e1a2411.png",
-      "SourceId": "lmgtfy-server",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "images/assets-sticker-b222a421fb6cf257985abfab188be7d6746866850efe2a800a3e57052e1a2411.png",
       "AssetKind": "All",
@@ -733,10 +937,10 @@
       "OriginalItemSpec": "wwwroot/images/assets-sticker-b222a421fb6cf257985abfab188be7d6746866850efe2a800a3e57052e1a2411.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/bing.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/bing.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "images/bing.png",
       "AssetKind": "All",
@@ -750,10 +954,10 @@
       "OriginalItemSpec": "wwwroot/images/bing.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/chatgpt.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/chatgpt.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "images/chatgpt.png",
       "AssetKind": "All",
@@ -767,10 +971,10 @@
       "OriginalItemSpec": "wwwroot/images/chatgpt.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/duckduckgo.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/duckduckgo.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "images/duckduckgo.png",
       "AssetKind": "All",
@@ -784,10 +988,10 @@
       "OriginalItemSpec": "wwwroot/images/duckduckgo.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/google.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/google.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "images/google.png",
       "AssetKind": "All",
@@ -801,10 +1005,27 @@
       "OriginalItemSpec": "wwwroot/images/google.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/snopes.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/logo-color-small.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "images/logo-color-small.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/logo-color-small.png"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/snopes.png",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "images/snopes.png",
       "AssetKind": "All",
@@ -818,10 +1039,27 @@
       "OriginalItemSpec": "wwwroot/images/snopes.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/wikipedia.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/startpage.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "images/startpage.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/startpage.png"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/wikipedia.png",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "images/wikipedia.png",
       "AssetKind": "All",
@@ -835,10 +1073,10 @@
       "OriginalItemSpec": "wwwroot/images/wikipedia.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/images/yahoo.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/yahoo.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "images/yahoo.png",
       "AssetKind": "All",
@@ -852,10 +1090,44 @@
       "OriginalItemSpec": "wwwroot/images/yahoo.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/js/.DS_Store",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/it.index.html",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "it.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/it.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/ja.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "ja.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/ja.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/js/.DS_Store",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "js/.DS_Store",
       "AssetKind": "All",
@@ -869,10 +1141,10 @@
       "OriginalItemSpec": "wwwroot/js/.DS_Store"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/js/1.6.6-angular.min.js",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/js/1.6.6-angular.min.js",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "js/1.6.6-angular.min.js",
       "AssetKind": "All",
@@ -886,10 +1158,10 @@
       "OriginalItemSpec": "wwwroot/js/1.6.6-angular.min.js"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/js/assets-application-24990c55cfcfa04e14232eb749e266b7405e27f475be0b7bbe1cca56806702f1.js",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/js/assets-application-24990c55cfcfa04e14232eb749e266b7405e27f475be0b7bbe1cca56806702f1.js",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "js/assets-application-24990c55cfcfa04e14232eb749e266b7405e27f475be0b7bbe1cca56806702f1.js",
       "AssetKind": "All",
@@ -903,10 +1175,10 @@
       "OriginalItemSpec": "wwwroot/js/assets-application-24990c55cfcfa04e14232eb749e266b7405e27f475be0b7bbe1cca56806702f1.js"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/js/js-bundle-playback.js",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/js/js-bundle-playback.js",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "js/js-bundle-playback.js",
       "AssetKind": "All",
@@ -920,10 +1192,10 @@
       "OriginalItemSpec": "wwwroot/js/js-bundle-playback.js"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/js/js-wombat.js",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/js/js-wombat.js",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "js/js-wombat.js",
       "AssetKind": "All",
@@ -937,10 +1209,27 @@
       "OriginalItemSpec": "wwwroot/js/js-wombat.js"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/languages/.DS_Store",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/ko.index.html",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "ko.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/ko.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/languages/.DS_Store",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "languages/.DS_Store",
       "AssetKind": "All",
@@ -954,10 +1243,10 @@
       "OriginalItemSpec": "wwwroot/languages/.DS_Store"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/.DS_Store",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/live/.DS_Store",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "live/.DS_Store",
       "AssetKind": "All",
@@ -971,10 +1260,10 @@
       "OriginalItemSpec": "wwwroot/live/.DS_Store"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/css/banner-styles.css",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/live/css/banner-styles.css",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "live/css/banner-styles.css",
       "AssetKind": "All",
@@ -988,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot/live/css/banner-styles.css"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/css/iconochive.css",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/live/css/iconochive.css",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "live/css/iconochive.css",
       "AssetKind": "All",
@@ -1005,10 +1294,10 @@
       "OriginalItemSpec": "wwwroot/live/css/iconochive.css"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/css/live-5b7f8aa42c39aa0e5bb5fc483d4dc8ee006b8d17cf1f0da2abc669ba787f9159.css",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/live/css/live-5b7f8aa42c39aa0e5bb5fc483d4dc8ee006b8d17cf1f0da2abc669ba787f9159.css",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "live/css/live-5b7f8aa42c39aa0e5bb5fc483d4dc8ee006b8d17cf1f0da2abc669ba787f9159.css",
       "AssetKind": "All",
@@ -1022,10 +1311,10 @@
       "OriginalItemSpec": "wwwroot/live/css/live-5b7f8aa42c39aa0e5bb5fc483d4dc8ee006b8d17cf1f0da2abc669ba787f9159.css"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/images/live-logo.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/live/images/live-logo.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "live/images/live-logo.png",
       "AssetKind": "All",
@@ -1039,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot/live/images/live-logo.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/index.html",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/live/index.html",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "live/index.html",
       "AssetKind": "All",
@@ -1056,10 +1345,10 @@
       "OriginalItemSpec": "wwwroot/live/index.html"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/js/.DS_Store",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/live/js/.DS_Store",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "live/js/.DS_Store",
       "AssetKind": "All",
@@ -1073,10 +1362,10 @@
       "OriginalItemSpec": "wwwroot/live/js/.DS_Store"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/js/analytics.js",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/live/js/analytics.js",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "live/js/analytics.js",
       "AssetKind": "All",
@@ -1090,10 +1379,10 @@
       "OriginalItemSpec": "wwwroot/live/js/analytics.js"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/js/application-f1a1584980dfe303cec29e98610e8aed93b46195e70595f6808cd9c2ab549096.js",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/live/js/application-f1a1584980dfe303cec29e98610e8aed93b46195e70595f6808cd9c2ab549096.js",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "live/js/application-f1a1584980dfe303cec29e98610e8aed93b46195e70595f6808cd9c2ab549096.js",
       "AssetKind": "All",
@@ -1107,10 +1396,10 @@
       "OriginalItemSpec": "wwwroot/live/js/application-f1a1584980dfe303cec29e98610e8aed93b46195e70595f6808cd9c2ab549096.js"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/js/bsa.js",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/live/js/bsa.js",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "live/js/bsa.js",
       "AssetKind": "All",
@@ -1124,10 +1413,10 @@
       "OriginalItemSpec": "wwwroot/live/js/bsa.js"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/js/bundle-playback.js",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/live/js/bundle-playback.js",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "live/js/bundle-playback.js",
       "AssetKind": "All",
@@ -1141,10 +1430,10 @@
       "OriginalItemSpec": "wwwroot/live/js/bundle-playback.js"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/js/ga.js",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/live/js/ga.js",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "live/js/ga.js",
       "AssetKind": "All",
@@ -1158,10 +1447,10 @@
       "OriginalItemSpec": "wwwroot/live/js/ga.js"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/js/jquery.min.js",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/live/js/jquery.min.js",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "live/js/jquery.min.js",
       "AssetKind": "All",
@@ -1175,10 +1464,10 @@
       "OriginalItemSpec": "wwwroot/live/js/jquery.min.js"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/js/ruffle.js",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/live/js/ruffle.js",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "live/js/ruffle.js",
       "AssetKind": "All",
@@ -1192,10 +1481,10 @@
       "OriginalItemSpec": "wwwroot/live/js/ruffle.js"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/live/js/wombat.js",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/live/js/wombat.js",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "live/js/wombat.js",
       "AssetKind": "All",
@@ -1209,10 +1498,10 @@
       "OriginalItemSpec": "wwwroot/live/js/wombat.js"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/manifest.json",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/manifest.json",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "manifest.json",
       "AssetKind": "All",
@@ -1226,10 +1515,78 @@
       "OriginalItemSpec": "wwwroot/manifest.json"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/.DS_Store",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/nl.index.html",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "nl.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/nl.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/pl.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "pl.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pl.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/pt-br.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "pt-br.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pt-br.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/pt.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "pt.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pt.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/.DS_Store",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/.DS_Store",
       "AssetKind": "All",
@@ -1243,10 +1600,10 @@
       "OriginalItemSpec": "wwwroot/query/.DS_Store"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/android-icon-192x192.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/favicons/android-icon-192x192.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/favicons/android-icon-192x192.png",
       "AssetKind": "All",
@@ -1260,10 +1617,10 @@
       "OriginalItemSpec": "wwwroot/query/favicons/android-icon-192x192.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/apple-icon-114x114.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/favicons/apple-icon-114x114.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/favicons/apple-icon-114x114.png",
       "AssetKind": "All",
@@ -1277,10 +1634,10 @@
       "OriginalItemSpec": "wwwroot/query/favicons/apple-icon-114x114.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/apple-icon-120x120.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/favicons/apple-icon-120x120.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/favicons/apple-icon-120x120.png",
       "AssetKind": "All",
@@ -1294,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot/query/favicons/apple-icon-120x120.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/apple-icon-144x144.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/favicons/apple-icon-144x144.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/favicons/apple-icon-144x144.png",
       "AssetKind": "All",
@@ -1311,10 +1668,10 @@
       "OriginalItemSpec": "wwwroot/query/favicons/apple-icon-144x144.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/apple-icon-152x152.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/favicons/apple-icon-152x152.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/favicons/apple-icon-152x152.png",
       "AssetKind": "All",
@@ -1328,10 +1685,10 @@
       "OriginalItemSpec": "wwwroot/query/favicons/apple-icon-152x152.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/apple-icon-180x180.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/favicons/apple-icon-180x180.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/favicons/apple-icon-180x180.png",
       "AssetKind": "All",
@@ -1345,10 +1702,10 @@
       "OriginalItemSpec": "wwwroot/query/favicons/apple-icon-180x180.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/apple-icon-57x57.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/favicons/apple-icon-57x57.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/favicons/apple-icon-57x57.png",
       "AssetKind": "All",
@@ -1362,10 +1719,10 @@
       "OriginalItemSpec": "wwwroot/query/favicons/apple-icon-57x57.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/apple-icon-60x60.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/favicons/apple-icon-60x60.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/favicons/apple-icon-60x60.png",
       "AssetKind": "All",
@@ -1379,10 +1736,10 @@
       "OriginalItemSpec": "wwwroot/query/favicons/apple-icon-60x60.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/apple-icon-72x72.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/favicons/apple-icon-72x72.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/favicons/apple-icon-72x72.png",
       "AssetKind": "All",
@@ -1396,10 +1753,10 @@
       "OriginalItemSpec": "wwwroot/query/favicons/apple-icon-72x72.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/apple-icon-76x76.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/favicons/apple-icon-76x76.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/favicons/apple-icon-76x76.png",
       "AssetKind": "All",
@@ -1413,10 +1770,10 @@
       "OriginalItemSpec": "wwwroot/query/favicons/apple-icon-76x76.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/favicon-16x16.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/favicons/favicon-16x16.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/favicons/favicon-16x16.png",
       "AssetKind": "All",
@@ -1430,10 +1787,10 @@
       "OriginalItemSpec": "wwwroot/query/favicons/favicon-16x16.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/favicon-32x32.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/favicons/favicon-32x32.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/favicons/favicon-32x32.png",
       "AssetKind": "All",
@@ -1447,10 +1804,10 @@
       "OriginalItemSpec": "wwwroot/query/favicons/favicon-32x32.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/favicon-96x96.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/favicons/favicon-96x96.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/favicons/favicon-96x96.png",
       "AssetKind": "All",
@@ -1464,10 +1821,10 @@
       "OriginalItemSpec": "wwwroot/query/favicons/favicon-96x96.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/favicons/favicon.ico",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/favicons/favicon.ico",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/favicons/favicon.ico",
       "AssetKind": "All",
@@ -1481,10 +1838,10 @@
       "OriginalItemSpec": "wwwroot/query/favicons/favicon.ico"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/.DS_Store",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/.DS_Store",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/.DS_Store",
       "AssetKind": "All",
@@ -1498,10 +1855,10 @@
       "OriginalItemSpec": "wwwroot/query/images/.DS_Store"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Aol/android-search-button.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Aol/android-search-button.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Aol/android-search-button.png",
       "AssetKind": "All",
@@ -1515,10 +1872,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Aol/android-search-button.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Aol/aol.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Aol/aol.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Aol/aol.png",
       "AssetKind": "All",
@@ -1532,10 +1889,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Aol/aol.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Aol/logo.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Aol/logo.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Aol/logo.png",
       "AssetKind": "All",
@@ -1549,10 +1906,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Aol/logo.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Ask/ask.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Ask/ask.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Ask/ask.png",
       "AssetKind": "All",
@@ -1566,10 +1923,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Ask/ask.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Ask/logo.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Ask/logo.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Ask/logo.png",
       "AssetKind": "All",
@@ -1583,10 +1940,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Ask/logo.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Ask/search.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Ask/search.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Ask/search.png",
       "AssetKind": "All",
@@ -1600,10 +1957,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Ask/search.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Bing/background.jpg",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Bing/background.jpg",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Bing/background.jpg",
       "AssetKind": "All",
@@ -1617,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Bing/background.jpg"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Bing/bing.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Bing/bing.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Bing/bing.png",
       "AssetKind": "All",
@@ -1634,10 +1991,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Bing/bing.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Bing/logo.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Bing/logo.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Bing/logo.png",
       "AssetKind": "All",
@@ -1651,10 +2008,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Bing/logo.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Bing/search.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Bing/search.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Bing/search.png",
       "AssetKind": "All",
@@ -1668,10 +2025,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Bing/search.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/ChatGPT/chatgpt.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/ChatGPT/chatgpt.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/ChatGPT/chatgpt.png",
       "AssetKind": "All",
@@ -1685,10 +2042,10 @@
       "OriginalItemSpec": "wwwroot/query/images/ChatGPT/chatgpt.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/DuckDuckGo/duckduckgo.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/DuckDuckGo/duckduckgo.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/DuckDuckGo/duckduckgo.png",
       "AssetKind": "All",
@@ -1702,10 +2059,10 @@
       "OriginalItemSpec": "wwwroot/query/images/DuckDuckGo/duckduckgo.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/DuckDuckGo/logo_mobile.svg",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/DuckDuckGo/logo_mobile.svg",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/DuckDuckGo/logo_mobile.svg",
       "AssetKind": "All",
@@ -1719,10 +2076,10 @@
       "OriginalItemSpec": "wwwroot/query/images/DuckDuckGo/logo_mobile.svg"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/DuckDuckGo/logo.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/DuckDuckGo/logo.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/DuckDuckGo/logo.png",
       "AssetKind": "All",
@@ -1736,10 +2093,10 @@
       "OriginalItemSpec": "wwwroot/query/images/DuckDuckGo/logo.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/DuckDuckGo/search_gray.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/DuckDuckGo/search_gray.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/DuckDuckGo/search_gray.png",
       "AssetKind": "All",
@@ -1753,10 +2110,10 @@
       "OriginalItemSpec": "wwwroot/query/images/DuckDuckGo/search_gray.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/DuckDuckGo/search_white.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/DuckDuckGo/search_white.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/DuckDuckGo/search_white.png",
       "AssetKind": "All",
@@ -1770,10 +2127,10 @@
       "OriginalItemSpec": "wwwroot/query/images/DuckDuckGo/search_white.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Google/books.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Google/books.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Google/books.png",
       "AssetKind": "All",
@@ -1787,10 +2144,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Google/books.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Google/finance.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Google/finance.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Google/finance.png",
       "AssetKind": "All",
@@ -1804,10 +2161,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Google/finance.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Google/google.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Google/google.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Google/google.png",
       "AssetKind": "All",
@@ -1821,10 +2178,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Google/google.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Google/images.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Google/images.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Google/images.png",
       "AssetKind": "All",
@@ -1838,10 +2195,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Google/images.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Google/logo.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Google/logo.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Google/logo.png",
       "AssetKind": "All",
@@ -1855,10 +2212,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Google/logo.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Google/maps.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Google/maps.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Google/maps.png",
       "AssetKind": "All",
@@ -1872,10 +2229,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Google/maps.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Google/news.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Google/news.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Google/news.png",
       "AssetKind": "All",
@@ -1889,10 +2246,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Google/news.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Google/scholar.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Google/scholar.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Google/scholar.png",
       "AssetKind": "All",
@@ -1906,10 +2263,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Google/scholar.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Google/shopping.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Google/shopping.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Google/shopping.png",
       "AssetKind": "All",
@@ -1923,10 +2280,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Google/shopping.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Google/videos.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Google/videos.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Google/videos.png",
       "AssetKind": "All",
@@ -1940,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Google/videos.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/logo-color-small.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/logo-color-small.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/logo-color-small.png",
       "AssetKind": "All",
@@ -1957,10 +2314,10 @@
       "OriginalItemSpec": "wwwroot/query/images/logo-color-small.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Snopes/snopes.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Snopes/snopes.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Snopes/snopes.png",
       "AssetKind": "All",
@@ -1974,10 +2331,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Snopes/snopes.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Wikipedia/wikipedia.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Wikipedia/wikipedia.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Wikipedia/wikipedia.png",
       "AssetKind": "All",
@@ -1991,10 +2348,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Wikipedia/wikipedia.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Yahoo/logo.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Yahoo/logo.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Yahoo/logo.png",
       "AssetKind": "All",
@@ -2008,10 +2365,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Yahoo/logo.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Yahoo/search.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Yahoo/search.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Yahoo/search.png",
       "AssetKind": "All",
@@ -2025,10 +2382,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Yahoo/search.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/images/Yahoo/yahoo.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Yahoo/yahoo.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/images/Yahoo/yahoo.png",
       "AssetKind": "All",
@@ -2042,10 +2399,10 @@
       "OriginalItemSpec": "wwwroot/query/images/Yahoo/yahoo.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/index.html",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/index.html",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/index.html",
       "AssetKind": "All",
@@ -2059,10 +2416,10 @@
       "OriginalItemSpec": "wwwroot/query/index.html"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/lmgtfy.xml",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/lmgtfy.xml",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/lmgtfy.xml",
       "AssetKind": "All",
@@ -2076,10 +2433,10 @@
       "OriginalItemSpec": "wwwroot/query/lmgtfy.xml"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/manifest.json",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/manifest.json",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/manifest.json",
       "AssetKind": "All",
@@ -2093,10 +2450,10 @@
       "OriginalItemSpec": "wwwroot/query/manifest.json"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/.DS_Store",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/.DS_Store",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/src/.DS_Store",
       "AssetKind": "All",
@@ -2110,10 +2467,10 @@
       "OriginalItemSpec": "wwwroot/query/src/.DS_Store"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/css/iconochive.css",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/css/iconochive.css",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/src/css/iconochive.css",
       "AssetKind": "All",
@@ -2127,10 +2484,10 @@
       "OriginalItemSpec": "wwwroot/query/src/css/iconochive.css"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/css/normalize.css",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/css/normalize.css",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/src/css/normalize.css",
       "AssetKind": "All",
@@ -2144,10 +2501,10 @@
       "OriginalItemSpec": "wwwroot/query/src/css/normalize.css"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/fonts/Iconochive/Iconochive-Regular-iefix.eot",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/fonts/Iconochive/Iconochive-Regular-iefix.eot",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/src/fonts/Iconochive/Iconochive-Regular-iefix.eot",
       "AssetKind": "All",
@@ -2161,10 +2518,10 @@
       "OriginalItemSpec": "wwwroot/query/src/fonts/Iconochive/Iconochive-Regular-iefix.eot"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/fonts/Iconochive/Iconochive-Regular.eot",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/fonts/Iconochive/Iconochive-Regular.eot",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/src/fonts/Iconochive/Iconochive-Regular.eot",
       "AssetKind": "All",
@@ -2178,10 +2535,10 @@
       "OriginalItemSpec": "wwwroot/query/src/fonts/Iconochive/Iconochive-Regular.eot"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/fonts/Iconochive/Iconochive-Regular.svg",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/fonts/Iconochive/Iconochive-Regular.svg",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/src/fonts/Iconochive/Iconochive-Regular.svg",
       "AssetKind": "All",
@@ -2195,10 +2552,10 @@
       "OriginalItemSpec": "wwwroot/query/src/fonts/Iconochive/Iconochive-Regular.svg"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/fonts/Iconochive/Iconochive-Regular.ttf",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/fonts/Iconochive/Iconochive-Regular.ttf",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/src/fonts/Iconochive/Iconochive-Regular.ttf",
       "AssetKind": "All",
@@ -2212,10 +2569,10 @@
       "OriginalItemSpec": "wwwroot/query/src/fonts/Iconochive/Iconochive-Regular.ttf"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/fonts/Iconochive/Iconochive-Regular.woff",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/fonts/Iconochive/Iconochive-Regular.woff",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/src/fonts/Iconochive/Iconochive-Regular.woff",
       "AssetKind": "All",
@@ -2229,10 +2586,10 @@
       "OriginalItemSpec": "wwwroot/query/src/fonts/Iconochive/Iconochive-Regular.woff"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/images/bg-input.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/images/bg-input.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/src/images/bg-input.png",
       "AssetKind": "All",
@@ -2246,10 +2603,10 @@
       "OriginalItemSpec": "wwwroot/query/src/images/bg-input.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/images/bg-main.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/images/bg-main.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/src/images/bg-main.png",
       "AssetKind": "All",
@@ -2263,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot/query/src/images/bg-main.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/images/input-left.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/images/input-left.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/src/images/input-left.png",
       "AssetKind": "All",
@@ -2280,10 +2637,10 @@
       "OriginalItemSpec": "wwwroot/query/src/images/input-left.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/images/input-right.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/images/input-right.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/src/images/input-right.png",
       "AssetKind": "All",
@@ -2297,10 +2654,10 @@
       "OriginalItemSpec": "wwwroot/query/src/images/input-right.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/images/left.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/images/left.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/src/images/left.png",
       "AssetKind": "All",
@@ -2314,10 +2671,10 @@
       "OriginalItemSpec": "wwwroot/query/src/images/left.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/images/mouse-arrow-mac.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/images/mouse-arrow-mac.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/src/images/mouse-arrow-mac.png",
       "AssetKind": "All",
@@ -2331,10 +2688,10 @@
       "OriginalItemSpec": "wwwroot/query/src/images/mouse-arrow-mac.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/images/right.png",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/images/right.png",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/src/images/right.png",
       "AssetKind": "All",
@@ -2348,10 +2705,10 @@
       "OriginalItemSpec": "wwwroot/query/src/images/right.png"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/scripts/angular.js",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/scripts/angular.js",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/src/scripts/angular.js",
       "AssetKind": "All",
@@ -2365,10 +2722,10 @@
       "OriginalItemSpec": "wwwroot/query/src/scripts/angular.js"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/scripts/angular.min.js",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/scripts/angular.min.js",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/src/scripts/angular.min.js",
       "AssetKind": "All",
@@ -2382,10 +2739,10 @@
       "OriginalItemSpec": "wwwroot/query/src/scripts/angular.min.js"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/query/src/scripts/application.js",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/scripts/application.js",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "query/src/scripts/application.js",
       "AssetKind": "All",
@@ -2399,10 +2756,10 @@
       "OriginalItemSpec": "wwwroot/query/src/scripts/application.js"
     },
     {
-      "Identity": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/recent.json",
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/recent.json",
       "SourceId": "lmgtfy-server",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-server/wwwroot/",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
       "BasePath": "_content/lmgtfy-server",
       "RelativePath": "recent.json",
       "AssetKind": "All",
@@ -2414,6 +2771,176 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/recent.json"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/ro.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "ro.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/ro.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/ru.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "ru.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/ru.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/sk.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "sk.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/sk.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/sr.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "sr.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/sr.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/sv.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "sv.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/sv.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/th.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "th.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/th.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/tr.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "tr.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/tr.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/uk.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "uk.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uk.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/vi.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "vi.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/vi.index.html"
+    },
+    {
+      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/zh.index.html",
+      "SourceId": "lmgtfy-server",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/",
+      "BasePath": "_content/lmgtfy-server",
+      "RelativePath": "zh.index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/zh.index.html"
     }
   ]
 }

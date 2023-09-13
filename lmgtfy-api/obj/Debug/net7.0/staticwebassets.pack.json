@@ -1,11 +1,11 @@
 {
   "Files": [
     {
-      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-api/wwwroot/.DS_Store",
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/wwwroot/.DS_Store",
       "PackagePath": "staticwebassets/.DS_Store"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-api/wwwroot/recentte.json",
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/wwwroot/recentte.json",
       "PackagePath": "staticwebassets/recentte.json"
     },
     {

@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{DEA52531-D780-4EB4-9B0A-0207461798A5}|http">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.lmgtfy-api PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="lmgtfy-server/Controllers/HomeTranslationController.cs">
+    <Files>
+      <File FileName="lmgtfy-server/Systems/SiteBuilderSystem.cs" Line="8" Column="9" />
+      <File FileName="lmgtfy-server/Library/Localization.json" Line="3" Column="12" />
+      <File FileName="lmgtfy-server/Startup.cs" Line="47" Column="52" />
+      <File FileName="lmgtfy-server/Middleware/TranslationMiddleware.cs" Line="18" Column="10" />
+      <File FileName="lmgtfy-server/Controllers/HomeTranslationController.cs" Line="21" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LMGTFY2-Server">
+            <Node name="lmgtfy-server">
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeTranslationController.cs" selected="True" />
+              </Node>
+              <Node name="Library" expanded="True" />
+              <Node name="Middleware" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

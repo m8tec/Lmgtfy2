@@ -13,7 +13,7 @@ namespace lmgtfy_api.Systems
         {
             get
             {
-                lock (QueryIdLogger)
+                lock (QueryIdLocker)
                 {
                     if (_newQueryId is null)
                     {
@@ -33,7 +33,7 @@ namespace lmgtfy_api.Systems
             }
         }
         private static float? _newQueryId;
-        private static readonly object QueryIdLogger = new();
+        private static readonly object QueryIdLocker = new();
 
         private static Serilog.ILogger Logger = Log.Logger.ForType(typeof(QuerySavingSystem));
 

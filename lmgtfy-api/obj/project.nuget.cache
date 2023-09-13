@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+4Gd6h810wcMydUQ3N0TszyImN4nGpBK1dQNM5DNYnhDLtigQnd5gsDtUKCi/Bo+DHKe7vRJstobJLOT9VnM7g==",
+  "dgSpecHash": "Sxbd3e4WZOKWZpLB6V5G5zPvYv8IQwsET3HJeAKaiZ/V9Uty4xrhxNmxRRhe/h9ZRvzJYZatiVzqGlmXyjizTA==",
   "success": true,
-  "projectFilePath": "/Users/m8/Documents/GitHub/LMGTFY2-Server/lmgtfy-api/lmgtfy-api.csproj",
+  "projectFilePath": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/lmgtfy-api.csproj",
   "expectedPackageFiles": [
     "/Users/m8/.nuget/packages/microsoft.aspnetcore.hostfiltering/2.2.0/microsoft.aspnetcore.hostfiltering.2.2.0.nupkg.sha512",
     "/Users/m8/.nuget/packages/microsoft.aspnetcore.hosting.abstractions/2.2.0/microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
