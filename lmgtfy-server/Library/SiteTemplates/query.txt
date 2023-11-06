@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
     <meta content="text/html;charset=UTF-8" http-equiv="content-type" />
@@ -27,9 +27,9 @@
     <meta content="/ms-icon-144x144.png" name="msapplication-TileImage" />
     <meta content="#ffffff" name="theme-color" />
     <title>LMGTFY</title>
-    <link rel="stylesheet" media="all" href="src/css/normalize.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
-    <script src="src/scripts/application.js"></script>
+    <link rel="stylesheet" media="all" href="./css/normalize.css" />
+    <script src="./scripts/angular.min.js"></script>
+    <script src="./scripts/application.js"></script>
     <style type="text/css">
       .search-illustrator-scene-service-g>.search-illustrator-scene-header {
         height: 50px
@@ -56,39 +56,39 @@
       }
 
       .search-illustrator-scene-service-g.search-illustrator-scene-search-type-w .search-illustrator-scene-logo {
-        background-image: url(./images/Google/logo.png)
+        background-image: url(../images/Google/logo.png)
       }
 
       .search-illustrator-scene-service-g.search-illustrator-scene-search-type-i .search-illustrator-scene-logo {
-        background-image: url(./images/Google/images.png)
+        background-image: url(../images/Google/images.png)
       }
 
       .search-illustrator-scene-service-g.search-illustrator-scene-search-type-v .search-illustrator-scene-logo {
-        background-image: url(./images/Google/videos.png)
+        background-image: url(../images/Google/videos.png)
       }
 
       .search-illustrator-scene-service-g.search-illustrator-scene-search-type-m .search-illustrator-scene-logo {
-        background-image: url(./images/Google/maps.png)
+        background-image: url(../images/Google/maps.png)
       }
 
       .search-illustrator-scene-service-g.search-illustrator-scene-search-type-n .search-illustrator-scene-logo {
-        background-image: url(./images/Google/news.png)
+        background-image: url(../images/Google/news.png)
       }
 
       .search-illustrator-scene-service-g.search-illustrator-scene-search-type-s .search-illustrator-scene-logo {
-        background-image: url(./images/Google/shopping.png)
+        background-image: url(../images/Google/shopping.png)
       }
 
       .search-illustrator-scene-service-g.search-illustrator-scene-search-type-b .search-illustrator-scene-logo {
-        background-image: url(./images/Google/books.png)
+        background-image: url(../images/Google/books.png)
       }
 
       .search-illustrator-scene-service-g.search-illustrator-scene-search-type-f .search-illustrator-scene-logo {
-        background-image: url(./images/Google/finance.png)
+        background-image: url(../images/Google/finance.png)
       }
 
       .search-illustrator-scene-service-g.search-illustrator-scene-search-type-sc .search-illustrator-scene-logo {
-        background-image: url(./images/Google/scholar.png)
+        background-image: url(../images/Google/scholar.png)
       }
 
       .search-illustrator-scene-service-g .search-illustrator-scene-input {
@@ -217,7 +217,7 @@
       }
 
       .search-illustrator-scene-service-k.search-illustrator-scene-search-type-w .search-illustrator-scene-logo {
-        background-image: url(./images/Ask/logo.png)
+        background-image: url(../images/Ask/logo.png)
       }
 
       .search-illustrator-scene-service-k .search-illustrator-scene-input-and-button-wrapper {
@@ -275,7 +275,7 @@
         .search-illustrator-scene-service-k .search-illustrator-scene-button-wrapper>.search-illustrator-scene-primary-button {
           font-size: 0;
           height: 18px;
-          background-image: url(./images/Ask/search.png);
+          background-image: url(../images/Ask/search.png);
           background-position: 50% 50%;
           background-repeat: no-repeat;
           background-size: contain
@@ -334,7 +334,7 @@
       }
 
       .search-illustrator-scene-service-b>.search-illustrator-scene-content {
-        background-image: url(./images/Bing/background.jpg);
+        background-image: url(../images/Bing/background.jpg);
         background-size: cover;
         padding: 5em 10px 8em 10px
       }
@@ -373,7 +373,7 @@
       }
 
       .search-illustrator-scene-service-b.search-illustrator-scene-search-type-w .search-illustrator-scene-logo {
-        background-image: url(./images/Bing/logo.png)
+        background-image: url(../images/Bing/logo.png)
       }
 
       .search-illustrator-scene-service-b .search-illustrator-scene-input-and-button-wrapper {
@@ -442,7 +442,7 @@
         width: 3.2em;
         -webkit-user-select: none;
         background-color: #0c8484;
-        background-image: url(./images/Bing/search.png);
+        background-image: url(../images/Bing/search.png);
         background-repeat: no-repeat;
         background-position: center center;
         border: 1px solid #0c8484;
@@ -491,12 +491,12 @@
       }
 
       .search-illustrator-scene-service-d.search-illustrator-scene-search-type-w .search-illustrator-scene-logo {
-        background-image: url(./images/DuckDuckGo/logo.png)
+        background-image: url(../images/DuckDuckGo/logo.png)
       }
 
       @media only screen and (max-width: 435px) {
         .search-illustrator-scene-service-d.search-illustrator-scene-search-type-w .search-illustrator-scene-logo {
-          background-image: url(./images/DuckDuckGo/logo_mobile.png)
+          background-image: url(../images/DuckDuckGo/logo_mobile.png)
         }
       }
 
@@ -541,12 +541,12 @@
         background-repeat: no-repeat;
         background-size: 40%;
         background-position: 50% 50%;
-        background-image: url(./images/DuckDuckGo/search_gray.png)
+        background-image: url(../images/DuckDuckGo/search_gray.png)
       }
 
       .search-illustrator-scene-service-d .search-illustrator-scene-button-wrapper>.search-illustrator-scene-primary-button.focused {
         background-color: #5b9e4d;
-        background-image: url(./images/DuckDuckGo/search_white.png)
+        background-image: url(../images/DuckDuckGo/search_white.png)
       }
     </style>
     <style type="text/css">
@@ -585,7 +585,7 @@
       }
 
       .search-illustrator-scene-service-a.search-illustrator-scene-search-type-w .search-illustrator-scene-logo {
-        background-image: url(./images/Aol/logo.png)
+        background-image: url(../images/Aol/aol.png)
       }
 
       .search-illustrator-scene-service-a .search-illustrator-scene-input-and-button-wrapper {
@@ -692,7 +692,7 @@
 
       @media only screen and (max-width: 768px) {
         .search-illustrator-scene-service-a .search-illustrator-scene-button-wrapper>.search-illustrator-scene-primary-button {
-          background: url("./images/Aol/android-search-button.png") no-repeat scroll 0 0 transparent;
+          background: url("../images/Aol/android-search-button.png") no-repeat scroll 0 0 transparent;
           border: none;
           cursor: pointer;
           display: block;
@@ -761,7 +761,7 @@
       }
 
       .search-illustrator-scene-service-y.search-illustrator-scene-search-type-w .search-illustrator-scene-logo {
-        background-image: url(./images/Yahoo/logo.png)
+        background-image: url(../images/Yahoo/logo.png)
       }
 
       .search-illustrator-scene-service-y .search-illustrator-scene-input-and-button-wrapper {
@@ -876,6 +876,167 @@
           font-size: 0
         }
       }
+
+      .search-illustrator-scene-service-e .search-illustrator-scene-logo {
+        width: 200px;
+        height: 160px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 50%;
+        margin: auto;
+      }
+
+      @media only screen and (max-width: 435px) {
+        .search-illustrator-scene-service-e .search-illustrator-scene-logo {
+          width: 275px;
+          height: 62px
+        }
+      }
+
+    .search-illustrator-scene-service-e.search-illustrator-scene-search-type-w .search-illustrator-scene-logo {
+        background-image: url(../images/Startpage/startpage.svg)
+      }
+
+    .search-illustrator-scene-service-e .search-illustrator-scene-input {
+        width: 50%;
+        height: 2.6em;
+        line-height: 0.8em;
+        font-size: 1.2em;
+        margin: auto;
+        margin-top: -2em;
+        margin-bottom: 1.5em;
+        padding: 12px;
+        border: solid 1px #dde0f7;
+        border-radius: 20px;
+        white-space: nowrap;
+        overflow: hidden
+      }
+
+      .search-illustrator-scene-service-e .search-illustrator-scene-input.focused {
+        border-color: #6573ff
+      }
+
+      @media only screen and (max-width: 768px) {
+        .search-illustrator-scene-service-e .search-illustrator-scene-input {
+          display: block;
+          width: auto;
+          border-right: solid 1px #dde0f7;
+          border-radius: 20px;
+          padding: 0 0 0 7px;
+          height: 14px;
+          line-height: 14px;
+          font-size: 14px
+        }
+      }
+    </style>
+    <style type="text/css">
+      .search-illustrator-scene-service-t>.search-illustrator-scene-header {
+        height: 3em;
+        background-color: #fff
+      }
+
+      @media only screen and (max-width: 768px) {
+        .search-illustrator-scene-service-t>.search-illustrator-scene-header {
+          height: 0
+        }
+      }
+
+      .search-illustrator-scene-service-t>.search-illustrator-scene-footer {
+        height: 3em;
+        background-color: #f0f2f5
+      }
+
+      @media only screen and (max-width: 768px) {
+        .search-illustrator-scene-service-t>.search-illustrator-scene-footer {
+          height: 0
+        }
+      }
+
+      .search-illustrator-scene-service-t>.search-illustrator-scene-content {
+        padding: 5em 5% 8em 5%;
+        display: table;
+        width: 100%
+      }
+
+      @media only screen and (max-width: 768px) {
+        .search-illustrator-scene-service-t>.search-illustrator-scene-content {
+          padding: 5px;
+          padding-bottom: 300px
+        }
+      }
+
+      .search-illustrator-scene-service-t .search-illustrator-scene-logo {
+        width: 200px;
+        height: 160px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 50%;
+        margin: auto;
+      }
+
+    .search-illustrator-scene-service-t.search-illustrator-scene-search-type-w .search-illustrator-scene-logo {
+        background-image: url(../images/Startpage/startpage.svg)
+      }
+
+      .search-illustrator-scene-service-t .search-illustrator-scene-input-and-button-wrapper {
+        vertical-align: middle;
+        align-items: center;
+        display: flex;
+        border: solid 1px #dde0f7;
+        border-radius: 30px;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .search-illustrator-scene-service-t .search-illustrator-scene-input-and-button-wrapper {
+          padding-left: 0;
+        }
+      }
+
+      .search-illustrator-scene-service-t .search-illustrator-scene-input {
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 16px;
+        height: 50px;
+        width: 100%;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .search-illustrator-scene-service-t .search-illustrator-scene-input {
+          padding: 8px;
+          font-size: 16px;
+          width: 100%;
+        }
+      }
+
+      .search-illustrator-scene-service-t .search-illustrator-scene-input.focused {
+        //border-color: #6573ff // only working for input border without button
+      }
+
+      .search-illustrator-scene-service-t .search-illustrator-scene-input.focused>.search-illustrator-scene-input-cursor {
+        margin-left: 2px;
+        border-left: solid 1px #555555
+      }
+
+      .search-illustrator-scene-service-t .search-illustrator-scene-button-wrapper {
+        text-align: center;
+        vertical-align: middle
+      }
+
+      @media only screen and (max-width: 768px) {
+        .search-illustrator-scene-service-t .search-illustrator-scene-button-wrapper {
+          background: white
+        }
+      }
+
+      .search-illustrator-scene-service-t .search-illustrator-scene-button-wrapper>.search-illustrator-scene-primary-button {
+          font-size: 0;
+          margin-right: 15px;
+          height: 18px;
+          background-image: url(../images/Ask/search.png);
+          background-position: 50% 50%;
+          background-repeat: no-repeat;
+          background-size: contain
+      }
     </style>
   </head>
   <body ng-app="lmgtfy.student">
@@ -891,7 +1052,7 @@
       <div append-nav-dropdown="" class="container-fluid">
         <div class="navbar-header pull-left">
           <a class="navbar-brand" href="http://lmgtfy2.com/">
-            <img height="22" class="navbar-logo" src="images/logo-color-small.png" alt="Logo color small" />
+            <img height="22" class="navbar-logo" src="../images/logo-color-small.png" alt="Logo color small" />
           </a>
         </div>
       </div>
@@ -903,43 +1064,43 @@
             identifier: "g",
             presentation: "Google",
             featured: true,
-            logoSrc: "images/Google/google.png",
+            logoSrc: "../images/Google/google.png",
             searchTypes: [{
               presentation: "{{web}}",
               identifier: "w",
-              urlBase: "https:\/\/www.google.com\/search?q="
+              urlBase: "https:\/\/www.google.{{googleDomain}}\/search?q="
             }, {
               presentation: "{{images}}",
               identifier: "i",
-              urlBase: "https:\/\/www.google.com\/search?tbm=isch\u0026q="
+              urlBase: "https:\/\/www.google.{{googleDomain}}\/search?tbm=isch\u0026q="
             }, {
               presentation: "{{videos}}",
               identifier: "v",
-              urlBase: "https:\/\/www.google.com\/search?tbm=vid\u0026q="
+              urlBase: "https:\/\/www.google.{{googleDomain}}\/search?tbm=vid\u0026q="
             }, {
               presentation: "{{maps}}",
               identifier: "m",
-              urlBase: "https:\/\/www.google.com\/maps?q="
+              urlBase: "https:\/\/www.google.{{googleDomain}}\/maps?q="
             }, {
               presentation: "{{news}}",
               identifier: "n",
-              urlBase: "https:\/\/www.google.com\/search?tbm=nws\u0026q="
+              urlBase: "https:\/\/www.google.{{googleDomain}}\/search?tbm=nws\u0026q="
             }, {
               presentation: "{{shopping}}",
               identifier: "s",
-              urlBase: "https:\/\/www.google.com\/search?tbm=shop\u0026q="
+              urlBase: "https:\/\/www.google.{{googleDomain}}\/search?tbm=shop\u0026q="
             }, {
               presentation: "{{books}}",
               identifier: "b",
-              urlBase: "https:\/\/www.google.com\/search?tbm=bks\u0026q="
+              urlBase: "https:\/\/www.google.{{googleDomain}}\/search?tbm=bks\u0026q="
             }, {
               presentation: "{{finance}}",
               identifier: "f",
-              urlBase: "https:\/\/www.google.com\/finance?q="
+              urlBase: "https:\/\/www.google.{{googleDomain}}\/finance?q="
             }, {
               presentation: "{{scholar}}",
               identifier: "sc",
-              urlBase: "https:\/\/scholar.google.com\/scholar?q="
+              urlBase: "https:\/\/scholar.google.{{googleDomain}}\/scholar?q="
             }]
           });
         });
@@ -952,7 +1113,7 @@
             identifier: "b",
             presentation: "Bing",
             featured: true,
-            logoSrc: "images/Bing/bing.png",
+            logoSrc: "../images/Bing/bing.png",
             searchTypes: [{
               presentation: "{{web}}",
               identifier: "w",
@@ -969,7 +1130,7 @@
             identifier: "y",
             presentation: "Yahoo!",
             featured: true,
-            logoSrc: "./images/Yahoo/yahoo.png",
+            logoSrc: "../images/Yahoo/yahoo.png",
             searchTypes: [{
               presentation: "{{web}}",
               identifier: "w",
@@ -986,7 +1147,7 @@
             identifier: "a",
             presentation: "Aol.",
             featured: true,
-            logoSrc: "./images/Aol/aol.png",
+            logoSrc: "../images/Aol/aol.png",
             searchTypes: [{
               presentation: "{{web}}",
               identifier: "w",
@@ -1003,7 +1164,7 @@
             identifier: "k",
             presentation: "Ask",
             featured: true,
-            logoSrc: "./images/Ask/ask.png",
+            logoSrc: "../images/Ask/ask.png",
             searchTypes: [{
               presentation: "{{web}}",
               identifier: "w",
@@ -1020,7 +1181,7 @@
             identifier: "d",
             presentation: "Duck Duck Go",
             featured: true,
-            logoSrc: "./images/DuckDuckGo/duckduckgo.png",
+            logoSrc: "../images/DuckDuckGo/duckduckgo.png",
             searchTypes: [{
               presentation: "{{web}}",
               identifier: "w",
@@ -1036,7 +1197,7 @@
           return services.push({
             identifier: "w",
             presentation: "Wikipedia",
-            logoSrc: "./images/Wikipedia/wikipedia.png",
+            logoSrc: "../images/Wikipedia/wikipedia.png",
             searchTypes: [{
               presentation: "{{encyclopedia}}",
               identifier: "w",
@@ -1052,9 +1213,9 @@
           return services.push({
             identifier: "s",
             presentation: "Snopes",
-            logoSrc: "./images/Snopes/snopes.png",
+            logoSrc: "../images/Snopes/snopes.png",
             searchTypes: [{
-              presentation: "{{rumors}}",
+              presentation: "{{snopeRumors}}",
               identifier: "w",
               urlBase: "http://www.snopes.com/search/?q="
             }]
@@ -1064,16 +1225,32 @@
     </script>
     <script type="text/javascript">
       (function() {
+        angular.module("lmgtfy.services").run(function(services) {
+          return services.push({
+            identifier: "t",
+            presentation: "Startpage",
+            logoSrc: "../images/Startpage/startpage.svg",
+            searchTypes: [{
+              presentation: "{{web}}",
+              identifier: "w",
+              urlBase: "http://www.startpage.com/search/?q="
+            }]
+          });
+        });
+      }).call(this);
+    </script>
+    <script type="text/javascript">
+      (function() {
         angular.module("lmgtfy.student.searchIllustrations").value("g", {
           base: {
-            disclaimer: "{{queryDisclaimer}}\n",
+            disclaimer: "{{googleQueryDisclaimer}}\n",
             primaryActionText: "{{googlePrimaryActionText}}",
             stepInstructions: function() {
-              return ["{{visit}}" + (" " + this.startingUrl), "{{typeQuestion}}.", "{{clickButton}}.", "{{thatsIt}}"];
+              return ["{{step1}}" + (" " + this.startingUrl), "{{step2}}", "{{step3}}", "{{step4}}"];
             }
           },
           w: {
-            startingUrl: "google.com",
+            startingUrl: "google.{{googleDomain}}",
             secondaryActionText: "{{feelingLucky}}"
           },
           i: {
@@ -1109,7 +1286,7 @@
           base: {
             primaryActionText: " ",
             stepInstructions: function() {
-              return ["{{visit}}" + (" " + this.startingUrl), "{{typeQuestion}}.", "{{clickButton}}.", "{{thatsIt}}"];
+              return ["{{step1}}" + (" " + this.startingUrl), "{{step2}}", "{{step3}}", "{{step4}}"];
             }
           },
           w: {
@@ -1124,7 +1301,7 @@
           base: {
             primaryActionText: "{{bingPrimaryActionText}}",
             stepInstructions: function() {
-              return ["{{visit}}" + (" " + this.startingUrl), "{{typeQuestion}}.", "{{clickButton}}.", "{{thatsIt}}"];
+              return ["{{step1}}" + (" " + this.startingUrl), "{{step2}}", "{{step3}}", "{{step4}}"];
             }
           },
           w: {
@@ -1139,7 +1316,7 @@
           base: {
             primaryActionText: "{{aolPrimaryActionText}}",
             stepInstructions: function() {
-              return ["{{visit}}" + (" " + this.startingUrl), "{{typeQuestion}}.", "{{clickButton}}.", "{{thatsIt}}"];
+              return ["{{step1}}" + (" " + this.startingUrl), "{{step2}}", "{{step3}}", "{{step4}}"];
             }
           },
           w: {
@@ -1154,7 +1331,7 @@
           base: {
             primaryActionText: "",
             stepInstructions: function() {
-              return ["{{visit}}" + (" " + this.startingUrl), "{{typeQuestion}}.", "{{clickButton}}.", "{{thatsIt}}"];
+              return ["{{step1}}" + (" " + this.startingUrl), "{{step2}}", "{{step3}}", "{{step4}}"];
             }
           },
           w: {
@@ -1169,7 +1346,7 @@
           base: {
             primaryActionText: "{{askPrimaryActionText}}",
             stepInstructions: function() {
-              return ["{{visit}}" + (" " + this.startingUrl), "{{typeQuestion}}.", "{{clickButton}}.", "{{thatsIt}}"];
+              return ["{{step1}}" + (" " + this.startingUrl), "{{step2}}", "{{step3}}", "{{step4}}"];
             }
           },
           w: {
@@ -1178,17 +1355,32 @@
         });
       }).call(this);
     </script>
+    <script type="text/javascript">
+      (function() {
+        angular.module("lmgtfy.student.searchIllustrations").value("s", {
+          base: {
+            primaryActionText: "{{startpagePrimaryActionText}}",
+            stepInstructions: function() {
+              return ["{{step1}}" + (" " + this.startingUrl), "{{step2}}", "{{step3}}", "{{step4}}"];
+            }
+          },
+          w: {
+            startingUrl: "startpage.com"
+          }
+        });
+      }).call(this);
+    </script>
     <browser-frame style="position:fixed;top:-9999px;left:-9999px;width:100px"></browser-frame>
     <div class="ng-cloak container-fluid" ng-controller="mainController">
       <div class="student-slide fixed-center-block" id="slide-1" ng-if="currentSlide == 1">
-        <span class="impact">{{this}}</span>
+        <span class="impact">{{slide1_1}}</span>
         <br />
-        <span>{{isTheInternet}}.</span>
+        <span>{{slide1_2}}</span>
       </div>
       <div class="student-slide fixed-center-block" id="slide-2" ng-if="currentSlide == 2">
-        <span class="impact">{{these}}</span>
+        <span class="impact">{{slide2_1}}</span>
         <br />
-        <span>{{letYouSearchIt}}.</span>
+        <span>{{slide2_2}}</span>
         <div class="v-spacer-1"></div>
         <div class="service-grid">
           <div class="row">
@@ -1202,14 +1394,14 @@
             </div>
           </div>
         </div>
-        <div class="font-size-large subdued">{{theresMore}}</div>
+        <div class="font-size-large subdued">{{slide2_3}}</div>
       </div>
       <div class="student-slide fixed-center-block" id="slide-3" ng-if="currentSlide == 3">
         <div class="row">
-          <span class="font-size-h3">{{nextTimeQuestion}}</span>
+          <span class="font-size-h3">{{slide3_1}}</span>
           <br />
-          <span class="impact2">{{iRecommend}}</span>
-          <span class="impact2 hidden-xs">&nbsp;using:</span>
+          <span class="impact2">{{slide3_2}}</span>
+          <span class="impact2 hidden-xs">{{slide3_3}}</span>
         </div>
         <div class="v-spacer-1"></div>
         <div class="service-selector-item margin-0">
@@ -1217,17 +1409,17 @@
         </div>
       </div>
       <div class="student-slide fixed-center-block" id="slide-4" ng-if="currentSlide == 4">
-        <span>{{itWorksLike}}</span>
+        <span>{{slide4_1}}</span>
         <br />
-        <span class="impact">{{this}}...</span>
+        <span class="impact">{{slide4_2}}</span>
       </div>
       <div id="slide-5" ng-if="currentSlide == 5">
         <div class="search-instruction-and-illustration-wrapper">
           <div class="search-instructions-wrapper">
-            <div search-instructions="" step-translation="Step"></div>
+            <div search-instructions="" step-translation="{{step}}"></div>
           </div>
           <div class="search-illustrator-wrapper">
-            <div final-timing-delay="delayBeforeDone" search-illustrator="" user-click-prompt="Click Here"></div>
+            <div final-timing-delay="delayBeforeDone" search-illustrator="" user-click-prompt="{{clickHere}}"></div>
             <div class="row text-center" ng-if="showAds" style="margin-top:1em">
               <div style="max-width:728px; margin:0 auto"></div>
             </div>
@@ -1261,7 +1453,7 @@
         </div>
       </div>
       <div class="row legalese text-center">
-        <div class="col-lg-12">LMGTFY2, 2022-2023 |  <span rel="localize[disclaimer]">{{disclaimer}} </span>
+        <div class="col-lg-12">LMGTFY2, 2022-{{yearToday}} |  <span rel="localize[disclaimer]">{{disclaimer}} </span>
         </div>
       </div>
     </footer>

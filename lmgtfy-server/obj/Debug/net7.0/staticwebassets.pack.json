@@ -189,52 +189,172 @@
       "PackagePath": "staticwebassets/images/.DS_Store"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/aol.png",
-      "PackagePath": "staticwebassets/images/aol.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Aol/.DS_Store",
+      "PackagePath": "staticwebassets/images/Aol/.DS_Store"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/ask.png",
-      "PackagePath": "staticwebassets/images/ask.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Aol/android-search-button.png",
+      "PackagePath": "staticwebassets/images/Aol/android-search-button.png"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/assets-sticker-b222a421fb6cf257985abfab188be7d6746866850efe2a800a3e57052e1a2411.png",
-      "PackagePath": "staticwebassets/images/assets-sticker-b222a421fb6cf257985abfab188be7d6746866850efe2a800a3e57052e1a2411.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Aol/aol.png",
+      "PackagePath": "staticwebassets/images/Aol/aol.png"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/bing.png",
-      "PackagePath": "staticwebassets/images/bing.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Ask/ask.png",
+      "PackagePath": "staticwebassets/images/Ask/ask.png"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/chatgpt.png",
-      "PackagePath": "staticwebassets/images/chatgpt.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Ask/logo.png",
+      "PackagePath": "staticwebassets/images/Ask/logo.png"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/duckduckgo.png",
-      "PackagePath": "staticwebassets/images/duckduckgo.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Ask/search.png",
+      "PackagePath": "staticwebassets/images/Ask/search.png"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/google.png",
-      "PackagePath": "staticwebassets/images/google.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Bing/background.jpg",
+      "PackagePath": "staticwebassets/images/Bing/background.jpg"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Bing/bing.png",
+      "PackagePath": "staticwebassets/images/Bing/bing.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Bing/logo.png",
+      "PackagePath": "staticwebassets/images/Bing/logo.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Bing/search.png",
+      "PackagePath": "staticwebassets/images/Bing/search.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/ChatGPT/chatgpt.png",
+      "PackagePath": "staticwebassets/images/ChatGPT/chatgpt.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/DuckDuckGo/duckduckgo.png",
+      "PackagePath": "staticwebassets/images/DuckDuckGo/duckduckgo.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/DuckDuckGo/logo.png",
+      "PackagePath": "staticwebassets/images/DuckDuckGo/logo.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/DuckDuckGo/logo_mobile.svg",
+      "PackagePath": "staticwebassets/images/DuckDuckGo/logo_mobile.svg"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/DuckDuckGo/search_gray.png",
+      "PackagePath": "staticwebassets/images/DuckDuckGo/search_gray.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/DuckDuckGo/search_white.png",
+      "PackagePath": "staticwebassets/images/DuckDuckGo/search_white.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Google/books.png",
+      "PackagePath": "staticwebassets/images/Google/books.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Google/finance.png",
+      "PackagePath": "staticwebassets/images/Google/finance.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Google/google.png",
+      "PackagePath": "staticwebassets/images/Google/google.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Google/images.png",
+      "PackagePath": "staticwebassets/images/Google/images.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Google/logo.png",
+      "PackagePath": "staticwebassets/images/Google/logo.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Google/maps.png",
+      "PackagePath": "staticwebassets/images/Google/maps.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Google/news.png",
+      "PackagePath": "staticwebassets/images/Google/news.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Google/scholar.png",
+      "PackagePath": "staticwebassets/images/Google/scholar.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Google/shopping.png",
+      "PackagePath": "staticwebassets/images/Google/shopping.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Google/videos.png",
+      "PackagePath": "staticwebassets/images/Google/videos.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Snopes/snopes.png",
+      "PackagePath": "staticwebassets/images/Snopes/snopes.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Startpage/.DS_Store",
+      "PackagePath": "staticwebassets/images/Startpage/.DS_Store"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Startpage/magnifying-glass-dark.svg",
+      "PackagePath": "staticwebassets/images/Startpage/magnifying-glass-dark.svg"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Startpage/magnifying-glass-grey.svg",
+      "PackagePath": "staticwebassets/images/Startpage/magnifying-glass-grey.svg"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Startpage/magnifying-glass.svg",
+      "PackagePath": "staticwebassets/images/Startpage/magnifying-glass.svg"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Startpage/startpage.svg",
+      "PackagePath": "staticwebassets/images/Startpage/startpage.svg"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Startpage/startpage_dark.svg",
+      "PackagePath": "staticwebassets/images/Startpage/startpage_dark.svg"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Wikipedia/wikipedia.png",
+      "PackagePath": "staticwebassets/images/Wikipedia/wikipedia.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Yahoo/.DS_Store",
+      "PackagePath": "staticwebassets/images/Yahoo/.DS_Store"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Yahoo/logo.png",
+      "PackagePath": "staticwebassets/images/Yahoo/logo.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Yahoo/logo_old.png",
+      "PackagePath": "staticwebassets/images/Yahoo/logo_old.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Yahoo/search.png",
+      "PackagePath": "staticwebassets/images/Yahoo/search.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Yahoo/yahoo.png",
+      "PackagePath": "staticwebassets/images/Yahoo/yahoo.png"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/Yahoo/yahoo_old.png",
+      "PackagePath": "staticwebassets/images/Yahoo/yahoo_old.png"
     },
     {
       "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/logo-color-small.png",
       "PackagePath": "staticwebassets/images/logo-color-small.png"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/snopes.png",
-      "PackagePath": "staticwebassets/images/snopes.png"
-    },
-    {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/startpage.png",
-      "PackagePath": "staticwebassets/images/startpage.png"
-    },
-    {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/wikipedia.png",
-      "PackagePath": "staticwebassets/images/wikipedia.png"
-    },
-    {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/yahoo.png",
-      "PackagePath": "staticwebassets/images/yahoo.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/images/sticker.png",
+      "PackagePath": "staticwebassets/images/sticker.png"
     },
     {
       "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/it.index.html",
@@ -357,6 +477,46 @@
       "PackagePath": "staticwebassets/query/.DS_Store"
     },
     {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/ar.index.html",
+      "PackagePath": "staticwebassets/query/ar.index.html"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/bg.index.html",
+      "PackagePath": "staticwebassets/query/bg.index.html"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/cs.index.html",
+      "PackagePath": "staticwebassets/query/cs.index.html"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/css/iconochive.css",
+      "PackagePath": "staticwebassets/query/css/iconochive.css"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/css/normalize.css",
+      "PackagePath": "staticwebassets/query/css/normalize.css"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/da.index.html",
+      "PackagePath": "staticwebassets/query/da.index.html"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/de.index.html",
+      "PackagePath": "staticwebassets/query/de.index.html"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/el.index.html",
+      "PackagePath": "staticwebassets/query/el.index.html"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/en.index.html",
+      "PackagePath": "staticwebassets/query/en.index.html"
+    },
+    {
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/es.index.html",
+      "PackagePath": "staticwebassets/query/es.index.html"
+    },
+    {
       "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/favicons/android-icon-192x192.png",
       "PackagePath": "staticwebassets/query/favicons/android-icon-192x192.png"
     },
@@ -413,140 +573,88 @@
       "PackagePath": "staticwebassets/query/favicons/favicon.ico"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/.DS_Store",
-      "PackagePath": "staticwebassets/query/images/.DS_Store"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/fi.index.html",
+      "PackagePath": "staticwebassets/query/fi.index.html"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Aol/android-search-button.png",
-      "PackagePath": "staticwebassets/query/images/Aol/android-search-button.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/fonts/.DS_Store",
+      "PackagePath": "staticwebassets/query/fonts/.DS_Store"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Aol/aol.png",
-      "PackagePath": "staticwebassets/query/images/Aol/aol.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/fonts/Iconochive/Iconochive-Regular-iefix.eot",
+      "PackagePath": "staticwebassets/query/fonts/Iconochive/Iconochive-Regular-iefix.eot"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Aol/logo.png",
-      "PackagePath": "staticwebassets/query/images/Aol/logo.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/fonts/Iconochive/Iconochive-Regular.eot",
+      "PackagePath": "staticwebassets/query/fonts/Iconochive/Iconochive-Regular.eot"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Ask/ask.png",
-      "PackagePath": "staticwebassets/query/images/Ask/ask.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/fonts/Iconochive/Iconochive-Regular.svg",
+      "PackagePath": "staticwebassets/query/fonts/Iconochive/Iconochive-Regular.svg"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Ask/logo.png",
-      "PackagePath": "staticwebassets/query/images/Ask/logo.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/fonts/Iconochive/Iconochive-Regular.ttf",
+      "PackagePath": "staticwebassets/query/fonts/Iconochive/Iconochive-Regular.ttf"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Ask/search.png",
-      "PackagePath": "staticwebassets/query/images/Ask/search.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/fonts/Iconochive/Iconochive-Regular.woff",
+      "PackagePath": "staticwebassets/query/fonts/Iconochive/Iconochive-Regular.woff"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Bing/background.jpg",
-      "PackagePath": "staticwebassets/query/images/Bing/background.jpg"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/fr.index.html",
+      "PackagePath": "staticwebassets/query/fr.index.html"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Bing/bing.png",
-      "PackagePath": "staticwebassets/query/images/Bing/bing.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/he.index.html",
+      "PackagePath": "staticwebassets/query/he.index.html"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Bing/logo.png",
-      "PackagePath": "staticwebassets/query/images/Bing/logo.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/hu.index.html",
+      "PackagePath": "staticwebassets/query/hu.index.html"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Bing/search.png",
-      "PackagePath": "staticwebassets/query/images/Bing/search.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/id.index.html",
+      "PackagePath": "staticwebassets/query/id.index.html"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/ChatGPT/chatgpt.png",
-      "PackagePath": "staticwebassets/query/images/ChatGPT/chatgpt.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/bg-input.png",
+      "PackagePath": "staticwebassets/query/images/bg-input.png"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/DuckDuckGo/duckduckgo.png",
-      "PackagePath": "staticwebassets/query/images/DuckDuckGo/duckduckgo.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/bg-main.png",
+      "PackagePath": "staticwebassets/query/images/bg-main.png"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/DuckDuckGo/logo.png",
-      "PackagePath": "staticwebassets/query/images/DuckDuckGo/logo.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/input-left.png",
+      "PackagePath": "staticwebassets/query/images/input-left.png"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/DuckDuckGo/logo_mobile.svg",
-      "PackagePath": "staticwebassets/query/images/DuckDuckGo/logo_mobile.svg"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/input-right.png",
+      "PackagePath": "staticwebassets/query/images/input-right.png"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/DuckDuckGo/search_gray.png",
-      "PackagePath": "staticwebassets/query/images/DuckDuckGo/search_gray.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/left.png",
+      "PackagePath": "staticwebassets/query/images/left.png"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/DuckDuckGo/search_white.png",
-      "PackagePath": "staticwebassets/query/images/DuckDuckGo/search_white.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/mouse-arrow-mac.png",
+      "PackagePath": "staticwebassets/query/images/mouse-arrow-mac.png"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Google/books.png",
-      "PackagePath": "staticwebassets/query/images/Google/books.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/right.png",
+      "PackagePath": "staticwebassets/query/images/right.png"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Google/finance.png",
-      "PackagePath": "staticwebassets/query/images/Google/finance.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/it.index.html",
+      "PackagePath": "staticwebassets/query/it.index.html"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Google/google.png",
-      "PackagePath": "staticwebassets/query/images/Google/google.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/ja.index.html",
+      "PackagePath": "staticwebassets/query/ja.index.html"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Google/images.png",
-      "PackagePath": "staticwebassets/query/images/Google/images.png"
-    },
-    {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Google/logo.png",
-      "PackagePath": "staticwebassets/query/images/Google/logo.png"
-    },
-    {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Google/maps.png",
-      "PackagePath": "staticwebassets/query/images/Google/maps.png"
-    },
-    {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Google/news.png",
-      "PackagePath": "staticwebassets/query/images/Google/news.png"
-    },
-    {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Google/scholar.png",
-      "PackagePath": "staticwebassets/query/images/Google/scholar.png"
-    },
-    {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Google/shopping.png",
-      "PackagePath": "staticwebassets/query/images/Google/shopping.png"
-    },
-    {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Google/videos.png",
-      "PackagePath": "staticwebassets/query/images/Google/videos.png"
-    },
-    {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Snopes/snopes.png",
-      "PackagePath": "staticwebassets/query/images/Snopes/snopes.png"
-    },
-    {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Wikipedia/wikipedia.png",
-      "PackagePath": "staticwebassets/query/images/Wikipedia/wikipedia.png"
-    },
-    {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Yahoo/logo.png",
-      "PackagePath": "staticwebassets/query/images/Yahoo/logo.png"
-    },
-    {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Yahoo/search.png",
-      "PackagePath": "staticwebassets/query/images/Yahoo/search.png"
-    },
-    {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/Yahoo/yahoo.png",
-      "PackagePath": "staticwebassets/query/images/Yahoo/yahoo.png"
-    },
-    {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/images/logo-color-small.png",
-      "PackagePath": "staticwebassets/query/images/logo-color-small.png"
-    },
-    {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/index.html",
-      "PackagePath": "staticwebassets/query/index.html"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/ko.index.html",
+      "PackagePath": "staticwebassets/query/ko.index.html"
     },
     {
       "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/lmgtfy.xml",
@@ -557,76 +665,76 @@
       "PackagePath": "staticwebassets/query/manifest.json"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/.DS_Store",
-      "PackagePath": "staticwebassets/query/src/.DS_Store"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/nl.index.html",
+      "PackagePath": "staticwebassets/query/nl.index.html"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/css/iconochive.css",
-      "PackagePath": "staticwebassets/query/src/css/iconochive.css"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/pl.index.html",
+      "PackagePath": "staticwebassets/query/pl.index.html"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/css/normalize.css",
-      "PackagePath": "staticwebassets/query/src/css/normalize.css"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/pt-br.index.html",
+      "PackagePath": "staticwebassets/query/pt-br.index.html"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/fonts/Iconochive/Iconochive-Regular-iefix.eot",
-      "PackagePath": "staticwebassets/query/src/fonts/Iconochive/Iconochive-Regular-iefix.eot"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/pt.index.html",
+      "PackagePath": "staticwebassets/query/pt.index.html"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/fonts/Iconochive/Iconochive-Regular.eot",
-      "PackagePath": "staticwebassets/query/src/fonts/Iconochive/Iconochive-Regular.eot"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/query.txt",
+      "PackagePath": "staticwebassets/query/query.txt"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/fonts/Iconochive/Iconochive-Regular.svg",
-      "PackagePath": "staticwebassets/query/src/fonts/Iconochive/Iconochive-Regular.svg"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/ro.index.html",
+      "PackagePath": "staticwebassets/query/ro.index.html"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/fonts/Iconochive/Iconochive-Regular.ttf",
-      "PackagePath": "staticwebassets/query/src/fonts/Iconochive/Iconochive-Regular.ttf"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/ru.index.html",
+      "PackagePath": "staticwebassets/query/ru.index.html"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/fonts/Iconochive/Iconochive-Regular.woff",
-      "PackagePath": "staticwebassets/query/src/fonts/Iconochive/Iconochive-Regular.woff"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/scripts/angular.js",
+      "PackagePath": "staticwebassets/query/scripts/angular.js"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/images/bg-input.png",
-      "PackagePath": "staticwebassets/query/src/images/bg-input.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/scripts/angular.min.js",
+      "PackagePath": "staticwebassets/query/scripts/angular.min.js"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/images/bg-main.png",
-      "PackagePath": "staticwebassets/query/src/images/bg-main.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/scripts/application.js",
+      "PackagePath": "staticwebassets/query/scripts/application.js"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/images/input-left.png",
-      "PackagePath": "staticwebassets/query/src/images/input-left.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/sk.index.html",
+      "PackagePath": "staticwebassets/query/sk.index.html"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/images/input-right.png",
-      "PackagePath": "staticwebassets/query/src/images/input-right.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/sr.index.html",
+      "PackagePath": "staticwebassets/query/sr.index.html"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/images/left.png",
-      "PackagePath": "staticwebassets/query/src/images/left.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/sv.index.html",
+      "PackagePath": "staticwebassets/query/sv.index.html"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/images/mouse-arrow-mac.png",
-      "PackagePath": "staticwebassets/query/src/images/mouse-arrow-mac.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/th.index.html",
+      "PackagePath": "staticwebassets/query/th.index.html"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/images/right.png",
-      "PackagePath": "staticwebassets/query/src/images/right.png"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/tr.index.html",
+      "PackagePath": "staticwebassets/query/tr.index.html"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/scripts/angular.js",
-      "PackagePath": "staticwebassets/query/src/scripts/angular.js"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/uk.index.html",
+      "PackagePath": "staticwebassets/query/uk.index.html"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/scripts/angular.min.js",
-      "PackagePath": "staticwebassets/query/src/scripts/angular.min.js"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/vi.index.html",
+      "PackagePath": "staticwebassets/query/vi.index.html"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/src/scripts/application.js",
-      "PackagePath": "staticwebassets/query/src/scripts/application.js"
+      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/query/zh.index.html",
+      "PackagePath": "staticwebassets/query/zh.index.html"
     },
     {
       "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/wwwroot/recent.json",

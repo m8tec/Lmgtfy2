@@ -7,8 +7,9 @@ public class Program
 
     public static void Main(string[] args)
     {
-        new Thread(new ThreadStart(lmgtfy_api.Program.Main)).Start();
         SiteBuilderSystem.Init();
+        Thread myNewThread = new(() => lmgtfy_api.Program.Start(SiteBuilderSystem.Localization));
+        myNewThread.Start();
         CreateHostBuilder(args).Build().Run();
     }
 
@@ -19,7 +20,7 @@ public class Program
                 webBuilder.UseStartup<Startup>();
                 webBuilder.ConfigureKestrel(serverOptions =>
                 {
-                    serverOptions.Listen(IPAddress.Any, port: 80); // Replace 80 with your desired port number
+                    serverOptions.Listen(IPAddress.Any, port: 80); // Replace 81 with your desired port number
                 });
             });
 }

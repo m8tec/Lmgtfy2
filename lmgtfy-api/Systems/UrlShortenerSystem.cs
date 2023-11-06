@@ -1,5 +1,6 @@
 ﻿using System.Text;
 using lmgtfy_api.Objects;
+using lmgtfy_server.Library;
 
 namespace lmgtfy_api.Systems
 {
@@ -34,25 +35,30 @@ namespace lmgtfy_api.Systems
             return shortLink.ToString();
         }
 
-        private static string GetFullShortenedLink(string shortPart)
+        private static string GetFullShortenedLink(string host, string shortPart)
         {
-            return Database.AllowedHosts.First() + "/s/" + shortPart;
+            return "http://" + host + "/s/" + shortPart;
         }
 
         public static string GetShortLink(string link)
         {
             // parse to uri
-            Uri url = new(link);
+            if (!Uri.TryCreate(link, new UriCreationOptions(), out Uri? url))
+                return link;
 
             // check link integrity
             if (!IsLinkAllowedToShort(url))
                 return link;
 
+            string linkSave = url.AbsoluteUri.Replace("http://", "").Replace("https://", "");
+            string host = Extensions.GetTopLevelDomain(url.Host);
+            linkSave = linkSave.Replace(host, "{{host}}");
+
             string? shortLink = null;
             lock (Database.ShortLinks)
             {
                 // try to reuse already existing link
-                shortLink = Database.ShortLinks.FindKeyByValue(url.Query);
+                shortLink = Database.ShortLinks.FindKeyByValue(linkSave);
                 bool reused = true;
 
                 while (shortLink is null ||
@@ -62,16 +68,20 @@ namespace lmgtfy_api.Systems
                     shortLink = GenerateShortLink();
                 }
 
-                Database.ShortLinks[shortLink] = url.Query;
+                Database.ShortLinks[shortLink] = linkSave;
                 DatabaseSystem.Save();
             }
 
-            return GetFullShortenedLink(shortLink);
+            return GetFullShortenedLink(host, shortLink);
         }
 
         private static bool IsLinkAllowedToShort(Uri url)
         {
-            if (Database.AllowedHosts.Contains(url.Host))
+            if (url.AbsolutePath.Any() && !url.AbsolutePath.Equals("/"))
+                return false;
+
+            string host = url.TopLevelDomain();
+            if (Database.AllowedHosts.Contains(host))
                 return true;
 
             return false;
@@ -79,13 +89,19 @@ namespace lmgtfy_api.Systems
 
         public static bool ResolveShortUrl(string link, out string longLink)
         {
+            if (!Uri.TryCreate(link, new UriCreationOptions(), out Uri url))
+            {
+                longLink = link;
+                return false;
+            }
+
             longLink = "";
             
             lock (Database.ShortLinks)
             {
-                if (Database.ShortLinks.TryGetValue(link, out string? query))
+                if (Database.ShortLinks.TryGetValue(url.AbsolutePath.Split("/").Last(), out longLink))
                 {
-                    longLink = Database.AllowedHosts.First() + "/" + query;
+                    longLink = longLink.Replace("{{host}}", Extensions.GetTopLevelDomain(url.Host));
 
                     return true;
                 }

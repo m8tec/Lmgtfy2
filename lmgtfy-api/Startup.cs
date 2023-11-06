@@ -1,4 +1,7 @@
-﻿public class Startup
+﻿using lmgtfy_api;
+using lmgtfy_api.Systems;
+
+public class Startup
 {
     public Startup(IConfiguration configuration)
     {
@@ -10,13 +13,26 @@
     // Configure services
     public void ConfigureServices(IServiceCollection services)
     {
+        List<string> origins = new();
+        foreach (string allowedHost in DatabaseSystem.Database.AllowedHosts)
+        {
+            origins.Add($"http://{allowedHost}");
+            origins.Add($"https://{allowedHost}");
+
+            foreach (string languageCode in Program.Localization.Languages.Keys)
+            {
+                origins.Add($"http://{languageCode}.{allowedHost}");
+                origins.Add($"https://{languageCode}.{allowedHost}");
+            }
+        }
+
         // Add services and configure dependencies here
         services.AddControllers();
         services.AddCors(options =>
         {
             options.AddPolicy("AllowOrigin", builder =>
             {
-                builder.WithOrigins("http://m8tec.com", "https://m8tec.com", "http://api.m8tec.com", "http://localhost")
+                builder.WithOrigins(origins.ToArray())
                        .AllowAnyMethod()
                        .AllowAnyHeader()
                        .AllowCredentials();

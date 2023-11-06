@@ -1,0 +1,25 @@
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/lmgtfy-server.deps.json
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/lmgtfy-server.runtimeconfig.json
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/lmgtfy-api.deps.json
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/lmgtfy-api.runtimeconfig.json
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/lmgtfy-api.staticwebassets.runtime.json
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/lmgtfy-api
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/appsettings.Development.json
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/appsettings.json
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/Library/Localization Kopie.json
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/Library/Localization.json
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/lmgtfy-server.staticwebassets.runtime.json
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/lmgtfy-server
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/lmgtfy-server.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/lmgtfy-api.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/Serilog.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/Newtonsoft.Json.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/Serilog.Expressions.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/Serilog.Enrichers.Thread.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/Serilog.Sinks.Console.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/lmgtfy-server.pdb
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/lmgtfy-api.pdb
+/Users/m8/Documents/GitHub/Lmgtfy2/obj/Debug/docker-compose.dcproj.AssemblyReference.cache
+/Users/m8/Documents/GitHub/Lmgtfy2/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache
+/Users/m8/Documents/GitHub/Lmgtfy2/obj/Debug/docker-compose.dcproj.CopyComplete
+/Users/m8/Documents/GitHub/Lmgtfy2/bin/Debug/Library/LmgtfyDb.json

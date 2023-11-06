@@ -37,7 +37,7 @@
    <body ng-app="lmgtfy.teacher">
       <nav class="navbar navbar-default navbar-masthead navbar-fixed-top">
          <div append-nav-dropdown="" class="container-fluid">
-            <div class="navbar-header pull-left"><a class="navbar-brand" href="lmgtfy.html"><img height="22" class="navbar-logo" src="images/assets-logo-color-small-70dbef413f591a3fdfcfac7b273791039c8fd2a5329e97c4bfd8188f69f0da34.png" alt="Logo color small"></a></div>
+            <div class="navbar-header pull-left"><a class="navbar-brand" href="lmgtfy.html"><img height="22" class="navbar-logo" src="images/logo-color-small.png" alt="Logo color small"></a></div>
          </div>
       </nav>
       <script type="text/javascript">(function() {
@@ -46,7 +46,7 @@
              identifier: "g",
              presentation: "Google",
              featured: true,
-             logoSrc: "images/google.png",
+             logoSrc: "images/Google/google.png",
              searchTypes: [
                {
                  presentation: "Web",
@@ -93,10 +93,28 @@
       </script><script type="text/javascript">(function() {
          angular.module("lmgtfy.services").run(function(services) {
            return services.push({
+             identifier: "c",
+             presentation: "ChatGPT",
+             featured: false,
+             logoSrc: "images/ChatGPT/chatgpt.png",
+             searchTypes: [
+               {
+                 presentation: "Web",
+                 identifier: "w",
+                 urlBase: "https://www.chat.openai.com/search?q="
+               }
+             ]
+           });
+         });
+         
+         }).call(this);
+      </script><script type="text/javascript">(function() {
+         angular.module("lmgtfy.services").run(function(services) {
+           return services.push({
              identifier: "b",
              presentation: "Bing",
              featured: true,
-             logoSrc: "images/bing.png",
+             logoSrc: "images/Bing/bing.png",
              searchTypes: [
                {
                  presentation: "Web",
@@ -114,7 +132,7 @@
              identifier: "y",
              presentation: "Yahoo!",
              featured: true,
-             logoSrc: "images/yahoo.png",
+             logoSrc: "images/Yahoo/yahoo.png",
              searchTypes: [
                {
                  presentation: "Web",
@@ -132,7 +150,7 @@
              identifier: "d",
              presentation: "Duck Duck Go",
              featured: true,
-             logoSrc: "images/duckduckgo.png",
+             logoSrc: "images/DuckDuckGo/duckduckgo.png",
              searchTypes: [
                {
                  presentation: "Web",
@@ -150,7 +168,7 @@
              identifier: "k",
              presentation: "Ask",
              featured: true,
-             logoSrc: "images/ask.png",
+             logoSrc: "images/Ask/ask.png",
              searchTypes: [
                {
                  presentation: "Web",
@@ -168,7 +186,7 @@
              identifier: "a",
              presentation: "Aol.",
              featured: true,
-             logoSrc: "images/aol.png",
+             logoSrc: "images/Aol/aol.png",
              searchTypes: [
                {
                  presentation: "Web",
@@ -185,10 +203,10 @@
            return services.push({
              identifier: "w",
              presentation: "Wikipedia",
-             logoSrc: "images/wikipedia.png",
+             logoSrc: "images/Wikipedia/wikipedia.png",
              searchTypes: [
                {
-                 presentation: "Encyclopedia",
+                 presentation: "Encyclopedie",
                  identifier: "w",
                  urlBase: "https:\/\/wikipedia.org\/w\/index.php?search="
                }
@@ -202,10 +220,10 @@
            return services.push({
              identifier: "s",
              presentation: "Snopes",
-             logoSrc: "images/snopes.png",
+             logoSrc: "images/Snopes/snopes.png",
              searchTypes: [
                {
-                 presentation: "Rumors",
+                 presentation: "Geruchten",
                  identifier: "w",
                  urlBase: "http://www.snopes.com/search/?q="
                }
@@ -219,8 +237,8 @@
            return services.push({
              identifier: "b",
              presentation: "Startpage",
-             featured: true,
-             logoSrc: "images/startpage.png",
+             featured: false,
+             logoSrc: "images/Startpage/startpage.svg",
              searchTypes: [
                {
                  presentation: "Web",
@@ -300,7 +318,7 @@
             <div class="text-right col-xs-4 links"><a href="./live">Live Stream</a></div>
          </div>
          <div class="row legalese text-center">
-            <div class="col-lg-12">LMGTFY2, 2022-2023 | <span rel="localize[disclaimer]">Google® is een geregistreerd handelsmerk van Google Inc. LMGTFY is niet onderschreven door, gesponsord door of gelieerd aan Google Inc. <br>
+            <div class="col-lg-12">LMGTFY2, 2022-2023 | <span rel="localize[disclaimer]">Google® is een geregistreerd handelsmerk van Google Inc. LMGTFY2 is niet onderschreven door, gesponsord door of gelieerd aan Google Inc. <br>
                </span>
             </div>
          </div>

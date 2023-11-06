@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http.Extensions;
+using Microsoft.AspNetCore.Mvc;
 
 namespace lmgtfy_server.Controllers
 {
@@ -9,7 +10,7 @@ namespace lmgtfy_server.Controllers
         public IActionResult RedirectShortUrl(string shortLink)
         {
             // Check if the short link exists in the dictionary
-            if (lmgtfy_api.Systems.UrlShortenerSystem.ResolveShortUrl(shortLink, out string longLink))
+            if (lmgtfy_api.Systems.UrlShortenerSystem.ResolveShortUrl(HttpContext.Request.GetDisplayUrl(), out string longLink))
             {
                 // Redirect to the original URL
                 return Redirect("http://" + longLink);

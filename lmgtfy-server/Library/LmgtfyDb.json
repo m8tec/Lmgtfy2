@@ -1,0 +1,9 @@
+{
+  "AllowedHosts": [
+    "m8tec.com",
+    "lmgtfy2.com",
+    "localhost"
+  ],
+  "Queries": {},
+  "ShortLinks": {}
+}

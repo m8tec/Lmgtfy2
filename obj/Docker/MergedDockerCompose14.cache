@@ -1,0 +1,85 @@
+name: dockercompose3657868272124106514
+services:
+  lmgtfy-server:
+    build:
+      context: /Users/m8/Documents/GitHub/Lmgtfy2
+      dockerfile: lmgtfy-server/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: lmgtfy-server
+      target: base
+    container_name: lmgtfy-server
+    entrypoint:
+      - tail
+      - -f
+      - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: "1"
+      NUGET_FALLBACK_PACKAGES: ""
+    image: lmgtfyserver:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net7.0/publish/net7.0/lmgtfy-server.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "80"
+        protocol: tcp
+      - mode: ingress
+        target: 443
+        published: "443"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        published: "8080"
+        protocol: tcp
+    tty: true
+    volumes:
+      - type: bind
+        source: /Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server
+        target: /app
+        bind:
+          create_host_path: true
+      - type: bind
+        source: /home/debian/ProjectExternals
+        target: /app/ProjectExternals
+        bind:
+          create_host_path: true
+      - type: bind
+        source: /Users/m8/vsdbg/vs2017u5
+        target: /remote_debugger
+        bind:
+          create_host_path: true
+      - type: bind
+        source: /Users/m8/.aspnet/https
+        target: /root/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: /Users/m8/.microsoft/usersecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: /Users/m8/.nuget/packages/
+        target: /root/.nuget/packages
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: /Users/m8/Documents/GitHub/Lmgtfy2
+        target: /src
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose3657868272124106514_default

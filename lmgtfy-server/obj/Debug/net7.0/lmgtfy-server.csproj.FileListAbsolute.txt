@@ -100,3 +100,32 @@
 /Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/obj/Debug/net7.0/lmgtfy-server.pdb
 /Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/obj/Debug/net7.0/lmgtfy-server.genruntimeconfig.cache
 /Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/obj/Debug/net7.0/ref/lmgtfy-server.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/Library/Localization Kopie.json
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/lmgtfy-api.deps.json
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/lmgtfy-api.runtimeconfig.json
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/lmgtfy-api.staticwebassets.runtime.json
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/lmgtfy-api
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/appsettings.Development.json
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/appsettings.json
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/Library/Localization Kopie.json
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/Library/Localization.json
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/lmgtfy-server.staticwebassets.runtime.json
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/lmgtfy-server
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/lmgtfy-server.deps.json
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/lmgtfy-server.runtimeconfig.json
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/lmgtfy-server.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/lmgtfy-server.pdb
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/Microsoft.OpenApi.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/Newtonsoft.Json.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/Serilog.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/Serilog.Enrichers.Thread.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/Serilog.Expressions.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/Serilog.Sinks.Console.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/System.Net.WebSockets.WebSocketProtocol.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/lmgtfy-api.dll
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/lmgtfy-api.pdb
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/Library/LmgtfyDb.json

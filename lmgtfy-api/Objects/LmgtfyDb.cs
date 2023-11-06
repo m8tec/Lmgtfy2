@@ -3,7 +3,7 @@
 	public class LmgtfyDb : JsonSavable
 	{
 		public List<string> AllowedHosts { get; set; } = new()
-		{ "m8tec.com", "lmgtfy2.com" };
+		{ "m8tec.com", "lmgtfy2.com", "localhost" };
 		public Dictionary<float, SavedQuery> Queries { get; set; } = new();
 		public Dictionary<string, string> ShortLinks { get; set; } = new();
 	}

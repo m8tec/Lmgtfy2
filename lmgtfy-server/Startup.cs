@@ -50,8 +50,6 @@ public class Startup
             DefaultFileNames = new List<string> { "index.html" } // Add "index.html" as the default document
         });
 
-        app.UseHttpsRedirection();
-
         app.UseStaticFiles(new StaticFileOptions
         {
             FileProvider = new PhysicalFileProvider(

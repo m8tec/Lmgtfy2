@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace lmgtfy_server.Controllers
 {
     [Route("")]
-    public class HomeController : ControllerBase
+    public class HomeTranslationController : ControllerBase
     {
         [HttpGet]
         public IActionResult Index()
