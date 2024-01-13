@@ -1,6 +1,6 @@
 # LMGTFY2
 
-A restored version of LMGTFY.app
+A restored version of the original LMGTFY.app (offline)
 
 Features:
 - Simulate custom search queries in an animated sequence
