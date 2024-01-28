@@ -17,7 +17,7 @@ public class RecentJsonRedirectMiddleware
         if (context.Request.Path == "/recent.json")
         {
             // Build the target URL
-            string targetUrl = "http://api.m8tec.com:8080/recent.json";
+            string targetUrl = "http://api.m8tec.com/recent.json";
 
             // Perform the redirection
             context.Response.Redirect(targetUrl, permanent: true);

@@ -1,7 +1,0 @@
-version: '3.4'
-
-services:
-  lmgtfy-server:
-    build:
-      context: ../
-      dockerfile: lmgtfy-server/Dockerfile

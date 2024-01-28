@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5k8MRibV2Ut7OGLidP1S1OrLDa4IMxpPIRGX0hQTzj8=",
+  "Hash": "yaBCNkrFNd/Nfmgs2dgx6S67yuYfQssmGX6ytP/0L4E=",
   "Source": "lmgtfy-api",
   "BasePath": "_content/lmgtfy-api",
   "Mode": "Default",
@@ -32,23 +32,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/.DS_Store"
-    },
-    {
-      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/wwwroot/recentte.json",
-      "SourceId": "lmgtfy-api",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/wwwroot/",
-      "BasePath": "_content/lmgtfy-api",
-      "RelativePath": "recentte.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/recentte.json"
     }
   ]
 }

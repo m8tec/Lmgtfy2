@@ -1,31 +1,36 @@
-﻿<Properties StartupConfiguration="{B2BEB3C6-32BB-4F0B-981D-8C8883DD9790}|Default">
+﻿<Properties StartupConfiguration="{0CAF415F-B61B-4004-95F6-D1E82AD0CA25}|http">
   <MonoDevelop.Ide.ItemProperties.lmgtfy-server PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.lmgtfy-api PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="lmgtfy-server/Systems/SiteBuilderSystem.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="lmgtfy-server/Library/Localization.json">
     <Files>
       <File FileName="lmgtfy-server/Systems/SiteBuilderSystem.cs" Line="37" Column="1" />
       <File FileName="lmgtfy-server/Dockerfile" />
+      <File FileName="lmgtfy-api/Systems/JsonSystem.cs" Line="35" Column="1" />
+      <File FileName="lmgtfy-api/Systems/DatabaseSystem.cs" Line="8" Column="1" />
+      <File FileName="lmgtfy-api/Objects/Localization.cs" Line="3" Column="15" />
+      <File FileName="lmgtfy-server/Library/Localization.json" Line="16" Column="106" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LMGTFY2-Server" expanded="True">
+            <Node name="lmgtfy-api">
+              <Node name="Objects" expanded="True" />
+            </Node>
             <Node name="lmgtfy-server">
-              <Node name="Library" expanded="True" />
-              <Node name="Systems" expanded="True">
-                <Node name="SiteBuilderSystem.cs" selected="True" />
+              <Node name="Library" expanded="True">
+                <Node name="Localization.json" selected="True" />
               </Node>
+              <Node name="Systems" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.ItemProperties.lmgtfy-api PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

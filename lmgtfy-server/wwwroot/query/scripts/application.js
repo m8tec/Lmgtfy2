@@ -17116,7 +17116,7 @@ if (!self.__WB_pmw) {
           }
           ,
           t.shortenLink = function() {
-              return n.post("appli.m8tec.com:8080/short_urlsapp", {
+              return n.post("appli.m8tec.com/short_urlsapp", {
                   short_url: {
                       url: t.link.url
                   }
@@ -17288,7 +17288,7 @@ if (!self.__WB_pmw) {
               this.wsUrl = t,
               n = "https:" === window.location.protocol,
               e = n ? "wss" : "ws",
-              r = e + "://live-ws.m8tec.com:8080/lmgtfy_ws",
+              r = e + "://live-ws.m8tec.com/lmgtfy_ws",
               this.wsUrl || (this.wsUrl = r),
               null != window.WebSocket && this.connect()
           }

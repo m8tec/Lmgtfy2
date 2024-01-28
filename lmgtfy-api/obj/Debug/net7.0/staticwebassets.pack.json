@@ -5,10 +5,6 @@
       "PackagePath": "staticwebassets/.DS_Store"
     },
     {
-      "Id": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/wwwroot/recentte.json",
-      "PackagePath": "staticwebassets/recentte.json"
-    },
-    {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.lmgtfy-api.props",
       "PackagePath": "build\\lmgtfy-api.props"
     },

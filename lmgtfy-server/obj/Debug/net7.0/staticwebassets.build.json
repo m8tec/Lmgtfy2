@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GdZZDeDDN96mCeeglqvQ66ykgRiLPpjnBHPO7ASdOOw=",
+  "Hash": "C8ag1ctlYAaVsI/BLmAhu30iERqYlCs/Tmq0ILK1moY=",
   "Source": "lmgtfy-server",
   "BasePath": "_content/lmgtfy-server",
   "Mode": "Default",
@@ -51,23 +51,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/.DS_Store"
-    },
-    {
-      "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/wwwroot/recentte.json",
-      "SourceId": "lmgtfy-api",
-      "SourceType": "Project",
-      "ContentRoot": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-api/wwwroot/",
-      "BasePath": "_content/lmgtfy-api",
-      "RelativePath": "recentte.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/recentte.json"
     },
     {
       "Identity": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/obj/Debug/net7.0/scopedcss/bundle/lmgtfy-server.styles.css",

@@ -16,6 +16,7 @@ public class Startup
         List<string> origins = new();
         foreach (string allowedHost in DatabaseSystem.Database.AllowedHosts)
         {
+            Console.WriteLine($"http://{allowedHost}");
             origins.Add($"http://{allowedHost}");
             origins.Add($"https://{allowedHost}");
 

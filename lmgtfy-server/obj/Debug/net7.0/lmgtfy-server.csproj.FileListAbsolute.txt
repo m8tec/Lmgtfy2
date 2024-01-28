@@ -129,3 +129,4 @@
 /Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/lmgtfy-api.dll
 /Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/lmgtfy-api.pdb
 /Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/Library/LmgtfyDb.json
+/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/bin/Debug/net7.0/publish/net7.0/ProjectExternals/LmgtfyDb.json

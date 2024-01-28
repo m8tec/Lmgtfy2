@@ -20,7 +20,7 @@ public class Program
                 webBuilder.UseStartup<Startup>();
                 webBuilder.ConfigureKestrel(serverOptions =>
                 {
-                    serverOptions.Listen(IPAddress.Any, port: 80); // Replace 81 with your desired port number
+                    serverOptions.Listen(IPAddress.Any, port: 80); // Replace 80 with your desired port number
                 });
             });
 }

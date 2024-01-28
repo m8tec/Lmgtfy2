@@ -30,7 +30,7 @@ namespace lmgtfy_api
                     webBuilder.UseStartup<Startup>();
                     webBuilder.ConfigureKestrel(serverOptions =>
                     {
-                        serverOptions.Listen(IPAddress.Any, port: 8080);
+                        serverOptions.Listen(IPAddress.Any, port: 446);
                     });
                 });
     }

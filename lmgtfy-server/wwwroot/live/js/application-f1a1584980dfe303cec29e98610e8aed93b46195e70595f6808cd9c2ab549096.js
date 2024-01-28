@@ -61,7 +61,9 @@ if (!self.__WB_pmw) {
         },
         function() {
             function e() {
-                $.getJSON("http://api.m8tec.com:8080/recent.json", null, n)
+                var currentDomain = window.location.hostname;
+                var recentUrl = "http://api." + currentDomain + "/recent.json";
+                $.getJSON(recentUrl, null, n)
             }
 
             function n(e) {
@@ -103,9 +105,9 @@ if (!self.__WB_pmw) {
 
             function n(e) {
                 var ssl = "https:" == window.location.protocol;
-                var currentHost = window.location.host; // Get the current website host
+                var currentDomain = window.location.hostname;
                 var proto = ssl ? "wss" : "ws";
-                var wsUrl = proto + "://live-ws." + currentHost + ":8080/live_ws";
+                var wsUrl = proto + "://live-ws." + currentDomain + "/live_ws";
 
                 var g = new WebSocket(wsUrl);
                 g.onopen = t;

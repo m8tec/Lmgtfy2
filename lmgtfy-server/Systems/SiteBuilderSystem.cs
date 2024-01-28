@@ -11,9 +11,9 @@ namespace lmgtfy_server.Systems
         public static Localization Localization { get; set; } = new();
         private const string LocalizationPath = "Library/";
 
-        private const string HomeTemplatePath = "/app/Library/SiteTemplates/home.txt";
+        private const string HomeTemplatePath = "Library/SiteTemplates/home.txt";
         private const string HomeOutputPath = "wwwroot";
-        private const string QueryTemplatePath = "/app/Library/SiteTemplates/query.txt";
+        private const string QueryTemplatePath = "Library/SiteTemplates/query.txt";
         private const string QueryOutputPath = "wwwroot/query";
 
         private static ChoosableLanguage[] Languages { get; set; }
@@ -113,13 +113,8 @@ namespace lmgtfy_server.Systems
 
 		public static void Init()
 		{
-            string[] filesAndFolders = Directory.GetFileSystemEntries("/app/Library");
+            string[] filesAndFolders = Directory.GetFileSystemEntries("Library");
 
-            // Create a single string containing the list of files and folders
-            string fileList = string.Join(Environment.NewLine, filesAndFolders);
-            Console.WriteLine(fileList);
-
-            Console.WriteLine("Current Directory: " + Directory.GetCurrentDirectory());
             if (!File.Exists(HomeTemplatePath) || !File.Exists(QueryTemplatePath))
 				throw new DirectoryNotFoundException($"Couldn't find template");
 

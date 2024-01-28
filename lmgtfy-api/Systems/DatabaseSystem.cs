@@ -4,7 +4,7 @@ namespace lmgtfy_api.Systems
 {
 	public static class DatabaseSystem
 	{
-        private static string DbPath = "/app/ProjectExternals/";
+        private static string DbPath = "ProjectExternals/";
 
         public static LmgtfyDb Database { get; set; } = new();
 

@@ -12746,8 +12746,8 @@ if (!self.__WB_pmw) {
                 }, t.doPreview = function(t) {
                     return e.open(t || c()), !0
                 }, t.shortenLink = function() {
-                    var currentHost = window.location.host; // Get the current website host
-                    var apiUrl = "http://api." + currentHost + ":8080/short_urls"; // Construct the API URL
+                    var currentDomain = window.location.hostname;
+                    var apiUrl = "https://api." + currentDomain + "/short_urls";
                     return n.post(apiUrl, {
                         short_url: {
                             url: t.link.url
@@ -12878,8 +12878,8 @@ if (!self.__WB_pmw) {
                     this.wsUrl = t;
                     var n = "https:" === window.location.protocol;
                     var e = n ? "wss" : "ws";
-                    var currentHost = window.location.host; // Get the current website host
-                    var r = e + "://live-ws." + currentHost + ":8080/lmgtfy_ws"; // Construct the WebSocket URL based on the current host
+                    var currentDomain = window.location.hostname;
+                    var r = e + "://live-ws." + currentDomain + "/lmgtfy_ws";
                     this.wsUrl || (this.wsUrl = r);
                     null != window.WebSocket && this.connect();
                 }
