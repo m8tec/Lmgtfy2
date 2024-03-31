@@ -282,7 +282,7 @@
                   <div class="h-spacer-1"></div>
                   <button class="btn btn-default btn-lg" ng-click="doPreview()" ng-disabled="!link.searchTerms" type="button">{{preview}}</button>
                   <div class="checkbox"><label><input ng-model="link.includeExplainer" style="top:2px" type="checkbox"> {{internetExplainer}}</label></div>
-               </div>"
+               </div>
             </form>
          </div>
          <div class="row text-center" ng-show="link.url">

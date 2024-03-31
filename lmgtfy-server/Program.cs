@@ -3,8 +3,6 @@ using lmgtfy_server.Systems;
 
 public class Program
 {
-    public static Dictionary<string, string> Test { get; set; }
-
     public static void Main(string[] args)
     {
         SiteBuilderSystem.Init();
