@@ -1,23 +1,38 @@
 ﻿<Properties StartupConfiguration="{0CAF415F-B61B-4004-95F6-D1E82AD0CA25}|https">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../usr/local/share/dotnet/sdk/8.0.403/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.FrameworkReferenceResolution.targets">
+  <MonoDevelop.Ide.Workbench ActiveDocument="lmgtfy-api/Systems/QuerySavingSystem.cs">
     <Files>
-      <File FileName="lmgtfy-server/Startup.cs" Line="18" Column="12" />
-      <File FileName="lmgtfy-api/Startup.cs" Line="31" Column="35" />
-      <File FileName="lmgtfy-api/Objects/LmgtfyDb.cs" Line="5" Column="23" />
-      <File FileName="../../../../../usr/local/share/dotnet/sdk/8.0.403/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.FrameworkReferenceResolution.targets" Line="404" Column="5" />
+      <File FileName="lmgtfy-api/Systems/QuerySavingSystem.cs" Line="44" Column="13" />
+      <File FileName="lmgtfy-api/Objects/LmgtfyDb.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LMGTFY2-Server" expanded="True">
-            <Node name="lmgtfy-server" expanded="True" selected="True">
+            <Node name="lmgtfy-api" expanded="True">
+              <Node name="Systems" expanded="True" />
+            </Node>
+            <Node name="lmgtfy-server" expanded="True">
+              <Node name="Library" expanded="True">
+                <Node name="SiteTemplates" expanded="True" />
+              </Node>
+              <Node name="Middleware" expanded="True" />
+              <Node name="ProjectExternals" expanded="True" />
               <Node name="wwwroot" expanded="True">
                 <Node name="images" expanded="True" />
                 <Node name="js" expanded="True" />
+                <Node name="live" expanded="True">
+                  <Node name="js" expanded="True" />
+                </Node>
+                <Node name="query" expanded="True">
+                  <Node name="scripts" expanded="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -25,8 +40,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.lmgtfy-server PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
 </Properties>

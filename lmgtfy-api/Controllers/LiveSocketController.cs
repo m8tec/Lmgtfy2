@@ -34,7 +34,7 @@ namespace lmgtfy_api.Controllers
 
         public static async Task SendQuery(string query, float queryId)
         {
-            Logger.Debug("Query update: {query}", query);
+            Logger.Information("Query update: {query}", query);
 
             // Combine the components into a single message string
             string message = $"update|{queryId}|{query}";

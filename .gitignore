@@ -3,3 +3,9 @@ lmgtfy-server/bin/
 lmgtfy-api/obj/
 lmgtfy-api/bin/
 **/.DS_Store
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/.vs/
+lmgtfy-server/wwwroot/*.index.html

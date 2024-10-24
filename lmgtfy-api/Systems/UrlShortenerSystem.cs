@@ -4,17 +4,23 @@ using lmgtfy_server.Library;
 
 namespace lmgtfy_api.Systems
 {
-	public static class UrlShortenerSystem
-	{
+    public static class UrlShortenerSystem
+    {
         private static LmgtfyDb Database => DatabaseSystem.Database;
 
-        private static readonly string Characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        private static readonly string Characters =
+            "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
         private static readonly Random Random = new();
 
-        public static string? FindKeyByValue(this Dictionary<string, string> dictionary, string targetValue)
+        public static string? FindKeyByValue(
+            this Dictionary<string, string> dictionary,
+            string targetValue
+        )
         {
             // Use LINQ to find the first key that matches the target value
-            KeyValuePair<string, string>? pair = dictionary.FirstOrDefault(pair => pair.Value.Equals(targetValue));
+            KeyValuePair<string, string>? pair = dictionary.FirstOrDefault(pair =>
+                pair.Value.Equals(targetValue)
+            );
             if (pair is not null)
                 return pair.Value.Key;
 
@@ -61,8 +67,10 @@ namespace lmgtfy_api.Systems
                 shortLink = Database.ShortLinks.FindKeyByValue(linkSave);
                 bool reused = true;
 
-                while (shortLink is null ||
-                    reused is false && Database.ShortLinks.ContainsValue(shortLink))
+                while (
+                    shortLink is null
+                    || reused is false && Database.ShortLinks.ContainsValue(shortLink)
+                )
                 {
                     reused = false;
                     shortLink = GenerateShortLink();
@@ -77,12 +85,18 @@ namespace lmgtfy_api.Systems
 
         private static bool IsLinkAllowedToShort(Uri url)
         {
+            // only root path is allowed
             if (url.AbsolutePath.Any() && !url.AbsolutePath.Equals("/"))
                 return false;
 
+            // check if host is allowed
             string host = url.TopLevelDomain();
             if (Database.AllowedHosts.Contains(host))
                 return true;
+
+            // check if link is too long / prevent abuse
+            if (url.AbsoluteUri.Length > 2000)
+                return false;
 
             return false;
         }
@@ -96,7 +110,7 @@ namespace lmgtfy_api.Systems
             }
 
             longLink = "";
-            
+
             lock (Database.ShortLinks)
             {
                 if (Database.ShortLinks.TryGetValue(url.AbsolutePath.Split("/").Last(), out longLink))

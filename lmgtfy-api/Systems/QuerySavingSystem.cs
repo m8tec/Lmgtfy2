@@ -41,9 +41,22 @@ namespace lmgtfy_api.Systems
         {
             id ??= NewQueryId;
 
+            // delete query if empty or too long
+            bool delete = string.IsNullOrWhiteSpace(query) || query.Length > 200;
+            if (delete)
+            {
+                lock (Database.Queries)
+                {
+                    if (Database.Queries.Remove(id.Value))
+                        DatabaseSystem.Save();
+                }
+
+                return id.Value;
+            }
+
             lock (Database.Queries)
             {
-                if (!Database.Queries.TryGetValue(id.Value, out SavedQuery savedQuery))
+                if (!Database.Queries.TryGetValue(id.Value, out SavedQuery? savedQuery))
                     savedQuery = new(query);
 
                 savedQuery.Query = query; // update query
@@ -71,7 +84,11 @@ namespace lmgtfy_api.Systems
 
             List<RecentQuery> recentQueries = new();
             int count = 0;
-            foreach ((float _, SavedQuery query) in Database.Queries.OrderByDescending(query => query.Value.Date))
+            foreach (
+                (float _, SavedQuery query) in Database.Queries.OrderByDescending(query =>
+                    query.Value.Date
+                )
+            )
             {
                 if (count >= 5000)
                     break;

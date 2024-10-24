@@ -8,6 +8,7 @@ namespace lmgtfy_api.Controllers
 {
     public class QueryLoggerSocketController : ControllerBase
     {
+        private const int MaxMessageSize = 1024 * 4; // Define maximum message size (e.g., 4 KB)
         public Serilog.ILogger Logger = Log.Logger.ForType<QueryLoggerSocketController>();
 
         // Create a dictionary to store WebSocket connections and their associated GUIDs
@@ -42,14 +43,29 @@ namespace lmgtfy_api.Controllers
 
         private async Task HandleWebSocketConnection(WebSocket webSocket)
         {
-            var buffer = new byte[1024 * 4];
+            var buffer = new byte[MaxMessageSize]; // Adjust buffer size to match maximum message size
             WebSocketReceiveResult result;
 
             while (webSocket.State == WebSocketState.Open)
             {
                 try
                 {
-                    result = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
+                    result = await webSocket.ReceiveAsync(
+                        new ArraySegment<byte>(buffer),
+                        CancellationToken.None
+                    );
+
+                    // Check if the message size exceeds the maximum allowed size
+                    if (result.Count > MaxMessageSize)
+                    {
+                        Logger.Warning("Received message exceeds maximum allowed size");
+                        await webSocket.CloseAsync(
+                            WebSocketCloseStatus.MessageTooBig,
+                            "Message too big",
+                            CancellationToken.None
+                        );
+                        break;
+                    }
 
                     // handle incoming text
                     if (result.MessageType == WebSocketMessageType.Text)
@@ -91,7 +107,6 @@ namespace lmgtfy_api.Controllers
                     // Remove the WebSocket and its associated GUID from the dictionary within the lock
                     lock (socketToQueryIdMap)
                         socketToQueryIdMap.Remove(webSocket);
-                    
 
                     break;
                 }
