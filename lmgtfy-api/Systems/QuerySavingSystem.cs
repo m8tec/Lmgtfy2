@@ -58,16 +58,16 @@ namespace lmgtfy_api.Systems
         {
             // update if needed (data "outdated" after x seconds)
             DateTimeOffset timeNow = DateTimeOffset.UtcNow;
-            double secondElapsed = 0;
+            double secondsElapsed = 0;
             if (LastRecentQueriesUpdate is not null)
             {
-                secondElapsed = (timeNow - LastRecentQueriesUpdate.Value).TotalSeconds;
-                if (secondElapsed < 120)
+                secondsElapsed = (timeNow - LastRecentQueriesUpdate.Value).TotalSeconds;
+                if (secondsElapsed < 120)
                     return;
             }
             LastRecentQueriesUpdate = timeNow;
 
-            Logger.Debug("Start updating recent queries after {s}...", secondElapsed);
+            Logger.Debug("Start updating recent queries after {s}...", secondsElapsed);
 
             List<RecentQuery> recentQueries = new();
             int count = 0;

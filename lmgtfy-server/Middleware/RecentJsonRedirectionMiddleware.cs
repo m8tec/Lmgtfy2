@@ -1,8 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-
-public class RecentJsonRedirectMiddleware
+﻿public class RecentJsonRedirectMiddleware
 {
     private readonly RequestDelegate _next;
 
@@ -17,7 +13,7 @@ public class RecentJsonRedirectMiddleware
         if (context.Request.Path == "/recent.json")
         {
             // Build the target URL
-            string targetUrl = "http://api.m8tec.com/recent.json";
+            string targetUrl = "https://api.lmgtfy2.com/recent.json";
 
             // Perform the redirection
             context.Response.Redirect(targetUrl, permanent: true);

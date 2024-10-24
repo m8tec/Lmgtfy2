@@ -37,7 +37,7 @@ namespace lmgtfy_api.Systems
 
         private static string GetFullShortenedLink(string host, string shortPart)
         {
-            return "http://" + host + "/s/" + shortPart;
+            return "https://" + host + "/s/" + shortPart;
         }
 
         public static string GetShortLink(string link)

@@ -4,6 +4,21 @@
     "lmgtfy2.com",
     "localhost"
   ],
-  "Queries": {},
-  "ShortLinks": {}
+  "Queries": {
+    "0": {
+      "Query": "hallo welt",
+      "Date": "2024-10-24T01:36:41.26279+00:00"
+    },
+    "1": {
+      "Query": "hey",
+      "Date": "2024-10-24T01:48:56.0800493+00:00"
+    }
+  },
+  "ShortLinks": {
+    "BnNwRF": "{{host}}/?iie=1&q=Hallo",
+    "1llVvK": "de.{{host}}/?q=Hallo+auf+Deutsch",
+    "dpaz6Z": "{{host}}/?q=vitriol",
+    "DtJ1kV": "{{host}}/?q=Joe%27s+Shanghai+nyc",
+    "S1fi76": "{{host}}/?q=Link+shortener+test"
+  }
 }

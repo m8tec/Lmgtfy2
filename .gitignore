@@ -2,5 +2,4 @@ lmgtfy-server/obj/
 lmgtfy-server/bin/
 lmgtfy-api/obj/
 lmgtfy-api/bin/
-.DS_Store
-*/.DS_Store
+**/.DS_Store

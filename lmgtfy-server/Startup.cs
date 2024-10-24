@@ -19,7 +19,11 @@ public class Startup
         {
             options.AddPolicy("AllowOrigin", builder =>
             {
-                builder.WithOrigins("http://m8tec.com", "https://m8tec.com", "http://api.m8tec.com", "http://localhost", "http://api.localhost")
+                builder.WithOrigins("http://m8tec.com",
+                    "http://api.m8tec.com",
+                    "http://live-ws.m8tec.com",
+                    "http://localhost",
+                    "http://api.localhost")
                        .AllowAnyMethod()
                        .AllowAnyHeader()
                        .AllowCredentials();

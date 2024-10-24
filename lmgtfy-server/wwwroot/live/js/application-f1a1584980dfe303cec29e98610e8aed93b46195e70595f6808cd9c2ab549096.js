@@ -62,7 +62,8 @@ if (!self.__WB_pmw) {
         function() {
             function e() {
                 var currentDomain = window.location.hostname;
-                var recentUrl = "http://api." + currentDomain + "/recent.json";
+                var baseDomain = currentDomain.replace(/^([^.]+\.)?(.+\..+)$/, '$2');
+                var recentUrl = "https://api." + baseDomain + "/recent.json";
                 $.getJSON(recentUrl, null, n)
             }
 

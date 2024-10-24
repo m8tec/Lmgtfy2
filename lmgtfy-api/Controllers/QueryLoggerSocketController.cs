@@ -16,6 +16,9 @@ namespace lmgtfy_api.Controllers
         [Route("/lmgtfy_ws")]
         public async Task Get()
         {
+            HttpContext.Response.Headers.Add("Access-Control-Allow-Origin", "https://lmgtfy2.com");
+            HttpContext.Response.Headers.Add("Access-Control-Allow-Credentials", "true");
+
             // accept web socket request
             if (HttpContext.WebSockets.IsWebSocketRequest)
             {
@@ -23,13 +26,16 @@ namespace lmgtfy_api.Controllers
 
                 // log new socket connection
                 string? ip = HttpContext.Connection.RemoteIpAddress?.ToString();
-                Logger.Debug("WebSocket connected from {ip}", ip);
+                Logger.Information("WebSocket connected from {ip}", ip);
 
                 await HandleWebSocketConnection(webSocket);
             }
             // block other request types
             else
             {
+                Logger.Warning("Non-WebSocket request made to /lmgtfy_ws");
+                Logger.Information("Request Method: {Method}", HttpContext.Request.Method);
+
                 HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
             }
         }
@@ -69,7 +75,7 @@ namespace lmgtfy_api.Controllers
                     // handle closed socket
                     else if (result.MessageType == WebSocketMessageType.Close)
                     {
-                        Logger.Debug("WebSocket was closed");
+                        Logger.Information("WebSocket was closed");
 
                         // Remove the WebSocket and its associated GUID from the dictionary within the lock
                         lock (socketToQueryIdMap)

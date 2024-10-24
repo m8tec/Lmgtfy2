@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7LKZUBNagSQOljIsJEro69wztTXeJHlFy2G3LGt3wTL/ylNTIEauR/kHnZ3T/bNIDKa/qbH9Ci7OuoHinsHYtA==",
+  "dgSpecHash": "dyLaVMm2kPyTUhajnnvsQPnhIGIuyuA3sTOmS7Cwm0t7nwzjglFmh8lBAcaf9iMcV3O+zkvl5QFrLrgLWZVPmA==",
   "success": true,
   "projectFilePath": "/Users/m8/Documents/GitHub/Lmgtfy2/lmgtfy-server/lmgtfy-server.csproj",
   "expectedPackageFiles": [
@@ -39,7 +39,10 @@
     "/Users/m8/.nuget/packages/system.memory/4.5.1/system.memory.4.5.1.nupkg.sha512",
     "/Users/m8/.nuget/packages/system.net.websockets.websocketprotocol/4.5.3/system.net.websockets.websocketprotocol.4.5.3.nupkg.sha512",
     "/Users/m8/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.1/system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
-    "/Users/m8/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
+    "/Users/m8/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512",
+    "/Users/m8/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "/Users/m8/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.20/microsoft.netcore.app.host.osx-arm64.7.0.20.nupkg.sha512",
+    "/Users/m8/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }

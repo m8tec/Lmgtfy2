@@ -12,8 +12,8 @@ namespace lmgtfy_api.Controllers
         [HttpOptions]
         public IActionResult GetRecentData()
         {
-            // Implement your logic to fetch and return recent data here
-            // Example:
+            QuerySavingSystem.TryUpdateRecents();
+
             RecentQuery[] recentQueries = QuerySavingSystem.RecentQueries;
 
             return Ok(recentQueries);

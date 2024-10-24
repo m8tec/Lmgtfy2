@@ -12747,7 +12747,8 @@ if (!self.__WB_pmw) {
                     return e.open(t || c()), !0
                 }, t.shortenLink = function() {
                     var currentDomain = window.location.hostname;
-                    var apiUrl = "https://api." + currentDomain + "/short_urls";
+                    var baseDomain = currentDomain.replace(/^([^.]+\.)?(.+\..+)$/, '$2');
+                    var apiUrl = "https://api." + baseDomain + "/short_urls";
                     return n.post(apiUrl, {
                         short_url: {
                             url: t.link.url
