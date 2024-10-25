@@ -1,11 +1,12 @@
 ﻿<!DOCTYPE html>
 <html>
    <head>
-      <script type="text/javascript" src="js/js-wombat.js" charset="utf-8"></script>
       <link rel="stylesheet" type="text/css" href="css/css-banner-styles.css">
       <link rel="stylesheet" type="text/css" href="css/css-iconochive.css">
       <meta content="text/html;charset=UTF-8" http-equiv="content-type">
-      <meta content="For all those people who find it more convenient to bother you with their question rather than search it for themselves." name="description">
+      <meta name="robots" content="nosnippet"/>
+      <title>{{title}}</title>
+      <meta content="{{description}}" name="description">
       <meta content="search, funny" name="keywords">
       <meta content="mailto:http:sha1:d679fc042f465643527ab168409bb20920d67836" name="microid">
       <meta content="LMGTFY" property="og:description">
@@ -29,10 +30,41 @@
       <meta content="#ffffff" name="msapplication-TileColor">
       <meta content="/ms-icon-144x144.png" name="msapplication-TileImage">
       <meta content="#ffffff" name="theme-color">
-      <title>LMGTFY2</title>
       <link rel="stylesheet" media="all" href="css/assets-application.css">
       <script src="js/1.6.6-angular.min.js"></script>
-	  <script src="js/assets-application.js"></script>
+	    <script src="js/assets-application.js"></script>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1091536463064284"
+     crossorigin="anonymous"></script>
+      <link rel="alternate" hreflang="ar" href="https://ar.lmgtfy2.com/">
+      <link rel="alternate" hreflang="bg" href="https://bg.lmgtfy2.com/">
+      <link rel="alternate" hreflang="cs" href="https://cs.lmgtfy2.com/">
+      <link rel="alternate" hreflang="da" href="https://da.lmgtfy2.com/">
+      <link rel="alternate" hreflang="de" href="https://de.lmgtfy2.com/">
+      <link rel="alternate" hreflang="el" href="https://el.lmgtfy2.com/">
+      <link rel="alternate" hreflang="en" href="https://en.lmgtfy2.com/">
+      <link rel="alternate" hreflang="es" href="https://es.lmgtfy2.com/">
+      <link rel="alternate" hreflang="fi" href="https://fi.lmgtfy2.com/">
+      <link rel="alternate" hreflang="fr" href="https://fr.lmgtfy2.com/">
+      <link rel="alternate" hreflang="he" href="https://he.lmgtfy2.com/">
+      <link rel="alternate" hreflang="hu" href="https://hu.lmgtfy2.com/">
+      <link rel="alternate" hreflang="id" href="https://id.lmgtfy2.com/">
+      <link rel="alternate" hreflang="it" href="https://it.lmgtfy2.com/">
+      <link rel="alternate" hreflang="ja" href="https://ja.lmgtfy2.com/">
+      <link rel="alternate" hreflang="ko" href="https://ko.lmgtfy2.com/">
+      <link rel="alternate" hreflang="nl" href="https://nl.lmgtfy2.com/">
+      <link rel="alternate" hreflang="pl" href="https://pl.lmgtfy2.com/">
+      <link rel="alternate" hreflang="pt" href="https://pt.lmgtfy2.com/">
+      <link rel="alternate" hreflang="pt-br" href="https://pt-br.lmgtfy2.com/">
+      <link rel="alternate" hreflang="ro" href="https://ro.lmgtfy2.com/">
+      <link rel="alternate" hreflang="ru" href="https://ru.lmgtfy2.com/">
+      <link rel="alternate" hreflang="sk" href="https://sk.lmgtfy2.com/">
+      <link rel="alternate" hreflang="sr" href="https://sr.lmgtfy2.com/">
+      <link rel="alternate" hreflang="sv" href="https://sv.lmgtfy2.com/">
+      <link rel="alternate" hreflang="th" href="https://th.lmgtfy2.com/">
+      <link rel="alternate" hreflang="tr" href="https://tr.lmgtfy2.com/">
+      <link rel="alternate" hreflang="uk" href="https://uk.lmgtfy2.com/">
+      <link rel="alternate" hreflang="vi" href="https://vi.lmgtfy2.com/">
+      <link rel="alternate" hreflang="zh" href="https://zh.lmgtfy2.com/">
    </head>
    <body ng-app="lmgtfy.teacher">
       <nav class="navbar navbar-default navbar-masthead navbar-fixed-top">
@@ -101,7 +133,7 @@
                {
                  presentation: "{{web}}",
                  identifier: "w",
-                 urlBase: "https://www.chat.openai.com/search?q="
+                 urlBase: "https://www.chatgpt.com/search?q="
                }
              ]
            });

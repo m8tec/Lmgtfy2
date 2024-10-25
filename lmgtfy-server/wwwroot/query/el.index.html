@@ -456,6 +456,96 @@
       }
     </style>
     <style type="text/css">
+      .search-illustrator-scene-service-c {
+        background-color: #212121
+      }
+
+      .search-illustrator-scene-service-c>.search-illustrator-scene-footer {
+        height: 4em
+      }
+
+      .search-illustrator-scene-service-c>.search-illustrator-scene-content {
+        padding: 0 10px 0 10px
+      }
+
+      .search-illustrator-scene-service-c .search-illustrator-scene-logo {
+        width: 600px;
+        height: 160px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 50%;
+        margin: auto;
+        margin-bottom: 1.5em
+      }
+
+      @media only screen and (max-width: 435px) {
+        .search-illustrator-scene-service-c .search-illustrator-scene-logo {
+          width: 275px;
+          height: 62px
+        }
+      }
+
+      .search-illustrator-scene-service-c.search-illustrator-scene-search-type-w .search-illustrator-scene-logo {
+        background-image: url(../images/ChatGPT/suggestions.png)
+      }
+
+      @media only screen and (max-width: 435px) {
+        .search-illustrator-scene-service-c.search-illustrator-scene-search-type-w .search-illustrator-scene-logo {
+          background-image: url(../images/ChatGPT/suggestions.png)
+        }
+      }
+
+      .search-illustrator-scene-service-c .search-illustrator-scene-input-and-button-wrapper {
+        display: table;
+        margin: auto;
+        width: 100%;
+        max-width: 634px;
+        border-radius: 26px;
+        background-color: #2f2f2f
+      }
+
+      .search-illustrator-scene-service-c .search-illustrator-scene-input {
+        display: table-cell;
+        width: 100%;
+        vertical-align: middle;
+        white-space: nowrap;
+        overflow: hidden;
+        padding-left: 0.75em
+      }
+
+      .search-illustrator-scene-service-c .search-illustrator-scene-input.focused {
+        border-color: #4d90fe
+      }
+
+      .search-illustrator-scene-service-c .search-illustrator-scene-input.focused>.search-illustrator-scene-input-cursor {
+        margin-left: 2px;
+        border-left: solid 1px #555555
+      }
+
+      .search-illustrator-scene-service-c .search-illustrator-scene-button-wrapper {
+        display: table-cell;
+        vertical-align: middle;
+        padding: 10px
+      }
+
+      .search-illustrator-scene-service-c .search-illustrator-scene-button-wrapper>.search-illustrator-scene-primary-button {
+        display: inline-block;
+        border-radius: 16px;
+        width: 32px;
+        height: 32px;
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-position: 50% 50%;
+        background-image: url(../images/ChatGPT/send.png);
+        background-color: #676767
+      }
+
+      .search-illustrator-scene-service-c .search-illustrator-scene-button-wrapper>.search-illustrator-scene-primary-button.focused {
+        background-color: #ffffff;
+        background-image: url(../images/ChatGPT/send.png)
+      }
+    </style>
+    <style type="text/css">
       .search-illustrator-scene-service-d {
         background-color: #f7f7f7
       }
@@ -893,11 +983,11 @@
         }
       }
 
-    .search-illustrator-scene-service-e.search-illustrator-scene-search-type-w .search-illustrator-scene-logo {
+      .search-illustrator-scene-service-e.search-illustrator-scene-search-type-w .search-illustrator-scene-logo {
         background-image: url(../images/Startpage/startpage.svg)
       }
 
-    .search-illustrator-scene-service-e .search-illustrator-scene-input {
+      .search-illustrator-scene-service-e .search-illustrator-scene-input {
         width: 50%;
         height: 2.6em;
         line-height: 0.8em;
@@ -974,7 +1064,7 @@
         margin: auto;
       }
 
-    .search-illustrator-scene-service-t.search-illustrator-scene-search-type-w .search-illustrator-scene-logo {
+      .search-illustrator-scene-service-t.search-illustrator-scene-search-type-w .search-illustrator-scene-logo {
         background-image: url(../images/Startpage/startpage.svg)
       }
 
@@ -1122,6 +1212,26 @@
           });
         });
       }).call(this);
+    </script>
+    <script type="text/javascript">
+      (function() {
+         angular.module("lmgtfy.services").run(function(services) {
+           return services.push({
+             identifier: "c",
+             presentation: "ChatGPT",
+             featured: false,
+             logoSrc: "images/ChatGPT/chatgpt.png",
+             searchTypes: [
+               {
+                 presentation: "Διαδίκτυο",
+                 identifier: "w",
+                 urlBase: "https://www.chatgpt.com/search?q="
+               }
+             ]
+           });
+         });
+         
+         }).call(this);
     </script>
     <script type="text/javascript">
       (function() {
@@ -1291,6 +1401,21 @@
           },
           w: {
             startingUrl: "bing.com"
+          }
+        });
+      }).call(this);
+    </script>
+    <script type="text/javascript">
+      (function() {
+        angular.module("lmgtfy.student.searchIllustrations").value("c", {
+          base: {
+            primaryActionText: " ",
+            stepInstructions: function() {
+              return ["Visit" + (" " + this.startingUrl), "Type your question.", "Click the button.", "That's it!"];
+            }
+          },
+          w: {
+            startingUrl: "chatgpt.com"
           }
         });
       }).call(this);

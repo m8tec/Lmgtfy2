@@ -108,7 +108,7 @@ if (!self.__WB_pmw) {
           var n = a[s].q,
             r = a[s].url,
             u = $('<li style="display:none"><a></a></li>');
-          u.find("a").attr("href", r).text(n),
+          u.find("a").attr("href", r).attr("target", "_blank").text(n),
             c.append(u),
             u.slideDown(),
             i(s + 1),

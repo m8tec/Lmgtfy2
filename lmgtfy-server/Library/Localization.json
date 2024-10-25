@@ -7,6 +7,7 @@
         "books": "كُتُب",
         "changeSearch": "تغيير البحث",
         "contact": "جهة اتصال",
+        "description": "لجميع الأشخاص الذين يجدون أنه من الأنسب أن يزعجوك بسؤالهم بدلاً من البحث بأنفسهم.",
         "disclaimer": "Google® علامة تجارية مسجلة لشركة Google Inc. لا تتلقى LMGTFY2 أي تأييد أو دعم من Google Inc، كما أنها لا تنتسب إليها.",
         "discordBot": "Discord بوت",
         "encyclopedia": "موسوعة",
@@ -42,6 +43,7 @@
         "step2": "انقر على الزر.",
         "step3": "انقر على الزر.",
         "step4": "أكتب سؤالك.!",
+        "title": "LMGTFY2 - دعني أبحث لك عن ذلك في جوجل",
         "videos": "فيديوهات",
         "web": "شبكة"
       }
@@ -53,6 +55,7 @@
         "books": "Книги",
         "changeSearch": "Променете търсенето",
         "contact": "Контакт",
+        "description": "За всички онези хора, които смятат, че е по-удобно да ви безпокоят с въпроса си, вместо да го потърсят сами.",
         "disclaimer": "Google® е регистрирана търговска марка на Google Inc. LMGTFY2 не е одобрен от, спонсориран от, или свързан с Google Inc.",
         "discordBot": "Discord бот",
         "finance": "Финанси",
@@ -69,6 +72,7 @@
         "shareLink": "Споделете връзката по-долу",
         "shopping": "Пазаруване",
         "shortenLink": "Скъсете връзката",
+        "title": "LMGTFY2 - Нека потърся това в Google за вас",
         "videos": "Видеоклипове",
         "web": "Мрежа"
       }
@@ -81,6 +85,7 @@
         "changeSearch": "Změnit vyhledávání",
         "clickHere": "Klikněte zde",
         "contact": "Kontakt",
+        "description": "Pro všechny lidi, pro které je pohodlnější obtěžovat vás svou otázkou, než aby si ji sami vyhledali.",
         "disclaimer": "Google® je registrovaná obchodní značka společnosti Google Inc. LMGTFY2 není podporován, sponzorován, ani přidružen ke společnosti Google Inc.",
         "discordBot": "Discord bot",
         "encyclopedia": "Encyklopedie",
@@ -117,6 +122,7 @@
         "step2": "Napište vaši otázku.",
         "step3": "Klikněte na tlačítko",
         "step4": "To je ono!",
+        "title": "LMGTFY2 - Nech mě to vygooglit za tebe",
         "videos": "Videa",
         "web": "Síť"
       }
@@ -129,6 +135,7 @@
         "changeSearch": "Ændr Søgning",
         "clickHere": "Klik her",
         "contact": "Kontakt",
+        "description": "Til alle de mennesker, der synes, det er mere bekvemt at genere dig med deres spørgsmål end at søge efter det selv.",
         "disclaimer": "Google® er et registreret varemærke af Google Inc. LMGTFY2 er ikke støttet af, sponsoreret af eller associeret med Google Inc.",
         "discordBot": "Discord bot",
         "encyclopedia": "Encyklopædi",
@@ -165,6 +172,7 @@
         "step3": "Tryk på knappen.",
         "step4": "Sådan!",
         "terms": "Terms",
+        "title": "LMGTFY2 - Lad mig google det for dig",
         "videos": "Videoer",
         "web": "Web"
       }
@@ -177,6 +185,7 @@
         "changeSearch": "Suche ändern",
         "clickHere": "Hier klicken",
         "contact": "Kontakt",
+        "description": "Für all jene Menschen die es bequemer finden, andere Leute mit ihren Fragen zu beschäftigen, anstatt selber danach zu googeln.",
         "disclaimer": "Google® ist eine eingetragene Marke der Google Inc. LMGTFY2 gehört nicht zur Google Inc. und wird von dieser nicht unterstützt oder gefördert.",
         "discordBot": "Discord-Bot",
         "encyclopedia": "Enzyklopädie",
@@ -216,6 +225,7 @@
         "step2": "Gib deine Frage ein.",
         "step3": "Klicke den Knopf.",
         "step4": "Das war's!",
+        "title": "LMGTFY2 - Lass mich das für dich googeln",
         "videos": "Videos",
         "web": "Webseiten"
       }
@@ -227,6 +237,7 @@
         "books": "Βιβλία",
         "changeSearch": "Αλλαγή Αναζήτησης",
         "contact": "Επικοινωνία",
+        "description": "Για όλους εκείνους τους ανθρώπους που θεωρούν πιο βολικό να σας ενοχλούν με την ερώτησή τους παρά να την αναζητήσουν μόνοι τους.",
         "disclaimer": "Το Google® είναι ένα καταχωρημένο σήμα κατατεθέν της Google Inc. Η LMGTFY2 δεν έχει εγκρίνεται, χορηγείται, ή συνδεέται με την Google Inc.",
         "discordBot": "Discord bot",
         "finance": "Οικονομικά",
@@ -242,6 +253,7 @@
         "shareLink": "Μοιραστείτε το σύνδεσμο παρακάτω.",
         "shopping": "Ψώνια",
         "shortenLink": "Σμίκρυνση Συνδέσμου",
+        "title": "LMGTFY2 - Επιτρέψτε μου να το γκουγκλάρω αυτό για εσάς",
         "videos": "Βίντεο",
         "web": "Διαδίκτυο"
       }
@@ -257,6 +269,7 @@
         "changeSearch": "Change Search",
         "clickHere": "Click Here",
         "contact": "Contact",
+        "description": "For all those people who find it more convenient to bother you with their question rather than search it for themselves.",
         "disclaimer": "Google® is a registered trademark of Google Inc.  LMGTFY2 is not endorsed by, sponsored by, or affiliated with Google Inc. LMGTFY2 is an archived version of LMGTFY.",
         "discordBot": "Discord Bot",
         "encyclopedia": "Encyclopedia",
@@ -297,6 +310,7 @@
         "step2": "Type your question.",
         "step3": "Click the button.",
         "step4": "That's it!",
+        "title": "LMGTFY2 - Let Me Google That For You",
         "videos": "Videos",
         "web": "Web"
       }
@@ -309,6 +323,7 @@
         "changeSearch": "Cambiar la búsqueda",
         "clickHere": "Clic aqui",
         "contact": "Contacto",
+        "description": "Para todas aquellas personas a las que les resulta más cómodo molestarte con su pregunta que buscarla por sí mismas.",
         "disclaimer": "Google® es una marca registrada de Google Inc. LMGTFY2 no es apoyado, auspiciado o relacionado con Google Inc.",
         "discordBot": "Discord bot",
         "encyclopedia": "Enciclopedia",
@@ -347,6 +362,7 @@
         "step2": "Escribe tu pregunta",
         "step3": "Haz click en el botón",
         "step4": "¡Listo!",
+        "title": "LMGTFY2 - Déjame buscarte en Google",
         "videos": "Vídeos",
         "web": "Web"
       }
@@ -359,6 +375,7 @@
         "changeSearch": "Vaihda hakuehtoja",
         "clickHere": "Klikkaa tästä",
         "contact": "Yhteydenotto",
+        "description": "Kaikille niille ihmisille, joiden mielestä on mukavampaa vaivata sinua kysymyksellään kuin etsiä sitä itse.",
         "disclaimer": "Google® on Google Inc. -osakeyhtiön rekisteröity tavaramerkki. LMGTFY2 ei ole Googlen sponsorikohde tai yhteistyökumppani, tai ole muutoin tekemisissä Googlen kanssa.",
         "discordBot": "Discord-botti",
         "encyclopedia": "Tietosanakirja",
@@ -394,6 +411,7 @@
         "step2": "Kirjoita kysymyksesi.",
         "step3": "Klikkaa painiketta",
         "step4": "Juuri noin!",
+        "title": "LMGTFY2 - Anna minun googlettaa se puolestasi",
         "videos": "Videot",
         "web": "Verkko"
       }
@@ -406,6 +424,7 @@
         "changeSearch": "Modifier la recherche",
         "clickHere": "Cliquez ici",
         "contact": "Contact",
+        "description": "Pour toutes les personnes qui trouvent plus pratique de vous déranger avec leur question plutôt que de la chercher elles-mêmes.",
         "disclaimer": "Google® est une marque déposée de Google Inc. LMGTFY2 n'est pas soutenu par, sponsorisé par ou associé avec Google Inc.",
         "discordBot": "Robot Discord",
         "encyclopedia": "Encyclopédie",
@@ -445,6 +464,7 @@
         "step2": "Entrez votre question.",
         "step3": "Cliquez sur le bouton.",
         "step4": "Et voilà!",
+        "title": "LMGTFY2 - Laissez-moi googler ça pour vous",
         "videos": "Vidéos",
         "web": "Web"
       }
@@ -457,6 +477,7 @@
         "changeSearch": "שנה חיפוש",
         "clickHere": "לחץ כאן",
         "contact": "צור קשר",
+        "description": "לכל אותם אנשים שנוח להם יותר להטריד אתכם בשאלתם במקום לחפש אותה בעצמם.",
         "disclaimer": "Google® הוט סימן מסחרי רשום של Google Inc. LMGTFY2 אינו מוסב, ממומן, או מסונף של Google Inc.",
         "discordBot": "Discord בוט",
         "encyclopedia": "אינצקלופדיה",
@@ -492,6 +513,7 @@
         "step2": "זהו",
         "step3": "לחץ על הכפתור.",
         "step4": "רשום את שאלתך.!",
+        "title": "LMGTFY2 - תן לי גוגל את זה בשבילך",
         "videos": "סרטונים",
         "web": "אינטרנט"
       }
@@ -503,6 +525,7 @@
         "books": "Könyvek",
         "changeSearch": "Keresés módosítása",
         "contact": "Kapcsolat",
+        "description": "Azoknak az embereknek, akiknek kényelmesebbnek tűnik, ha Önt zaklatják a kérdésükkel, mintha maguk keresnének rá.",
         "disclaimer": "A Google® a Google, Inc. bejegyzett védjegye. A LMGTFY2-t nem ellenőrzi, támogatja a Google, valamint nem áll kapcsolatban azzal. ",
         "discordBot": "Discord bot",
         "encyclopedia": "Enciklopédia",
@@ -538,6 +561,7 @@
         "step2": "Írja be kérdését.",
         "step3": "Kattintson a gombra.",
         "step4": "Ez az!",
+        "title": "LMGTFY2 - Hadd guglizom ezt neked",
         "videos": "Videók",
         "web": "Web"
       }
@@ -549,6 +573,7 @@
         "books": "Buku",
         "changeSearch": "Ubah Pencarian",
         "contact": "Kontak",
+        "description": "Untuk semua orang yang merasa lebih nyaman mengganggu Anda dengan pertanyaan mereka daripada mencarinya sendiri.",
         "disclaimer": "Google ® terdaftar sebagai merek dagang dari Google Inc. LMGTFY2 bukan pendukung, sponsor, atau berafiliasi dengan Google Inc.",
         "discordBot": "Discord bot",
         "encyclopedia": "Ensiklopedia",
@@ -583,6 +608,7 @@
         "step2": "Tulis pertanyaan Anda.",
         "step3": "Klik tombol",
         "step4": "Ini dia!",
+        "title": "LMGTFY2 - Biarkan Saya Mencari di Google Untuk Anda",
         "videos": "Video",
         "web": "Situs"
       }
@@ -595,6 +621,7 @@
         "changeSearch": "Nuova Ricerca",
         "clickHere": "Clicca qui",
         "contact": "Contattaci",
+        "description": "Per tutte quelle persone che trovano più comodo disturbare voi con la loro domanda piuttosto che cercarla da soli.",
         "disclaimer": "Google® è un marchio registrato di Google Inc. LMGTFY2 non è in alcun modo affiliato con Google Inc.",
         "discordBot": "Discord bot",
         "encyclopedia": "Enciclopedia",
@@ -632,6 +659,7 @@
         "step2": "Scrivi la tua domanda.",
         "step3": "Clicca il pulsante.",
         "step4": "Ecco fatto!",
+        "title": "LMGTFY2 - Lascia che lo cerchi su Google per te",
         "videos": "Video",
         "web": "Web"
       }
@@ -643,6 +671,7 @@
         "books": "本",
         "changeSearch": "検索を変更",
         "contact": "問い合わせ",
+        "description": "自分で検索するよりも、あなたに質問する方が便利だという人たちのために。",
         "disclaimer": "Google® はGoogle社により登録された商標です。LMGTFYへのGoogle社による承認、支援またはGoogle社との提携関係はありません。",
         "discordBot": "Discordボット",
         "encyclopedia": "百科事典",
@@ -677,6 +706,7 @@
         "step2": "あなたの質問を入力してください。",
         "step3": "ボタンをクリックしてください。",
         "step4": "その通り!",
+        "title": "LMGTFY2 - ググってみよう",
         "videos": "動画",
         "web": "ウェブ"
       }
@@ -688,6 +718,7 @@
         "books": "도서",
         "changeSearch": "검색어 변경",
         "contact": "연락처",
+        "description": "직접 검색하는 것보다 귀찮게 질문하는 것이 더 편리하다고 생각하는 사람들을 위한 것입니다.",
         "disclaimer": "Google®은 Google Inc.의 등록 상표입니다. LMGTFY은 Google Inc.의 공식 인증, 혹은 후원을 받은 사이트가 아니며, Google Inc.와 협력 관계가 아닙니다.",
         "discordBot": "Discord 봇",
         "encyclopedia": "백과사전",
@@ -722,6 +753,7 @@
         "step2": "궁금한 내용을 입력하세요.",
         "step3": "버튼을 누르세요.",
         "step4": "참 쉽죠?",
+        "title": "LMGTFY2 - 구글에서 검색해드리겠습니다.",
         "videos": "동영상",
         "web": "웹"
       }
@@ -735,6 +767,7 @@
         "changeSearch": "Verander zoekopdracht",
         "clickHere": "Klik hier",
         "contact": "Contact",
+        "description": "Voor al die mensen die het handiger vinden om jou lastig te vallen met hun vraag in plaats van zelf op zoek te gaan.",
         "disclaimer": "Google® is een geregistreerd handelsmerk van Google Inc. LMGTFY2 is niet onderschreven door, gesponsord door of gelieerd aan Google Inc. ",
         "discordBot": "Discord-bot",
         "encyclopedia": "Encyclopedie",
@@ -769,6 +802,7 @@
         "step2": "Type uw vraag.",
         "step3": "Klik op de knop.",
         "step4": "Dat is alles!",
+        "title": "LMGTFY2 - Laat me dat voor je googelen",
         "videos": "Videos",
         "web": "Web"
       }
@@ -781,6 +815,7 @@
         "changeSearch": "Zmień zapytanie",
         "clickHere": "Kliknij tutaj",
         "contact": "Kontakt",
+        "description": "Dla wszystkich tych, którzy uważają, że wygodniej jest zawracać ci głowę swoim pytaniem, niż samemu szukać odpowiedzi.",
         "disclaimer": "Google® is a zarejestrowanym znakiem handlowym Google Inc. LMGTFY2 is nie jest wspierany, sponsorowany ani w żaden sposób związany z Google Inc.",
         "discordBot": "Bot Discord",
         "encyclopedia": "Encyklopedia",
@@ -815,6 +850,7 @@
         "step2": "Wpisz swoje zapytanie.",
         "step3": "Kliknij przycisk.",
         "step4": "To jest to!",
+        "title": "LMGTFY2 - Pozwól, że ci to wygoogluję",
         "videos": "Filmy",
         "web": "Sieć"
       }
@@ -827,6 +863,7 @@
         "changeSearch": "Alterar Pesquisa",
         "clickHere": "Clique aqui",
         "contact": "Contacto",
+        "description": "Para todas as pessoas que acham mais cómodo incomodá-lo com a sua pergunta em vez de a procurarem por si próprias.",
         "disclaimer": "Google® é uma marca registada da Google, Inc. A LMGTFY2 não está associada à Google Inc., nem é patrocinada ou financiada por ela.",
         "discordBot": "Bot Discord",
         "encyclopedia": "Enciclopédia",
@@ -862,6 +899,7 @@
         "step2": "Digite a sua pergunta.",
         "step3": "Clique no botão",
         "step4": "Já está!",
+        "title": "LMGTFY2 - Vou procurar no Google",
         "videos": "Vídeos",
         "web": "Web"
       }
@@ -874,6 +912,7 @@
         "changeSearch": "Mudar Pesquisa",
         "clickHere": "Clique aqui",
         "contact": "Contato",
+        "description": "Para todas as pessoas que acham mais conveniente incomodá-lo com a pergunta em vez de pesquisá-la por conta própria.",
         "disclaimer": "Google® é uma marca registrada da Google Inc. LMGTFY2 não é endossado, patrocinado, nem afiliado à Google Inc.",
         "discordBot": "Robô Discord",
         "encyclopedia": "Enciclopédia",
@@ -912,6 +951,7 @@
         "step2": "Digite a sua dúvida.",
         "step3": "Clique no botão.",
         "step4": "É só isso!",
+        "title": "LMGTFY2 - Vou pesquisar isso no Google para você",
         "videos": "Vídeos",
         "web": "Web"
       }
@@ -923,6 +963,7 @@
         "books": "Cărți",
         "changeSearch": "Schimbă Căutarea",
         "contact": "Contact",
+        "description": "Pentru toți acei oameni care consideră că este mai convenabil să vă deranjeze cu întrebarea lor decât să o caute singuri.",
         "disclaimer": "Google® este o marcă înregistrată Google Inc. LMGTFY2 nu este susținut, sponsorizat sau afiliat cu Google Inc.",
         "discordBot": "Discord bot",
         "encyclopedia": "Enciclopedie",
@@ -958,6 +999,7 @@
         "step2": "Tastați întrebarea.",
         "step3": "Apasă butonul.",
         "step4": "Asta e!",
+        "title": "LMGTFY2 - Lasă-mă să caut pe Google pentru tine",
         "videos": "Videoclipuri",
         "web": "Web"
       }
@@ -969,6 +1011,7 @@
         "books": "Книги",
         "changeSearch": "Изменить поисковик",
         "contact": "Контакты",
+        "description": "Для всех тех, кому удобнее беспокоить вас своим вопросом, чем искать его самостоятельно.",
         "disclaimer": "Google® - зарегистрированная торговая марка Google Inc. LMGTFY2 не поддерживается, не спонсируется и не связана с Google Inc.",
         "discordBot": "Discord бот",
         "encyclopedia": "Энциклопедия",
@@ -1006,6 +1049,7 @@
         "step2": "Напишите свой вопрос.",
         "step3": "Нажмите на кнопку.",
         "step4": "Вот это!",
+        "title": "LMGTFY2 - Позвольте мне погуглить для вас.",
         "videos": "Видео",
         "web": "Веб"
       }
@@ -1018,6 +1062,7 @@
         "changeSearch": "Zmeniť vyhľadávanie",
         "clickHere": "Kliknite tu",
         "contact": "Kontakt",
+        "description": "Pre všetkých ľudí, pre ktorých je pohodlnejšie obťažovať vás svojou otázkou, než ju sami hľadať.",
         "disclaimer": "Google® je registrovaná obchodná značka spoločnosti Google Inc. Google Inc. spoločnosť LMGTFY2 nepodporuje, nesponzoruje a ani s ňou nie je nijako prepojená.",
         "discordBot": "Discord bot",
         "encyclopedia": "Encyklopédia",
@@ -1053,6 +1098,7 @@
         "step2": "Napíšte otázku.",
         "step3": "Kliknite na tlačidlo",
         "step4": "To je ono!",
+        "title": "LMGTFY2 - Dovoľte mi, aby som vám to vygooglil",
         "videos": "Videá",
         "web": "Web"
       }
@@ -1065,6 +1111,7 @@
         "changeSearch": "Promeni pretragu",
         "clickHere": "Кликните овде",
         "contact": "Kontakt",
+        "description": "За све оне људе којима је згодније да вас гњаве својим питањем него да га сами траже.",
         "disclaimer": "Google® je registrovani zaštitni znak korporacije Google Inc. LMGTFY2 nije usvojena, sponzorisana niti spojena sa Google korporacijom.",
         "discordBot": "Discord бот",
         "encyclopedia": "Enciklopedija",
@@ -1099,6 +1146,7 @@
         "step2": "Ukucajte svoje pitanje.",
         "step3": "Kliknite na taster.",
         "step4": "To je to!",
+        "title": "LMGTFY2 - Дозволите ми да Гоогле то за вас",
         "videos": "Video snimci",
         "web": "Veb"
       }
@@ -1111,6 +1159,7 @@
         "changeSearch": "Ändra sökning",
         "clickHere": "Klicka här",
         "contact": "Kontakt",
+        "description": "För alla de människor som tycker att det är bekvämare att besvära dig med sin fråga än att söka den själva.",
         "disclaimer": "Google® är ett registrerat varumärke tillhörande Google Inc. LMGTFY2 får inte stöd av, är inte sponsrade av eller på något sätt sammankopplade med Google Inc.",
         "discordBot": "Discord bot",
         "encyclopedia": "Encyklopedi",
@@ -1146,6 +1195,7 @@
         "step2": "Skriv in din fråga.",
         "step3": "Klicka på knappen.",
         "step4": "Klart!",
+        "title": "LMGTFY2 - Låt mig googla det åt dig",
         "videos": "Videoklipp",
         "web": "Webb"
       }
@@ -1157,6 +1207,7 @@
         "books": "หนังสือ",
         "changeSearch": "เปลี่ยนการค้นหา",
         "contact": "ติดต่อ",
+        "description": "สำหรับผู้ที่พบว่าสะดวกกว่าที่จะรบกวนคุณด้วยคำถามแทนที่จะค้นหาด้วยตัวเอง",
         "disclaimer": "Google® เป็นเครื่องหมายการค้าจดทะเบียนของ Google Inc LMGTFY2 ไม่ได้รับรอง สนับสนุน หรือมีส่วนเกี่ยวข้องกับ Google Inc.",
         "discordBot": "Discord บอท",
         "finance": "การเงิน",
@@ -1172,6 +1223,7 @@
         "shareLink": "แชร์ลิงค์ด้านล่าง",
         "shopping": "ซื้อสินค้า",
         "shortenLink": "ย่อลิงค์",
+        "title": "LMGTFY2 - ให้ฉัน Google นั่นเพื่อคุณ",
         "videos": "วิดีโอ",
         "web": "เว็บ"
       }
@@ -1184,6 +1236,7 @@
         "changeSearch": "Aramayı Değiştirin",
         "clickHere": "Buraya Tıkla",
         "contact": "Kişi",
+        "description": "Sorularını kendileri araştırmak yerine sizi rahatsız etmeyi daha uygun bulan tüm insanlar için.",
         "disclaimer": "LMGTFY, Google Inc. tarafından desteklenmemekte, finanse edilmemekte ya da bağlı değildir.",
         "discordBot": "Discord bot",
         "encyclopedia": "Ansiklopedi",
@@ -1219,6 +1272,7 @@
         "step2": "Sorunuzu yazın.",
         "step3": "Düğmeye tıklayın",
         "step4": "Bu kadar!",
+        "title": "LMGTFY2 - Sizin için Google'da aratayım",
         "videos": "Videolar",
         "web": "Web"
       }
@@ -1231,6 +1285,7 @@
         "changeSearch": "Змінити параметри пошуку",
         "clickHere": "Натисніть тут",
         "contact": "Контакти",
+        "description": "Для всіх тих людей, яким зручніше потурбувати вас своїм питанням, ніж шукати його самостійно.",
         "disclaimer": "Google® є зареєстрованим товарним знаком компанії Google Inc. LMGTFY2 не підтримується, не спонсорується і не є пов'язаною з Google Inc.",
         "discordBot": "Бот Discord",
         "encyclopedia": "Енциклопедія",
@@ -1268,6 +1323,7 @@
         "step2": "Уведіть ваше питання.",
         "step3": "Натисніть на кнопку.",
         "step4": "Зроблено!",
+        "title": "LMGTFY2 - Дозвольте мені погуглити для вас",
         "videos": "Відео",
         "web": "Веб"
       }
@@ -1280,6 +1336,7 @@
         "changeSearch": "Đổi tìm kiếm",
         "clickHere": "Nhấn vào đây",
         "contact": "Liên hệ",
+        "description": "Dành cho tất cả những người thấy việc làm phiền bạn bằng câu hỏi của họ sẽ thuận tiện hơn là tự mình tìm kiếm câu hỏi đó.",
         "disclaimer": "Google® là thương hiệu đã đăng ký của Google Inc. LMGTFY2 không được Google Inc. xác nhận, tài trợ, hoặc liên kết.",
         "discordBot": "Bot Discord",
         "encyclopedia": "Bách khoa toàn thư",
@@ -1315,6 +1372,7 @@
         "step2": "Gõ câu hỏi của bạn.",
         "step3": "Nhấn nút",
         "step4": "Đúng vậy!",
+        "title": "Hãy để tôi Google cái đó cho bạn",
         "videos": "Video",
         "web": "Web"
       }
@@ -1326,6 +1384,7 @@
         "books": "图书",
         "changeSearch": "更改搜索",
         "contact": "联系",
+        "description": "对于那些觉得麻烦你而不是自己搜索问题更方便的人。",
         "disclaimer": "Google® 是谷歌公司的注册商标。LMGTFY2 不由谷歌担保、赞助或附属于谷歌。",
         "discordBot": "Discord 機器人",
         "encyclopedia": "百科全书",
@@ -1360,6 +1419,7 @@
         "step2": "输入你的问题。",
         "step3": "点击按钮。",
         "step4": "就是这样!",
+        "title": "LMGTFY2 - 让我用谷歌搜索一下",
         "videos": "视频",
         "web": "网络"
       }
