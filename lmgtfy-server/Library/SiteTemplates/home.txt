@@ -127,7 +127,7 @@
            return services.push({
              identifier: "c",
              presentation: "ChatGPT",
-             featured: false,
+             featured: true,
              logoSrc: "images/ChatGPT/chatgpt.png",
              searchTypes: [
                {

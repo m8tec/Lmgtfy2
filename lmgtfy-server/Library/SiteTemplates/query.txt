@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta content="text/html;charset=UTF-8" http-equiv="content-type" />
-    <meta content="For all those people who find it more convenient to bother you with their question rather than search it for themselves." name="description" />
+    <meta content="{{description}}" name="description" />
     <meta content="search, funny" name="keywords" />
     <meta content="mailto:http:sha1:d679fc042f465643527ab168409bb20920d67836" name="microid" />
     <meta content="LMGTFY" property="og:description" />
@@ -26,7 +26,7 @@
     <meta content="#ffffff" name="msapplication-TileColor" />
     <meta content="/ms-icon-144x144.png" name="msapplication-TileImage" />
     <meta content="#ffffff" name="theme-color" />
-    <title>LMGTFY</title>
+    <title>LMGTFY2</title>
     <link rel="stylesheet" media="all" href="./css/normalize.css" />
     <script src="./scripts/angular.min.js"></script>
     <script src="./scripts/application.js"></script>
@@ -460,12 +460,25 @@
         background-color: #212121
       }
 
-      .search-illustrator-scene-service-c>.search-illustrator-scene-footer {
-        height: 4em
-      }
-
       .search-illustrator-scene-service-c>.search-illustrator-scene-content {
         padding: 0 10px 0 10px
+      }
+
+      .search-illustrator-scene-service-c>.search-illustrator-scene-header {
+        padding-top: 5.5em;
+        background-repeat: no-repeat;
+        background-image: url(../images/ChatGPT/top.png);
+        background-size: 20%;
+        background-position: 1em 1em;
+      }
+
+      @media only screen and (max-width: 435px) {
+        .search-illustrator-scene-service-c>.search-illustrator-scene-header {
+          background-image: url(../images/ChatGPT/top_mobile.jpg);
+          background-size:100% 55%;
+          background-position: center center;
+          padding-top: 2.5em;
+        }
       }
 
       .search-illustrator-scene-service-c .search-illustrator-scene-logo {
@@ -475,7 +488,7 @@
         background-size: contain;
         background-position: 50% 50%;
         margin: auto;
-        margin-bottom: 1.5em
+        margin-bottom: 5.5em
       }
 
       @media only screen and (max-width: 435px) {
@@ -491,7 +504,9 @@
 
       @media only screen and (max-width: 435px) {
         .search-illustrator-scene-service-c.search-illustrator-scene-search-type-w .search-illustrator-scene-logo {
-          background-image: url(../images/ChatGPT/suggestions.png)
+          background-image: url(../images/ChatGPT/suggestions_mobile.jpg);
+          margin-bottom: 4em;
+          height: 300px;
         }
       }
 
@@ -510,7 +525,9 @@
         vertical-align: middle;
         white-space: nowrap;
         overflow: hidden;
-        padding-left: 0.75em
+        padding-left: 0.4em;
+        color: #ececec;
+        font-size: 13pt
       }
 
       .search-illustrator-scene-service-c .search-illustrator-scene-input.focused {
@@ -543,6 +560,29 @@
       .search-illustrator-scene-service-c .search-illustrator-scene-button-wrapper>.search-illustrator-scene-primary-button.focused {
         background-color: #ffffff;
         background-image: url(../images/ChatGPT/send.png)
+      }
+
+      .search-illustrator-scene-service-c .search-illustrator-scene-files-button-wrapper {
+        display: table-cell;
+        vertical-align: middle;
+        padding-left: 5px
+      }
+
+      .search-illustrator-scene-service-c .search-illustrator-scene-files-button-wrapper>.search-illustrator-scene-files-button {
+        display: inline-block;
+        border-radius: 16px;
+        width: 32px;
+        height: 32px;
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: 50% 50%;
+        background-image: url(../images/ChatGPT/attach.png)
+      }
+
+      .search-illustrator-scene-service-c>.search-illustrator-scene-disclaimer-text {
+        color: #ababab;
+        width: 100%;
+        font-weight: 100;
       }
     </style>
     <style type="text/css">
@@ -1220,12 +1260,12 @@
              identifier: "c",
              presentation: "ChatGPT",
              featured: false,
-             logoSrc: "images/ChatGPT/chatgpt.png",
+             logoSrc: "../images/ChatGPT/chatgpt.png",
              searchTypes: [
                {
                  presentation: "{{web}}",
                  identifier: "w",
-                 urlBase: "https://www.chatgpt.com/search?q="
+                 urlBase: "https://www.chatgpt.com/?q="
                }
              ]
            });
@@ -1415,7 +1455,8 @@
             }
           },
           w: {
-            startingUrl: "chatgpt.com"
+            startingUrl: "chatgpt.com",
+            footerText: "{{chatGptFactcheck}}"
           }
         });
       }).call(this);
