@@ -4,14 +4,12 @@
       <link rel="stylesheet" type="text/css" href="css/css-banner-styles.css">
       <link rel="stylesheet" type="text/css" href="css/css-iconochive.css">
       <meta content="text/html;charset=UTF-8" http-equiv="content-type">
-      <meta name="robots" content="nosnippet"/>
-      <title>{{title}}</title>
-      <meta content="{{description}}" name="description">
-      <meta content="search, funny" name="keywords">
-      <meta content="mailto:http:sha1:d679fc042f465643527ab168409bb20920d67836" name="microid">
-      <meta content="LMGTFY" property="og:description">
+      <title lang="{{currentLocale}}">{{title}}</title>
+      <meta name="description" content="{{description}}">
+      <meta property="og:description" content="{{description}}">
+      <meta property="og:image" content="https://lmgtfy2.com/images/logo-color-small.png">
+      <meta  name="keywords" content="lmgtfy, lmgtfy2, letmegooglethatforyou, let me google that for you, let me google for you, let me google it for you, let me google this for you, let me chatgpt that for you, let me gpt that for you, let me bing that for you, let me yahoo that for you, let me google that for you link, i googled it for you, google meme, how to google">
       <meta content="user-scalable=0, initial-scale=1.0" name="viewport">
-      <link href="lmgtfy.xml" rel="search" title="LMGTFY" type="application/opensearchdescription+xml">
       <link href="favicons/favicon.ico" rel="icon" type="image/x-icon">
       <link href="favicons/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
       <link href="favicons/apple-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
@@ -33,8 +31,6 @@
       <link rel="stylesheet" media="all" href="css/assets-application.css">
       <script src="js/1.6.6-angular.min.js"></script>
 	    <script src="js/assets-application.js"></script>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1091536463064284"
-     crossorigin="anonymous"></script>
       <link rel="alternate" hreflang="ar" href="https://ar.lmgtfy2.com/">
       <link rel="alternate" hreflang="bg" href="https://bg.lmgtfy2.com/">
       <link rel="alternate" hreflang="cs" href="https://cs.lmgtfy2.com/">
@@ -355,5 +351,8 @@
             </div>
          </div>
       </footer>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1091536463064284" crossorigin="anonymous"></script>
+     <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-1091536463064284" data-ad-slot="3439258616"></ins>
+     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
    </body>
 </html>

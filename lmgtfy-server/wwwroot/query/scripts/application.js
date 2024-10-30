@@ -19526,6 +19526,7 @@ if (!self.__WB_pmw) {
                 var t, e;
                 window.adsbygoogle || (window.adsbygoogle = []);
                 try {
+                  console.log("push");
                   return window.adsbygoogle.push({});
                 } catch (e) {
                   return (t = e), console.log(t);
@@ -20427,17 +20428,8 @@ if (!self.__WB_pmw) {
               o.setSearchTerms(i.searchTerms()),
               o.setPopUrl(i.popUrl()),
               (t.sponsoredByLine = i.sponsoredByLine()),
-              (t.showAds = !1),
-              i.shouldShowAds() &&
-                e
-                  .get("/itc", {
-                    params: {
-                      q: i.searchTerms(),
-                    },
-                  })
-                  .then(function (e) {
-                    return (t.showAds = !e.data);
-                  }),
+              (t.showAds = true),
+              i.shouldShowAds(),
               angular.forEach(s, function (t) {
                 return u.preload(t.logoSrc);
               }),
@@ -20890,7 +20882,7 @@ if (!self.__WB_pmw) {
                   return "1" === t.fetch("iie");
                 },
                 shouldShowAds: function () {
-                  return !0;
+                  return true;
                 },
                 sponsoredByLine: function () {
                   return null;
