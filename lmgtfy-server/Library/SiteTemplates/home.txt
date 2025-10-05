@@ -339,7 +339,7 @@
       </script>
       <footer class="container-fluid">
          <div class="row">
-            <div class="col-xs-4 links"><a href="about">{{about}}</a><a target="_blank" href="https://www.instagram.com/m8_tec/">{{contact}}</a></div>
+            <div class="col-xs-4 links"><a href="about">{{about}}</a><a target="_blank" href="https://m8tec.com/">{{contact}}</a></div>
             <div class="text-center col-xs-4 language">
                <div class="language-selector" label="{{language}}: "></div>
             </div>
